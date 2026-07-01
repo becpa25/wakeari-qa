@@ -18,7 +18,6 @@ a{color:inherit;text-decoration:none}
 header{background:#1e3a5f;color:#fff;padding:1.1rem 1rem .85rem;text-align:center;cursor:pointer}
 header:hover{background:#162e4d}
 header h1{font-size:1.15rem;font-weight:700;letter-spacing:.02em}
-header p{font-size:.75rem;opacity:.65;margin-top:.2rem}
 main{max-width:760px;margin:0 auto;padding:1rem}
 .btn-ask{display:inline-block;background:#1e3a5f;color:#fff;font-size:.95rem;font-weight:700;padding:.7rem 1.8rem;border-radius:30px;transition:background .2s}
 .btn-ask:hover{background:#2a5080}
@@ -32,9 +31,8 @@ LIST_CSS = """
 .article-item{background:#fff;border-radius:10px;box-shadow:0 1px 4px rgba(0,0,0,.07);display:flex;align-items:center;justify-content:space-between;padding:.9rem 1.1rem;cursor:pointer;transition:background .15s}
 .article-item:hover{background:#f0f4ff}
 .article-item-left{flex:1;min-width:0}
-.article-topic{font-size:.95rem;font-weight:700;color:#1e3a5f;display:block}
-.article-excerpt{font-size:.8rem;color:#666;margin-top:.2rem;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
-.article-ref-count{font-size:.75rem;color:#999;flex-shrink:0;margin-left:1rem;white-space:nowrap}
+.article-topic{font-size:.95rem;font-weight:700;color:#1e3a5f}
+.article-ref-count{font-size:.75rem;color:#999;flex-shrink:0;margin-left:1rem;white-space:nowrap;text-align:right}
 """
 
 LIST_HTML = """\
@@ -49,7 +47,6 @@ LIST_HTML = """\
 <body>
 <header onclick="location.href='index.html'">
   <h1>{site_title}</h1>
-  <p>公認会計士・訳アリさんのQ&Aをもとにした非公式まとめサイト</p>
 </header>
 <main>
   <div class="article-list">{list_items}</div>
@@ -96,17 +93,15 @@ ARTICLE_HTML = """\
 <body>
 <header onclick="location.href='index.html'">
   <h1>{site_title}</h1>
-  <p>クリックでトップページに戻る</p>
 </header>
 <main>
-  <a class="back-link" href="index.html">← 記事一覧に戻る</a>
   <div class="article-header-meta">
     <span class="article-header-topic">{topic}</span>
-    <span class="article-ref-badge">{ref_count}件参照</span>
+    <span class="article-ref-badge">{ref_count}件参照 / {generated_at}</span>
   </div>
   <div class="article-content">{article_body}</div>
   <div class="article-footer">
-    <a href="index.html">← 記事一覧に戻る</a>
+    <a href="index.html">← テーマ一覧に戻る</a>
   </div>
 </main>
 <div id="bottom-cta">
@@ -194,17 +189,18 @@ def main():
         page = page.replace("{site_title}", SITE_TITLE)
         page = page.replace("{topic}", esc(topic))
         page = page.replace("{ref_count}", str(ref_count))
+        page = page.replace("{generated_at}", a.get("generated_at", ""))
         page = page.replace("{article_body}", article_body)
         page = page.replace("{querie_url}", QUERIE_URL)
         (ROOT / filename).write_text(page, encoding="utf-8")
 
+        date = a.get("generated_at", "")
         list_items_html.append(
             f'<a class="article-item" href="{filename}">'
             f'<div class="article-item-left">'
             f'<span class="article-topic">{esc(topic)}</span>'
-            f'<span class="article-excerpt">{esc(excerpt)}</span>'
             f'</div>'
-            f'<span class="article-ref-count">{ref_count}件参照</span>'
+            f'<span class="article-ref-count">{ref_count}件参照 / {date}</span>'
             f'</a>'
         )
 
