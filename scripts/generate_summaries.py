@@ -1,24 +1,26 @@
 #!/usr/bin/env python3
-"""data/qas.json を読み込み Gemini API でテーマ別まとめを生成して
-data/summaries.json に保存する。月次で GitHub Actions から実行される。
+"""data/qas.json を読み込みテーマ別まとめを生成して data/summaries.json に保存する。
 
-環境変数:
-    GEMINI_API_KEY: Google AI Studio で取得した API キー
+動作モード:
+  - 環境変数 GEMINI_API_KEY が設定されていれば Gemini API でLLM要約を生成。
+  - 未設定 or Gemini が失敗した場合はキーワードベースの分類に自動フォールバック。
 """
 import json
 import os
-import sys
+import time
+import urllib.error
 import urllib.request
+from collections import defaultdict
 from pathlib import Path
 
 DATA_FILE = Path(__file__).parent.parent / "data" / "qas.json"
 SUMMARIES_FILE = Path(__file__).parent.parent / "data" / "summaries.json"
 
+# ── Gemini 設定 ────────────────────────────────────────────────
 GEMINI_URL = (
     "https://generativelanguage.googleapis.com/v1beta/models/"
     "gemini-2.0-flash:generateContent?key={api_key}"
 )
-
 SAMPLE_SIZE = 200
 
 PROMPT = """\
@@ -33,24 +35,79 @@ PROMPT = """\
 - 要約: 訳アリさんがそのテーマについて語っている内容を400〜600文字で具体的にまとめる
 - JSON配列のみ返答（前後に説明文・コードブロック記号は不要）
 
-【出力フォーマット】
-[
-  {{"topic": "テーマ名", "summary": "要約文", "question_count": 件数}},
-  ...
-]
+[{"topic": "テーマ名", "summary": "要約文", "question_count": 件数}, ...]
 
 【Q&Aデータ】
 {qa_data}
 """
 
 
-def call_gemini(api_key: str, prompt: str) -> str:
-    import time
+# ── キーワードベース設定 ────────────────────────────────────────
+TOPICS = [
+    ("監査法人の選び方", [
+        "法人選び", "big4", "大手", "中小", "準大手", "トーマツ", "あずさ",
+        "新日本", "pwc", "ey", "deloitte", "kpmg", "法人の違い", "どこがいい",
+        "入所", "就職先", "法人ごと",
+    ]),
+    ("給与・ボーナス", [
+        "給与", "給料", "年収", "ボーナス", "賞与", "手取り", "昇給", "報酬",
+        "いくら", "稼げる", "収入", "月給", "基本給",
+    ]),
+    ("就活・面接対策", [
+        "就活", "就職活動", "面接", "エントリー", "志望動機", "インターン",
+        "選考", "内定", "リクルーター", "合同説明会", "受験生", "面談",
+    ]),
+    ("試験勉強・学習法", [
+        "勉強", "学習", "テキスト", "答練", "模試", "cpa", "tac", "大原",
+        "短答", "論文", "合格", "勉強時間", "スケジュール", "暗記", "科目",
+    ]),
+    ("監査の仕事内容", [
+        "監査", "クライアント", "往査", "調書", "レビュー", "マネージャー",
+        "スタッフ", "シニア", "インチャージ", "監査手続", "仕事内容",
+    ]),
+    ("キャリア・転職", [
+        "転職", "キャリア", "独立", "事業会社", "cfo", "コンサル", "fas",
+        "出向", "ipo", "スタートアップ", "将来", "キャリアパス", "退職",
+    ]),
+    ("ワークライフバランス", [
+        "残業", "忙しい", "繁忙期", "有給", "休暇", "休み", "プライベート",
+        "働き方", "リモート", "テレワーク", "在宅", "激務",
+    ]),
+    ("会計・税務の知識", [
+        "会計", "税務", "ifrs", "j-gaap", "連結", "開示", "税効果", "減損",
+        "のれん", "公認会計士", "税理士", "簿記", "財務諸表", "経理",
+    ]),
+    ("人間関係・職場環境", [
+        "上司", "同僚", "先輩", "後輩", "パートナー", "人間関係", "職場",
+        "チーム", "雰囲気", "文化", "コミュニケーション",
+    ]),
+    ("お金・資産形成", [
+        "投資", "株", "資産", "節税", "貯金", "nisa", "ideco",
+        "不動産", "副業", "運用", "資産形成",
+    ]),
+    ("プライベート・趣味", [
+        "趣味", "旅行", "恋愛", "結婚", "友達", "遊び", "スポーツ",
+        "ゲーム", "読書", "映画", "音楽",
+    ]),
+    ("試験合格後の生活", [
+        "合格後", "登録", "修了考査", "補習所", "合格してから", "会計士になって",
+    ]),
+]
+
+
+# ── Gemini 呼び出し ────────────────────────────────────────────
+def call_gemini(api_key: str, qas: list) -> list:
+    qa_data = json.dumps(
+        [{"q": x["question"], "a": x["answer"]} for x in qas[:SAMPLE_SIZE]],
+        ensure_ascii=False,
+    )
+    prompt = PROMPT.format(qa_data=qa_data)
     url = GEMINI_URL.format(api_key=api_key)
     body = json.dumps({
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"temperature": 0.3, "maxOutputTokens": 8192},
     }).encode("utf-8")
+
     for attempt in range(3):
         try:
             req = urllib.request.Request(
@@ -60,45 +117,81 @@ def call_gemini(api_key: str, prompt: str) -> str:
             )
             with urllib.request.urlopen(req, timeout=120) as resp:
                 result = json.load(resp)
-            return result["candidates"][0]["content"]["parts"][0]["text"]
+            raw = result["candidates"][0]["content"]["parts"][0]["text"]
+            start, end = raw.find("["), raw.rfind("]") + 1
+            return json.loads(raw[start:end])
         except urllib.error.HTTPError as e:
             if e.code == 429 and attempt < 2:
                 wait = 65 * (attempt + 1)
-                print(f"レート制限。{wait}秒待機後リトライ ({attempt+1}/3)...")
+                print(f"  レート制限。{wait}秒後リトライ ({attempt + 1}/3)...")
                 time.sleep(wait)
             else:
                 raise
+    return []
 
 
-def extract_json(text: str) -> list:
-    start = text.find("[")
-    end = text.rfind("]") + 1
-    if start == -1 or end == 0:
-        raise ValueError(f"JSONが見つかりませんでした:\n{text[:300]}")
-    return json.loads(text[start:end])
+# ── キーワードベース分類 ───────────────────────────────────────
+def keyword_summaries(qas: list) -> list:
+    buckets: dict[str, list] = defaultdict(list)
+    for qa in qas:
+        text = (qa.get("question") or "") + " " + (qa.get("answer") or "")
+        tl = text.lower()
+        best, best_score = None, 0
+        for name, keywords in TOPICS:
+            s = sum(1 for kw in keywords if kw.lower() in tl)
+            if s > best_score:
+                best_score, best = s, name
+        if best and best_score >= 1:
+            buckets[best].append(qa)
+
+    summaries = []
+    for name, _ in TOPICS:
+        items = buckets.get(name, [])
+        if not items:
+            continue
+        candidates = [q for q in items if q.get("liked")] or items
+        candidates.sort(key=lambda x: len(x.get("answer") or ""), reverse=True)
+        parts = []
+        for qa in candidates[:5]:
+            ans = (qa.get("answer") or "").strip()
+            if len(ans) < 10:
+                continue
+            snippet = ans[:120].replace("\n", " ")
+            parts.append(f"・{snippet}{'…' if len(ans) > 120 else ''}")
+        summaries.append({
+            "topic": name,
+            "summary": "\n".join(parts) or "（回答データなし）",
+            "question_count": len(items),
+        })
+    return summaries
 
 
+# ── メイン ────────────────────────────────────────────────────
 def main():
-    api_key = os.environ.get("GEMINI_API_KEY", "")
-    if not api_key:
-        print("エラー: 環境変数 GEMINI_API_KEY が設定されていません", file=sys.stderr)
-        sys.exit(1)
-
     qas = json.loads(DATA_FILE.read_text("utf-8"))
-    sample = qas[:SAMPLE_SIZE]
-    qa_data = json.dumps(
-        [{"q": x["question"], "a": x["answer"]} for x in sample],
-        ensure_ascii=False,
-    )
+    print(f"読み込み: {len(qas)}件")
 
-    print(f"Gemini API にリクエスト中... ({len(sample)}件送信)")
-    raw = call_gemini(api_key, PROMPT.format(qa_data=qa_data))
-    summaries = extract_json(raw)
+    api_key = os.environ.get("GEMINI_API_KEY", "")
+    summaries = None
+
+    if api_key:
+        print(f"Gemini API で要約生成中... ({min(SAMPLE_SIZE, len(qas))}件送信)")
+        try:
+            summaries = call_gemini(api_key, qas)
+            print(f"Gemini 完了: {len(summaries)}テーマ")
+        except Exception as e:
+            print(f"Gemini 失敗 ({e})。キーワードベースにフォールバック...")
+            summaries = None
+
+    if not summaries:
+        print("キーワードベースで分類中...")
+        summaries = keyword_summaries(qas)
+        print(f"キーワードベース完了: {len(summaries)}テーマ")
 
     SUMMARIES_FILE.write_text(
         json.dumps(summaries, ensure_ascii=False, indent=2), encoding="utf-8"
     )
-    print(f"完了: {len(summaries)}テーマ → {SUMMARIES_FILE}")
+    print(f"保存: {SUMMARIES_FILE}")
 
 
 if __name__ == "__main__":
