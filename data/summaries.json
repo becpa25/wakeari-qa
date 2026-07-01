@@ -1,134 +1,57 @@
 [
   {
+    "topic": "監査法人の給与",
+    "summary": "監査法人の給与については、基本給はどこも変わらないが、賞与やボーナスが大きく異なり、総合的な年収では差があると考えられている。ただし、人間関係や居心地の良さも重要な要素であり、給与だけに焦点を当てるべきではない。監査法人の選び方については、ボーナスだけでなく、各法人のいいところやイベント、面談、面接の違いなどを考慮することが大切である。",
+    "question_count": 10
+  },
+  {
+    "topic": "黄色の評価",
+    "summary": "黄色の評価については、給与が低い、チームが最悪であるなどの意見があるが、訳アリさんは黄色を下げる意図はなく、リアルの声として出している。黄色の評価は、人間関係やチームの悩みが生じる可能性があるため、給与の水準も考慮することが重要である。",
+    "question_count": 5
+  },
+  {
+    "topic": "橙の評価",
+    "summary": "橙の評価については、社食がありお金が貯まる、閑散期にみなし残業で荒稼ぎしている、賞与が高いなどの意見がある。橙は総合的な評価が高いと考えられている。",
+    "question_count": 4
+  },
+  {
+    "topic": "青の評価",
+    "summary": "青の評価については、給与が高い、チームが良好であるなどの意見がある。青は総合的な評価が高いと考えられている。",
+    "question_count": 3
+  },
+  {
     "topic": "監査法人の選び方",
-    "question_count": 483,
-    "representative_ids": [
-      "ypzt5vRO8WDGdz4krzNY",
-      "6fyxWmYKwGT2E4wEBZGN",
-      "v1p4Hobd7aQZqvowPj3c",
-      "pKlmOlq1SYZcJyZPCcUi",
-      "ZuUkipsQMyFF4X0v2JaJ"
-    ]
+    "summary": "監査法人の選び方については、ボーナスだけでなく、各法人のいいところやイベント、面談、面接の違いなどを考慮することが大切である。人間関係や居心地の良さも重要な要素である。",
+    "question_count": 5
   },
   {
-    "topic": "給与・ボーナス",
-    "question_count": 248,
-    "representative_ids": [
-      "2sqK7NtnztMDwH9DqZ45",
-      "WP7Ju6fjHcwtYTOK9Kxw",
-      "FxFC1vpAPNloR3jCUSjU",
-      "DXlDWn1qE5wKgiYkgNOs",
-      "Dy7DvLtJKikTvJDcVtcR"
-    ]
+    "topic": "シニアとの関係",
+    "summary": "シニアとの関係については、シニアが少ないと業務負担が増える、シニアとの関係が良好であることが重要であるなどの意見がある。シニアとの関係を良好に保つことが大切である。",
+    "question_count": 4
   },
   {
-    "topic": "就活・面接対策",
-    "question_count": 401,
-    "representative_ids": [
-      "OWDqGXniqQd8eXo1EcYS",
-      "edDA8VbXX1BewNwrZHwK",
-      "ETMMmZeO5RuSu7nvZDkR",
-      "b4rKyZpQbsWuBQXyYg3s",
-      "ad3Mi9GZnmXvZk1hCdNd"
-    ]
+    "topic": "異動の可能性",
+    "summary": "異動の可能性については、金融から一般事業部への部署異動は可能である、タイムリーに異動できるかはわからないが、希望は通ると思うなどの意見がある。異動の可能性については、各法人の政策や状況によって異なる。",
+    "question_count": 3
   },
   {
-    "topic": "試験勉強・学習法",
-    "question_count": 462,
-    "representative_ids": [
-      "fEIMKdN3UcBUgv63pnHv",
-      "zZTqM1Or07Z9NEjbUFyB",
-      "U8H18yhDdE2jZMEIBPCj",
-      "bB2i6vetD2i8qY6wEdPC",
-      "O6902scoltt9YSqbgp7Z"
-    ]
+    "topic": "賞与の水準",
+    "summary": "賞与の水準については、各法人の賞与の水準は異なり、総合的な年収では差があると考えられている。ただし、人間関係や居心地の良さも重要な要素である。",
+    "question_count": 5
   },
   {
-    "topic": "監査の仕事内容",
-    "question_count": 423,
-    "representative_ids": [
-      "Me5Ri8WIWLzBv8EybCJf",
-      "RUceyGGwe1k2ExXFQrlQ",
-      "k76kbq7YjqeFzrhKk9gJ",
-      "cK0YVf1bM5ytTNqvptwD",
-      "LOlk81PEr1hy27kUHIoz"
-    ]
+    "topic": "監査法人の文化",
+    "summary": "監査法人の文化については、各法人の文化は異なり、人間関係やチームの悩みが生じる可能性がある。監査法人の文化を理解することが大切である。",
+    "question_count": 4
   },
   {
-    "topic": "キャリア・転職",
-    "question_count": 94,
-    "representative_ids": [
-      "QLZMLbpaI800FGVsgTDq",
-      "XNGucwtZMZ2n87LTsb40",
-      "QhZaJV4nojw4pwCxsYJU",
-      "2sLZCV9BLRMXOtWhaHIF",
-      "KC4WJbsj7XnECS1Z6ycX"
-    ]
+    "topic": "就活のアドバイス",
+    "summary": "就活のアドバイスについては、ボーナスだけでなく、各法人のいいところやイベント、面談、面接の違いなどを考慮することが大切である。人間関係や居心地の良さも重要な要素である。",
+    "question_count": 5
   },
   {
-    "topic": "ワークライフバランス",
-    "question_count": 119,
-    "representative_ids": [
-      "tNk5NUnOEnU4JTyj7FEs",
-      "NoT8mpoLRGS5A6419Eed",
-      "8UBAHJ17TRW05FWgRDpw",
-      "AchVXDGCVziV1mAvWuwa",
-      "QYKwcLEfeKWf59CEAPx4"
-    ]
-  },
-  {
-    "topic": "会計・税務の知識",
-    "question_count": 222,
-    "representative_ids": [
-      "dxiH5jDnyB7IsxJd3J0s",
-      "ylYogEeZWVKuNG6Ce4IY",
-      "q98fFDI0p1oZYihDMX4I",
-      "qPV2nE36VllXyKrKO3kw",
-      "TACXSMG8G8AN93Lq2Fbr"
-    ]
-  },
-  {
-    "topic": "人間関係・職場環境",
-    "question_count": 130,
-    "representative_ids": [
-      "YQZLdOCCEMSDzmz1L9DA",
-      "RXTIDKyWtZQbSzhgZw45",
-      "EW8SwyuU676sr044WrfV",
-      "WhWEEsl2dfSqEEiSRFSI",
-      "kP8jL51nTJO7Yd0bEOvx"
-    ]
-  },
-  {
-    "topic": "お金・資産形成",
-    "question_count": 28,
-    "representative_ids": [
-      "RXYJdIJXS5Qy0Tmuonza",
-      "RCPetplaKuwAomqPSQqo",
-      "9T6yvR40yfcTvTlkZjwn",
-      "1NMTAg8tMwumvEukdovr",
-      "5VJLds1QfiU80FGdfvPW"
-    ]
-  },
-  {
-    "topic": "プライベート・趣味",
-    "question_count": 99,
-    "representative_ids": [
-      "k4X35fkxw4mTJ5cm1mmG",
-      "H7yhNIisvi9uHhBwll5O",
-      "m7jiiPXAPxM7YCVgkn3K",
-      "ub2ku7jjzsHWvGx5RBvA",
-      "49x0aJ9m7GTfjmUaQr94"
-    ]
-  },
-  {
-    "topic": "試験合格後の生活",
-    "question_count": 41,
-    "representative_ids": [
-      "nSrwEuozo2ZOmRj3lFJm",
-      "XAuh6dghgkHni31TSpTl",
-      "qzewXnyfRLxvxQz77Nm0",
-      "u2o9dwTra5DPL4FVnd0p",
-      "YM7NzIWFytpddnYvOgBz"
-    ]
+    "topic": "総評",
+    "summary": "総評については、監査法人の選び方、給与、シニアとの関係、異動の可能性、賞与の水準、監査法人の文化、就活のアドバイスなどについて、各法人の特徴や政策、状況によって異なる。",
+    "question_count": 10
   }
 ]

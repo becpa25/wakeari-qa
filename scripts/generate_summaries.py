@@ -16,12 +16,14 @@ from pathlib import Path
 DATA_FILE = Path(__file__).parent.parent / "data" / "qas.json"
 SUMMARIES_FILE = Path(__file__).parent.parent / "data" / "summaries.json"
 
-# ── Gemini 設定 ────────────────────────────────────────────────
+# ── API 設定 ──────────────────────────────────────────────────
 GEMINI_URL = (
     "https://generativelanguage.googleapis.com/v1beta/models/"
     "gemini-2.0-flash:generateContent?key={api_key}"
 )
-SAMPLE_SIZE = 200
+GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
+GROQ_MODEL = "llama-3.3-70b-versatile"
+SAMPLE_SIZE = 50
 
 PROMPT = """\
 あなたは公認会計士試験の受験生・合格者向けQ&Aアーカイブを整理するアシスタントです。
@@ -35,7 +37,7 @@ PROMPT = """\
 - 要約: 訳アリさんがそのテーマについて語っている内容を400〜600文字で具体的にまとめる
 - JSON配列のみ返答（前後に説明文・コードブロック記号は不要）
 
-[{"topic": "テーマ名", "summary": "要約文", "question_count": 件数}, ...]
+[{{"topic": "テーマ名", "summary": "要約文", "question_count": 件数}}, ...]
 
 【Q&Aデータ】
 {qa_data}
@@ -93,6 +95,35 @@ TOPICS = [
         "合格後", "登録", "修了考査", "補習所", "合格してから", "会計士になって",
     ]),
 ]
+
+
+# ── Groq 呼び出し ──────────────────────────────────────────────
+def call_groq(api_key: str, qas: list) -> list:
+    qa_data = json.dumps(
+        [{"q": x["question"], "a": x["answer"]} for x in qas[:SAMPLE_SIZE]],
+        ensure_ascii=False,
+    )
+    prompt = PROMPT.format(qa_data=qa_data)
+    body = json.dumps({
+        "model": GROQ_MODEL,
+        "messages": [{"role": "user", "content": prompt}],
+        "max_tokens": 8192,
+        "temperature": 0.3,
+    }).encode("utf-8")
+    req = urllib.request.Request(
+        GROQ_URL, data=body,
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+            "User-Agent": "groq-python/0.11.0",
+        },
+        method="POST"
+    )
+    with urllib.request.urlopen(req, timeout=120) as resp:
+        result = json.load(resp)
+    raw = result["choices"][0]["message"]["content"]
+    start, end = raw.find("["), raw.rfind("]") + 1
+    return json.loads(raw[start:end])
 
 
 # ── Gemini 呼び出し ────────────────────────────────────────────
@@ -174,13 +205,23 @@ def main():
     qas = json.loads(DATA_FILE.read_text("utf-8"))
     print(f"読み込み: {len(qas)}件")
 
-    api_key = os.environ.get("GEMINI_API_KEY", "")
+    groq_key = os.environ.get("GROQ_API_KEY", "")
+    gemini_key = os.environ.get("GEMINI_API_KEY", "")
     summaries = None
 
-    if api_key:
+    if groq_key:
+        print(f"Groq API で要約生成中... ({min(SAMPLE_SIZE, len(qas))}件送信)")
+        try:
+            summaries = call_groq(groq_key, qas)
+            print(f"Groq 完了: {len(summaries)}テーマ")
+        except Exception as e:
+            print(f"Groq 失敗 ({e})。次を試みます...")
+            summaries = None
+
+    if not summaries and gemini_key:
         print(f"Gemini API で要約生成中... ({min(SAMPLE_SIZE, len(qas))}件送信)")
         try:
-            summaries = call_gemini(api_key, qas)
+            summaries = call_gemini(gemini_key, qas)
             print(f"Gemini 完了: {len(summaries)}テーマ")
         except Exception as e:
             print(f"Gemini 失敗 ({e})。キーワードベースにフォールバック...")
