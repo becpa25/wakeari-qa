@@ -1,0 +1,8 @@
+# ローカル専用ファイル（GitHubにはアップロードしない）
+data/querie_qas.db
+logs/
+*.log
+*.command
+__pycache__/
+*.pyc
+.DS_Store
