@@ -23,24 +23,23 @@ GEMINI_URL = (
 )
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 GROQ_MODEL = "llama-3.3-70b-versatile"
-SAMPLE_SIZE = 50
+QA_PER_THEME = 3   # テーマごとに送るQ&A件数
 
-PROMPT = """\
-あなたは公認会計士試験の受験生・合格者向けQ&Aアーカイブを整理するアシスタントです。
+PROMPT_HEADER = """\
+あなたは公認会計士（訳アリさん）の質問箱アーカイブを整理するアシスタントです。
 
-以下は現役公認会計士（訳アリさん）への質問箱に寄せられたQ&Aデータです。
-このデータを分析し、会計士受験生・合格者が関心を持つテーマを10〜15個抽出して、
-各テーマについて「訳アリさんの回答を総合した要約」を作成してください。
+以下に、各テーマに関連する実際のQ&Aを提示します。
+各テーマについて、訳アリさんの回答を総合した要約文を作成してください。
 
 【出力要件】
-- テーマ名: 受験生目線で知りたい内容を表す日本語（15文字以内）
-- 要約: 訳アリさんがそのテーマについて語っている内容を400〜600文字で具体的にまとめる
-- JSON配列のみ返答（前後に説明文・コードブロック記号は不要）
+- 要約文は400〜700文字で、訳アリさんの言葉・視点を活かして具体的に
+- 数字・固有名詞・具体的なアドバイスを積極的に入れる
+- JSON配列のみ返答（説明文・コードブロック不要）
 
 [{{"topic": "テーマ名", "summary": "要約文", "question_count": 件数}}, ...]
 
-【Q&Aデータ】
-{qa_data}
+【各テーマのQ&Aデータ】
+{theme_data}
 """
 
 
@@ -97,17 +96,57 @@ TOPICS = [
 ]
 
 
+# ── テーマ別Q&Aサンプリング ────────────────────────────────────
+def build_theme_buckets(qas: list) -> dict:
+    buckets: dict[str, list] = defaultdict(list)
+    for qa in qas:
+        text = ((qa.get("question") or "") + " " + (qa.get("answer") or "")).lower()
+        best, best_score = None, 0
+        for name, keywords in TOPICS:
+            s = sum(1 for kw in keywords if kw.lower() in text)
+            if s > best_score:
+                best_score, best = s, name
+        if best and best_score >= 1:
+            buckets[best].append(qa)
+    return buckets
+
+
+def pick_representatives(items: list, n: int) -> list:
+    liked = [q for q in items if q.get("liked")]
+    by_length = sorted(items, key=lambda x: len(x.get("answer") or ""), reverse=True)
+    seen, result = set(), []
+    for qa in (liked + by_length):
+        if qa["id"] not in seen and len(result) < n:
+            if len((qa.get("answer") or "").strip()) >= 20:
+                result.append(qa)
+                seen.add(qa["id"])
+    return result
+
+
 # ── Groq 呼び出し ──────────────────────────────────────────────
-def call_groq(api_key: str, qas: list) -> list:
-    qa_data = json.dumps(
-        [{"q": x["question"], "a": x["answer"]} for x in qas[:SAMPLE_SIZE]],
-        ensure_ascii=False,
-    )
-    prompt = PROMPT.format(qa_data=qa_data)
+def call_groq(api_key: str, buckets: dict) -> list:
+    # テーマごとのQ&Aをテキストにまとめる
+    theme_sections = []
+    for name, _ in TOPICS:
+        items = buckets.get(name, [])
+        if not items:
+            continue
+        reps = pick_representatives(items, QA_PER_THEME)
+        lines = [f"▼ テーマ: {name}（全{len(items)}件）"]
+        for i, qa in enumerate(reps, 1):
+            q = (qa.get("question") or "").replace("\n", " ")[:70]
+            a = (qa.get("answer") or "").replace("\n", " ")[:100]
+            lines.append(f"Q{i}: {q}")
+            lines.append(f"A{i}: {a}")
+        theme_sections.append("\n".join(lines))
+
+    theme_data = "\n\n".join(theme_sections)
+    prompt = PROMPT_HEADER.format(theme_data=theme_data)
+
     body = json.dumps({
         "model": GROQ_MODEL,
         "messages": [{"role": "user", "content": prompt}],
-        "max_tokens": 8192,
+        "max_tokens": 5000,
         "temperature": 0.3,
     }).encode("utf-8")
     req = urllib.request.Request(
@@ -123,7 +162,13 @@ def call_groq(api_key: str, qas: list) -> list:
         result = json.load(resp)
     raw = result["choices"][0]["message"]["content"]
     start, end = raw.find("["), raw.rfind("]") + 1
-    return json.loads(raw[start:end])
+    parsed = json.loads(raw[start:end])
+    # question_count をバケット情報で補完
+    count_map = {name: len(items) for name, items in buckets.items()}
+    for s in parsed:
+        if not s.get("question_count"):
+            s["question_count"] = count_map.get(s.get("topic", ""), 0)
+    return parsed
 
 
 # ── Gemini 呼び出し ────────────────────────────────────────────
@@ -161,37 +206,14 @@ def call_gemini(api_key: str, qas: list) -> list:
     return []
 
 
-# ── キーワードベース分類 ───────────────────────────────────────
-def keyword_summaries(qas: list) -> list:
-    buckets: dict[str, list] = defaultdict(list)
-    for qa in qas:
-        text = (qa.get("question") or "") + " " + (qa.get("answer") or "")
-        tl = text.lower()
-        best, best_score = None, 0
-        for name, keywords in TOPICS:
-            s = sum(1 for kw in keywords if kw.lower() in tl)
-            if s > best_score:
-                best_score, best = s, name
-        if best and best_score >= 1:
-            buckets[best].append(qa)
-
+# ── キーワードベース分類（LLM不使用フォールバック）─────────────
+def keyword_summaries(buckets: dict) -> list:
     summaries = []
     for name, _ in TOPICS:
         items = buckets.get(name, [])
         if not items:
             continue
-        # いいね付き優先、次に回答が長いもの（内容が充実している）
-        liked = [q for q in items if q.get("liked")]
-        by_length = sorted(items, key=lambda x: len(x.get("answer") or ""), reverse=True)
-        # いいねから最大3件 + 回答が長いものから残りを補充、重複なし
-        seen = set()
-        representatives = []
-        for qa in (liked + by_length):
-            if qa["id"] not in seen and len(representatives) < 5:
-                ans = (qa.get("answer") or "").strip()
-                if len(ans) >= 15:
-                    representatives.append(qa)
-                    seen.add(qa["id"])
+        representatives = pick_representatives(items, 5)
         summaries.append({
             "topic": name,
             "question_count": len(items),
@@ -205,21 +227,24 @@ def main():
     qas = json.loads(DATA_FILE.read_text("utf-8"))
     print(f"読み込み: {len(qas)}件")
 
+    buckets = build_theme_buckets(qas)
+    print(f"テーマ分類: {sum(len(v) for v in buckets.values())}件 / {len(buckets)}テーマ")
+
     groq_key = os.environ.get("GROQ_API_KEY", "")
     gemini_key = os.environ.get("GEMINI_API_KEY", "")
     summaries = None
 
     if groq_key:
-        print(f"Groq API で要約生成中... ({min(SAMPLE_SIZE, len(qas))}件送信)")
+        print(f"Groq API で要約生成中...")
         try:
-            summaries = call_groq(groq_key, qas)
+            summaries = call_groq(groq_key, buckets)
             print(f"Groq 完了: {len(summaries)}テーマ")
         except Exception as e:
             print(f"Groq 失敗 ({e})。次を試みます...")
             summaries = None
 
     if not summaries and gemini_key:
-        print(f"Gemini API で要約生成中... ({min(SAMPLE_SIZE, len(qas))}件送信)")
+        print("Gemini API で要約生成中...")
         try:
             summaries = call_gemini(gemini_key, qas)
             print(f"Gemini 完了: {len(summaries)}テーマ")
@@ -229,7 +254,7 @@ def main():
 
     if not summaries:
         print("キーワードベースで分類中...")
-        summaries = keyword_summaries(qas)
+        summaries = keyword_summaries(buckets)
         print(f"キーワードベース完了: {len(summaries)}テーマ")
 
     SUMMARIES_FILE.write_text(
