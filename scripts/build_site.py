@@ -125,99 +125,99 @@ const QAS = {qa_json};
 
 // id→インデックス、子質問マップを事前構築
 const idSet = new Set(QAS.map(q => q.id));
-const childrenOf = {{}};
-QAS.forEach(q => {{
-  if (q.reply_to_question_id) {{
+const childrenOf = {};
+QAS.forEach(q => {
+  if (q.reply_to_question_id) {
     (childrenOf[q.reply_to_question_id] = childrenOf[q.reply_to_question_id] || []).push(q.id);
-  }}
-}});
+  }
+});
 
-function esc(s) {{
+function esc(s) {
   return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-}}
+}
 
-function highlight(text, kw) {{
+function highlight(text, kw) {
   if (!kw) return esc(text);
-  const re = new RegExp(kw.replace(/[.*+?^${{}}()|[\\]\\\\]/g,'\\\\$&'), 'gi');
-  return esc(text).replace(re, m => `<mark>${{m}}</mark>`);
-}}
+  const re = new RegExp(kw.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'), 'gi');
+  return esc(text).replace(re, m => `<mark>${m}</mark>`);
+}
 
-function fmtDate(ts) {{
+function fmtDate(ts) {
   if (!ts) return '';
   const d = new Date(ts * 1000);
   return d.getFullYear() + '/' + String(d.getMonth()+1).padStart(2,'0') + '/' + String(d.getDate()).padStart(2,'0');
-}}
+}
 
-function renderCard(q, kw) {{
+function renderCard(q, kw) {
   const badges = [];
   if (q.reply_to_question_id) badges.push('<span class="badge badge-cont">続き質問</span>');
   if (q.liked) badges.push('<span class="badge badge-liked">いいね!</span>');
 
   let parentLink = '';
-  if (q.reply_to_question_id) {{
-    if (idSet.has(q.reply_to_question_id)) {{
-      parentLink = `<div class="thread-link">↑ <a href="#qa-${{q.reply_to_question_id}}">元の質問を見る</a></div>`;
-    }} else {{
+  if (q.reply_to_question_id) {
+    if (idSet.has(q.reply_to_question_id)) {
+      parentLink = `<div class="thread-link">↑ <a href="#qa-${q.reply_to_question_id}">元の質問を見る</a></div>`;
+    } else {
       parentLink = '<div class="thread-link">↑ 元の質問は未取得です</div>';
-    }}
-  }}
+    }
+  }
 
   let childLinks = '';
   const children = childrenOf[q.id];
-  if (children && children.length) {{
-    const links = children.map((cid, i) => `<a href="#qa-${{cid}}">${{i+1}}</a>`).join(' / ');
-    childLinks = `<div class="thread-link">↓ 続きの質問(${{children.length}}件): ${{links}}</div>`;
-  }}
+  if (children && children.length) {
+    const links = children.map((cid, i) => `<a href="#qa-${cid}">${i+1}</a>`).join(' / ');
+    childLinks = `<div class="thread-link">↓ 続きの質問(${children.length}件): ${links}</div>`;
+  }
 
-  return `<div class="qa-card" id="qa-${{q.id}}">
+  return `<div class="qa-card" id="qa-${q.id}">
   <div class="qa-meta">
-    <span class="qa-date">${{fmtDate(q.asked_at)}}</span>
-    ${{badges.join('')}}
+    <span class="qa-date">${fmtDate(q.asked_at)}</span>
+    ${badges.join('')}
   </div>
-  ${{parentLink}}
+  ${parentLink}
   <div class="qa-q-label">質問</div>
-  <div class="qa-q">${{highlight(q.question, kw)}}</div>
+  <div class="qa-q">${highlight(q.question, kw)}</div>
   <div class="qa-a-label">回答</div>
-  <div class="qa-a">${{highlight(q.answer, kw)}}</div>
-  ${{childLinks}}
+  <div class="qa-a">${highlight(q.answer, kw)}</div>
+  ${childLinks}
 </div>`;
-}}
+}
 
 const qaList = document.getElementById('qa-list');
 const noResults = document.getElementById('no-results');
 const noResultsKw = document.getElementById('no-results-keyword');
 const countEl = document.getElementById('search-count');
 
-function render(kw) {{
+function render(kw) {
   const q = (kw || '').trim();
   const filtered = q
     ? QAS.filter(x => (x.question + ' ' + x.answer).includes(q))
     : QAS;
 
-  countEl.textContent = q ? `${{filtered.length}}件` : '';
+  countEl.textContent = q ? `${filtered.length}件` : '';
 
-  if (filtered.length === 0) {{
+  if (filtered.length === 0) {
     qaList.innerHTML = '';
     noResultsKw.textContent = q;
     noResults.style.display = 'block';
-  }} else {{
+  } else {
     noResults.style.display = 'none';
     qaList.innerHTML = filtered.map(x => renderCard(x, q)).join('');
-  }}
-}}
+  }
+}
 
 render('');
 
 let timer;
-document.getElementById('search').addEventListener('input', e => {{
+document.getElementById('search').addEventListener('input', e => {
   clearTimeout(timer);
   timer = setTimeout(() => render(e.target.value), 120);
-}});
+});
 
 // テーマ別アコーディオン
-document.querySelectorAll('.topic-header').forEach(h => {{
+document.querySelectorAll('.topic-header').forEach(h => {
   h.addEventListener('click', () => h.closest('.topic-card').classList.toggle('open'));
-}});
+});
 </script>
 </body>
 </html>
