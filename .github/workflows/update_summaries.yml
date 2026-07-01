@@ -17,8 +17,13 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: 依存ライブラリインストール
+        run: pip install google-generativeai
+
       - name: テーマ別まとめ生成
         run: python scripts/generate_summaries.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
       - name: サイト再生成
         run: python scripts/build_site.py
