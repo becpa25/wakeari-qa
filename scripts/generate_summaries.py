@@ -149,19 +149,22 @@ def keyword_summaries(qas: list) -> list:
         items = buckets.get(name, [])
         if not items:
             continue
-        candidates = [q for q in items if q.get("liked")] or items
-        candidates.sort(key=lambda x: len(x.get("answer") or ""), reverse=True)
-        parts = []
-        for qa in candidates[:5]:
-            ans = (qa.get("answer") or "").strip()
-            if len(ans) < 10:
-                continue
-            snippet = ans[:120].replace("\n", " ")
-            parts.append(f"・{snippet}{'…' if len(ans) > 120 else ''}")
+        # いいね付き優先、次に回答が長いもの（内容が充実している）
+        liked = [q for q in items if q.get("liked")]
+        by_length = sorted(items, key=lambda x: len(x.get("answer") or ""), reverse=True)
+        # いいねから最大3件 + 回答が長いものから残りを補充、重複なし
+        seen = set()
+        representatives = []
+        for qa in (liked + by_length):
+            if qa["id"] not in seen and len(representatives) < 5:
+                ans = (qa.get("answer") or "").strip()
+                if len(ans) >= 15:
+                    representatives.append(qa)
+                    seen.add(qa["id"])
         summaries.append({
             "topic": name,
-            "summary": "\n".join(parts) or "（回答データなし）",
             "question_count": len(items),
+            "representative_ids": [q["id"] for q in representatives],
         })
     return summaries
 

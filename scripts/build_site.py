@@ -47,10 +47,20 @@ main{max-width:780px;margin:0 auto;padding:1rem}
 .topic-name{font-weight:600;font-size:.9rem}
 .topic-meta{font-size:.75rem;color:#888;flex-shrink:0;margin-left:.5rem}
 .topic-arrow{font-size:.8rem;color:#aaa;transition:transform .2s;flex-shrink:0;margin-left:.4rem}
-.topic-body{display:none;padding:.1rem 1rem 1rem;font-size:.88rem;line-height:1.7;color:#333;border-top:1px solid #eee}
+.topic-body{display:none;padding:.6rem .75rem .75rem;border-top:1px solid #eee}
 .topic-card.open .topic-arrow{transform:rotate(180deg)}
 .topic-card.open .topic-body{display:block}
 #no-summaries{font-size:.85rem;color:#999;text-align:center;padding:1rem 0}
+/* テーマ内ミニQ&Aカード */
+.topic-qa-list{display:flex;flex-direction:column;gap:.5rem}
+.topic-qa-item{background:#f8f9fc;border-radius:8px;padding:.65rem .8rem;border-left:3px solid #c7d3e8}
+.topic-qa-q{font-size:.82rem;color:#444;margin-bottom:.35rem;line-height:1.55}
+.topic-qa-q::before{content:"Q  ";font-weight:700;color:#1e3a5f;font-size:.75rem}
+.topic-qa-a{font-size:.85rem;color:#222;line-height:1.6;background:#fff;border-radius:5px;padding:.4rem .6rem}
+.topic-qa-a::before{content:"A  ";font-weight:700;color:#b45309;font-size:.75rem}
+.topic-qa-link{display:block;font-size:.72rem;color:#2563eb;margin-top:.35rem;text-align:right}
+.topic-qa-link:hover{text-decoration:underline}
+.topic-more{font-size:.78rem;color:#888;text-align:center;padding:.4rem 0 .1rem}
 
 /* Q&Aリスト */
 #qa-section h2{font-size:.95rem;font-weight:700;color:#1e3a5f;margin-bottom:.6rem;display:flex;align-items:center;gap:.4rem}
@@ -224,14 +234,48 @@ document.querySelectorAll('.topic-header').forEach(h => {
 """
 
 
-def build_summaries_html(summaries: list) -> str:
+def esc(s: str) -> str:
+    return (s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def truncate(text: str, limit: int) -> str:
+    text = (text or "").replace("\n", " ").strip()
+    return text[:limit] + "…" if len(text) > limit else text
+
+
+def build_summaries_html(summaries: list, qas_by_id: dict) -> str:
     if not summaries:
-        return '<p id="no-summaries">まだ生成されていません。GitHub Actions の「テーマ別まとめ更新」を手動実行してください。</p>'
+        return '<p id="no-summaries">まだ生成されていません。</p>'
     parts = []
     for s in summaries:
-        topic = s.get("topic", "")
-        summary = s.get("summary", "")
+        topic = esc(s.get("topic", ""))
         count = s.get("question_count", "")
+        rep_ids = s.get("representative_ids", [])
+
+        if rep_ids:
+            # ── ミニQ&Aカード形式 ──
+            cards = []
+            for qid in rep_ids:
+                qa = qas_by_id.get(qid)
+                if not qa:
+                    continue
+                q_text = esc(truncate(qa.get("question", ""), 80))
+                a_text = esc(truncate(qa.get("answer", ""), 150))
+                cards.append(
+                    f'<div class="topic-qa-item">'
+                    f'<div class="topic-qa-q">{q_text}</div>'
+                    f'<div class="topic-qa-a">{a_text}</div>'
+                    f'<a class="topic-qa-link" href="#qa-{qid}">この質問を全文で見る →</a>'
+                    f'</div>'
+                )
+            body = (
+                f'<div class="topic-qa-list">{"".join(cards)}</div>'
+                f'<p class="topic-more">他 {count - len(cards)} 件 → 下の検索で「{topic}」と入力</p>'
+            )
+        else:
+            # Gemini生成のテキスト要約（フォールバック）
+            body = f'<p style="font-size:.88rem;line-height:1.7;color:#333">{esc(s.get("summary",""))}</p>'
+
         parts.append(
             f'<div class="topic-card">'
             f'<div class="topic-header">'
@@ -239,7 +283,7 @@ def build_summaries_html(summaries: list) -> str:
             f'<span class="topic-meta">{count}件</span>'
             f'<span class="topic-arrow">▼</span>'
             f'</div>'
-            f'<div class="topic-body">{summary}</div>'
+            f'<div class="topic-body">{body}</div>'
             f'</div>'
         )
     return "\n".join(parts)
@@ -252,11 +296,12 @@ def main():
         if SUMMARIES_FILE.exists()
         else []
     )
+    qas_by_id = {q["id"]: q for q in qas}
 
     html = HTML
     html = html.replace("{total_count}", str(len(qas)))
     html = html.replace("{updated_at}", datetime.now().strftime("%Y-%m-%d"))
-    html = html.replace("{summaries_html}", build_summaries_html(summaries))
+    html = html.replace("{summaries_html}", build_summaries_html(summaries, qas_by_id))
     html = html.replace("{querie_url}", QUERIE_URL)
     html = html.replace("{qa_json}", json.dumps(qas, ensure_ascii=False))
     OUT_FILE.write_text(html, encoding="utf-8")
