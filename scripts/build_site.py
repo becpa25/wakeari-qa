@@ -198,6 +198,8 @@ const noResults = document.getElementById('no-results');
 const noResultsKw = document.getElementById('no-results-keyword');
 const countEl = document.getElementById('search-count');
 
+const summariesSection = document.getElementById('summaries-section');
+
 function render(kw) {
   const q = (kw || '').trim();
   const filtered = q
@@ -205,6 +207,9 @@ function render(kw) {
     : QAS;
 
   countEl.textContent = q ? `${filtered.length}件` : '';
+
+  // 検索中はテーマまとめを隠してQ&Aリストを上に
+  summariesSection.style.display = q ? 'none' : '';
 
   if (filtered.length === 0) {
     qaList.innerHTML = '';
