@@ -138,7 +138,7 @@ function esc(s) {
 
 function highlight(text, kw) {
   if (!kw) return esc(text);
-  const re = new RegExp(kw.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'), 'gi');
+  const re = new RegExp(kw.replace(/[.*+?^${}()|[\\]\\\\]/g,'\\\\$&'), 'gi');
   return esc(text).replace(re, m => `<mark>${m}</mark>`);
 }
 
