@@ -7,6 +7,7 @@ from pathlib import Path
 ROOT = Path(__file__).parent.parent
 QAS_FILE = ROOT / "data" / "qas.json"
 SUMMARIES_FILE = ROOT / "data" / "summaries.json"
+ARTICLES_FILE = ROOT / "data" / "articles.json"
 QUERIE_URL = "https://querie.me/user/wakearikaikei"
 
 # ── 共通CSS ───────────────────────────────────────────────────
@@ -18,7 +19,7 @@ header{background:#1e3a5f;color:#fff;padding:1.2rem 1rem .9rem;text-align:center
 header h1{font-size:1.2rem;font-weight:700}
 header p{font-size:.78rem;opacity:.7;margin-top:.25rem}
 .nav-bar{background:#fff;border-bottom:1px solid #dde;padding:.5rem 1rem;display:flex;gap:.75rem;justify-content:center}
-.nav-bar a{font-size:.82rem;color:#1e3a5f;font-weight:600;padding:.3rem .7rem;border-radius:6px;border:1.5px solid #c7d3e8}
+.nav-bar a{font-size:.82rem;color:#1e3a5f;font-weight:600;padding:.3rem .8rem;border-radius:6px;border:1.5px solid #c7d3e8;white-space:nowrap}
 .nav-bar a.active,.nav-bar a:hover{background:#1e3a5f;color:#fff;border-color:#1e3a5f}
 main{max-width:780px;margin:0 auto;padding:1rem}
 h2.section-title{font-size:.95rem;font-weight:700;color:#1e3a5f;margin-bottom:.6rem;display:flex;align-items:center;gap:.4rem}
@@ -95,6 +96,7 @@ INDEX_HTML = """\
 </header>
 <nav class="nav-bar">
   <a href="index.html" class="active">テーマ別まとめ</a>
+  <a href="articles.html">記事</a>
   <a href="qa.html">Q&A検索</a>
 </nav>
 <main>
@@ -131,6 +133,7 @@ QA_HTML = """\
 </header>
 <nav class="nav-bar">
   <a href="index.html">テーマ別まとめ</a>
+  <a href="articles.html">記事</a>
   <a href="qa.html" class="active">Q&A検索</a>
 </nav>
 <div id="search-wrap">
@@ -311,11 +314,146 @@ def build_summaries_html(summaries: list, qas_by_id: dict) -> str:
     return "\n".join(parts)
 
 
+ARTICLES_CSS = """
+.article-list{display:flex;flex-direction:column;gap:1.5rem}
+.article-card{background:#fff;border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,.08);overflow:hidden}
+.article-card-header{padding:1rem 1.2rem .8rem;border-bottom:1px solid #eee;display:flex;justify-content:space-between;align-items:center;gap:.5rem;cursor:pointer;user-select:none}
+.article-card-header:hover{background:#f8f9ff}
+.article-topic{font-size:1rem;font-weight:700;color:#1e3a5f}
+.article-meta{font-size:.75rem;color:#999;flex-shrink:0}
+.article-arrow{font-size:.8rem;color:#aaa;transition:transform .2s;flex-shrink:0}
+.article-card.open .article-arrow{transform:rotate(180deg)}
+.article-body{display:none;padding:1.2rem 1.4rem 1.4rem}
+.article-card.open .article-body{display:block}
+.article-body h1{font-size:1.1rem;font-weight:700;color:#1a1a2e;margin-bottom:1rem;line-height:1.5}
+.article-body h2{font-size:.95rem;font-weight:700;color:#1e3a5f;margin:1.4rem 0 .5rem;padding-left:.6rem;border-left:3px solid #1e3a5f}
+.article-body p{font-size:.9rem;line-height:1.85;color:#222;margin-bottom:.8rem}
+.article-body hr{border:none;border-top:1px solid #eee;margin:1rem 0}
+.article-refs{margin-top:.6rem;padding:.5rem .75rem;background:#f5f6fa;border-radius:6px;font-size:.75rem}
+.article-refs-label{font-weight:700;color:#666;margin-bottom:.3rem}
+.article-refs a{color:#2563eb;display:block;margin:.2rem 0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.article-refs a:hover{text-decoration:underline}
+.article-search-link{display:block;font-size:.78rem;color:#2563eb;margin-top:1rem;text-align:center;padding:.35rem;background:#eef2ff;border-radius:6px}
+.article-search-link:hover{background:#dbe4ff}
+"""
+
+ARTICLES_HTML = """\
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>訳アリさん テーマ別記事</title>
+<style>{common_css}{articles_css}</style>
+</head>
+<body>
+<header>
+  <h1>訳アリさん テーマ別記事</h1>
+  <p>全 {total_count} 件のQ&Aをもとに生成 ／ {updated_at}</p>
+</header>
+<nav class="nav-bar">
+  <a href="index.html">テーマ別まとめ</a>
+  <a href="articles.html" class="active">記事</a>
+  <a href="qa.html">Q&A検索</a>
+</nav>
+<main>
+  <div class="article-list">{articles_html}</div>
+</main>
+<div id="bottom-cta">
+  <p>知りたい情報が見つからない場合は直接質問できます。</p>
+  <a class="btn-ask" href="{querie_url}" target="_blank" rel="noopener">訳アリさんに質問する →</a>
+</div>
+<script>
+document.querySelectorAll('.article-card-header').forEach(h => {{
+  h.addEventListener('click', () => h.closest('.article-card').classList.toggle('open'));
+}});
+</script>
+</body>
+</html>
+"""
+
+
+def article_to_html(article: dict) -> str:
+    import re
+    text = article.get("article", "")
+    topic = esc(article.get("topic", ""))
+    refs = article.get("references", [])
+    refs_by_id = {r["id"]: r for r in refs}
+
+    html_parts = []
+    ref_block_ids = []
+
+    for line in text.split("\n"):
+        # [参照Q&A]: id1, id2, ... → 参照ブロックに変換
+        m = re.match(r'\[参照Q&A\]:\s*(.+)', line)
+        if m:
+            ids = [i.strip() for i in m.group(1).split(',')]
+            ref_block_ids.extend(ids)
+            # 参照ブロックを出力
+            links = []
+            for qid in ids:
+                r = refs_by_id.get(qid)
+                if r:
+                    preview = esc(r.get("question_preview", qid))
+                    url = r["url"]
+                    links.append(f'<a href="{url}" target="_blank" rel="noopener">{preview}…</a>')
+            if links:
+                html_parts.append(
+                    f'<div class="article-refs">'
+                    f'<div class="article-refs-label">参照元 Q&A</div>'
+                    + "".join(links)
+                    + '</div>'
+                )
+            continue
+
+        if line.startswith("# "):
+            html_parts.append(f'<h1>{esc(line[2:])}</h1>')
+        elif line.startswith("## "):
+            html_parts.append(f'<h2>{esc(line[3:])}</h2>')
+        elif line.strip() == "---":
+            html_parts.append('<hr>')
+        elif line.strip():
+            html_parts.append(f'<p>{esc(line)}</p>')
+
+    body_html = "\n".join(html_parts)
+    search_link = (
+        f'<a class="article-search-link" href="qa.html?q={topic}">'
+        f'「{topic}」の関連Q&A {article.get("question_count", "")}件を全文検索 →</a>'
+    )
+    return body_html + search_link
+
+
+def build_articles_html(articles: list) -> str:
+    if not articles:
+        return '<p style="color:#999;text-align:center;padding:2rem">記事がまだ生成されていません。</p>'
+    parts = []
+    for a in articles:
+        topic = esc(a.get("topic", ""))
+        count = a.get("question_count", "")
+        date = a.get("generated_at", "")
+        body = article_to_html(a)
+        parts.append(
+            f'<div class="article-card">'
+            f'<div class="article-card-header">'
+            f'<span class="article-topic">{topic}</span>'
+            f'<span class="article-meta">{count}件参照 / {date}</span>'
+            f'<span class="article-arrow">▼</span>'
+            f'</div>'
+            f'<div class="article-body">{body}</div>'
+            f'</div>'
+        )
+    return "\n".join(parts)
+
+
 def main():
     qas = json.loads(QAS_FILE.read_text("utf-8")) if QAS_FILE.exists() else []
     summaries = (
         json.loads(SUMMARIES_FILE.read_text("utf-8"))
         if SUMMARIES_FILE.exists() else []
+    )
+    articles = (
+        json.loads(ARTICLES_FILE.read_text("utf-8"))
+        if ARTICLES_FILE.exists() else []
     )
     qas_by_id = {q["id"]: q for q in qas}
     now = datetime.now().strftime("%Y-%m-%d")
@@ -341,7 +479,16 @@ def main():
     qa = qa.replace("{qa_json}", qa_json)
     (ROOT / "qa.html").write_text(qa, encoding="utf-8")
 
-    print(f"生成完了: index.html + qa.html ({len(qas)}件, {len(summaries)}テーマ)")
+    # articles.html（記事ページ）
+    art = ARTICLES_HTML
+    art = art.replace("{common_css}", common).replace("{articles_css}", ARTICLES_CSS)
+    art = art.replace("{total_count}", str(len(qas)))
+    art = art.replace("{updated_at}", now)
+    art = art.replace("{articles_html}", build_articles_html(articles))
+    art = art.replace("{querie_url}", QUERIE_URL)
+    (ROOT / "articles.html").write_text(art, encoding="utf-8")
+
+    print(f"生成完了: index.html + articles.html + qa.html ({len(qas)}件, {len(articles)}記事)")
 
 
 if __name__ == "__main__":
