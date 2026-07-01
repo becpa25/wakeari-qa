@@ -124,6 +124,7 @@ def article_to_html(article: dict) -> str:
 
     html_parts = []
     for line in text.split("\n"):
+        # 参照Q&Aマーカー
         m = re.match(r'\[参照Q&A\]:\s*(.+)', line)
         if m:
             ids = [i.strip() for i in m.group(1).split(',')]
@@ -143,10 +144,13 @@ def article_to_html(article: dict) -> str:
                 )
             continue
 
-        if line.startswith("# "):
-            html_parts.append(f'<h1>{esc(line[2:])}</h1>')
-        elif line.startswith("## "):
-            html_parts.append(f'<h2>{esc(line[3:])}</h2>')
+        # 見出し（#, ##, ###, #### すべて対応）
+        heading = re.match(r'^(#{1,4})\s+(.+)', line)
+        if heading:
+            level = len(heading.group(1))
+            text_content = esc(heading.group(2))
+            tag = "h1" if level == 1 else "h2"
+            html_parts.append(f'<{tag}>{text_content}</{tag}>')
         elif line.strip() == "---":
             html_parts.append('<hr>')
         elif line.strip():
@@ -180,7 +184,7 @@ def main():
     for i, a in enumerate(articles):
         topic = a.get("topic", "")
         filename = topic_to_filename(i + 1)
-        ref_count = len(a.get("references", []))
+        qa_count = a.get("question_count", len(a.get("references", [])))
         article_body = article_to_html(a)
         excerpt = extract_excerpt(a.get("article", ""))
 
@@ -188,7 +192,7 @@ def main():
         page = page.replace("{common_css}", common).replace("{article_css}", ARTICLE_CSS)
         page = page.replace("{site_title}", SITE_TITLE)
         page = page.replace("{topic}", esc(topic))
-        page = page.replace("{ref_count}", str(ref_count))
+        page = page.replace("{ref_count}", str(qa_count))
         page = page.replace("{generated_at}", a.get("generated_at", ""))
         page = page.replace("{article_body}", article_body)
         page = page.replace("{querie_url}", QUERIE_URL)
@@ -200,7 +204,7 @@ def main():
             f'<div class="article-item-left">'
             f'<span class="article-topic">{esc(topic)}</span>'
             f'</div>'
-            f'<span class="article-ref-count">{ref_count}件参照 / {date}</span>'
+            f'<span class="article-ref-count">{qa_count}件参照 / {date}</span>'
             f'</a>'
         )
 
