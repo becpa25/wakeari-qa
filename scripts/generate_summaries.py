@@ -16,10 +16,10 @@ SUMMARIES_FILE = Path(__file__).parent.parent / "data" / "summaries.json"
 
 GEMINI_URL = (
     "https://generativelanguage.googleapis.com/v1beta/models/"
-    "gemini-1.5-flash:generateContent?key={api_key}"
+    "gemini-2.0-flash:generateContent?key={api_key}"
 )
 
-SAMPLE_SIZE = 1500
+SAMPLE_SIZE = 500
 
 PROMPT = """\
 あなたは公認会計士試験の受験生・合格者向けQ&Aアーカイブを整理するアシスタントです。
@@ -45,19 +45,29 @@ PROMPT = """\
 
 
 def call_gemini(api_key: str, prompt: str) -> str:
+    import time
     url = GEMINI_URL.format(api_key=api_key)
     body = json.dumps({
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"temperature": 0.3, "maxOutputTokens": 8192},
     }).encode("utf-8")
-    req = urllib.request.Request(
-        url, data=body,
-        headers={"Content-Type": "application/json"},
-        method="POST"
-    )
-    with urllib.request.urlopen(req, timeout=120) as resp:
-        result = json.load(resp)
-    return result["candidates"][0]["content"]["parts"][0]["text"]
+    for attempt in range(3):
+        try:
+            req = urllib.request.Request(
+                url, data=body,
+                headers={"Content-Type": "application/json"},
+                method="POST"
+            )
+            with urllib.request.urlopen(req, timeout=120) as resp:
+                result = json.load(resp)
+            return result["candidates"][0]["content"]["parts"][0]["text"]
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt < 2:
+                wait = 30 * (attempt + 1)
+                print(f"レート制限。{wait}秒待機後リトライ ({attempt+1}/3)...")
+                time.sleep(wait)
+            else:
+                raise
 
 
 def extract_json(text: str) -> list:
