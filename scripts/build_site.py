@@ -144,13 +144,14 @@ def article_to_html(article: dict) -> str:
                 )
             continue
 
-        # 見出し（#, ##, ###, #### すべて対応）
-        heading = re.match(r'^(#{1,4})\s+(.+)', line)
-        if heading:
-            level = len(heading.group(1))
-            text_content = esc(heading.group(2))
+        # 見出し（#始まりの行はすべて見出しとして扱い、余分な # も除去）
+        if line.startswith('#'):
+            stripped = line.lstrip('#').lstrip()   # 先頭の # と空白をすべて除去
+            # 残余の ## も除去（例: "## ## 見出し" → "見出し"）
+            stripped = re.sub(r'^#+\s*', '', stripped)
+            level = len(re.match(r'^(#+)', line).group(1))
             tag = "h1" if level == 1 else "h2"
-            html_parts.append(f'<{tag}>{text_content}</{tag}>')
+            html_parts.append(f'<{tag}>{esc(stripped)}</{tag}>')
         elif line.strip() == "---":
             html_parts.append('<hr>')
         elif line.strip():
