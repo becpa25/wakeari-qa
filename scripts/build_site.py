@@ -22,7 +22,7 @@ main{max-width:760px;margin:0 auto;padding:1rem}
 .btn-ask{display:inline-block;background:#1e3a5f;color:#fff;font-size:.95rem;font-weight:700;padding:.7rem 1.8rem;border-radius:30px;transition:background .2s}
 .btn-ask:hover{background:#2a5080}
 #bottom-cta{text-align:center;padding:1.5rem 1rem 3rem}
-#bottom-cta p{font-size:.82rem;color:#888;margin-bottom:.65rem}
+#bottom-cta p{display:none}
 """
 
 # ── 記事一覧ページ CSS ────────────────────────────────────────
@@ -32,7 +32,7 @@ LIST_CSS = """
 .article-item:hover{background:#f0f4ff}
 .article-item-left{flex:1;min-width:0}
 .article-topic{font-size:.95rem;font-weight:700;color:#1e3a5f}
-.article-ref-count{font-size:.75rem;color:#999;flex-shrink:0;margin-left:1rem;white-space:nowrap;text-align:right}
+.article-ref-count{font-size:.85rem;color:#999;flex-shrink:0;margin-left:1rem;white-space:nowrap;text-align:right}
 """
 
 LIST_HTML = """\
