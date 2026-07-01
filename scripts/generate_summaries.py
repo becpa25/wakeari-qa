@@ -19,7 +19,7 @@ GEMINI_URL = (
     "gemini-2.0-flash:generateContent?key={api_key}"
 )
 
-SAMPLE_SIZE = 500
+SAMPLE_SIZE = 200
 
 PROMPT = """\
 あなたは公認会計士試験の受験生・合格者向けQ&Aアーカイブを整理するアシスタントです。
@@ -63,7 +63,7 @@ def call_gemini(api_key: str, prompt: str) -> str:
             return result["candidates"][0]["content"]["parts"][0]["text"]
         except urllib.error.HTTPError as e:
             if e.code == 429 and attempt < 2:
-                wait = 30 * (attempt + 1)
+                wait = 65 * (attempt + 1)
                 print(f"レート制限。{wait}秒待機後リトライ ({attempt+1}/3)...")
                 time.sleep(wait)
             else:
