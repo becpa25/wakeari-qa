@@ -1,5 +1,851 @@
 [
   {
+    "id": "pHj5n45Q9QRlrKHpZmbd",
+    "question": "マネージャーまでという制限付きでもよければ青はいけます",
+    "answer": "らしいです！",
+    "asked_at": 1783047031,
+    "answered_at": 1783047646,
+    "liked": false,
+    "reply_to_question_id": "9cBksQvGlPFdZX9641Gb"
+  },
+  {
+    "id": "WA2IVKRwEl8gDKS21lhF",
+    "question": "有名大学出身なら、確かに初手では監査法人で数年やって、そのあと有名企業に行くっていうのが無難だと思います(有名企業に行きたいなら)\n転職でもなんやで学歴は見られるので",
+    "answer": "それなりの一般事業会社に転職するなら学歴も見られると思いますね。",
+    "asked_at": 1783046908,
+    "answered_at": 1783047680,
+    "liked": false,
+    "reply_to_question_id": "dClIYlJPuDLtgIUNBPQZ"
+  },
+  {
+    "id": "QvMOuelah1KNZqyskVPU",
+    "question": "橙は投資制限バリバリ厳しいです。\n監査クライアントか関係なく、株式の売買は原則禁止、やむを得ず売る場合は法人内の承認が必要。購入は絶対ダメ。投資信託も買える銘柄がかなり少ないので、下手したら他のBIG4より厳しいかもです。",
+    "answer": "バリバリ厳しいご意見がきています！",
+    "asked_at": 1783045761,
+    "answered_at": 1783046807,
+    "liked": false,
+    "reply_to_question_id": "g1ic2xo54RtMx72r8OAu"
+  },
+  {
+    "id": "ZXsnO3IrbhmPEsskoumO",
+    "question": "頭の良い女性で太ってる人って見た事ないんですけど、会計士で太ってる女性見た事ありますか？",
+    "answer": "わ、たしかにいないかも。会計士で太ってる女性あんま見たことない。",
+    "asked_at": 1783043465,
+    "answered_at": 1783046891,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "JjGNbFfyQpJycZjG29qO",
+    "question": "個別株ででかいリターン出せるならBIG4よりも準大手、中小行った方が金銭的なメリットがかなり大きそう。\n監査法人の会計士、エヌビディアとかキオクシアとかマイクロンの個別株持ちにくそうだし。\n\nただ不動産に係る与信はBIG4の方が大きそうだから、スタンス次第な気もする",
+    "answer": "中小でも厳しいところとゆるいとこあると思うので、詳細はやっぱりリクルーターに聞いた方がいいんだと思う。",
+    "asked_at": 1783041377,
+    "answered_at": 1783046860,
+    "liked": false,
+    "reply_to_question_id": "g1ic2xo54RtMx72r8OAu"
+  },
+  {
+    "id": "g1ic2xo54RtMx72r8OAu",
+    "question": "投資に関しては監査クライアント少ない橙がやりやすいやろな",
+    "answer": "もっと言うと中小という選択肢もあるよな。",
+    "asked_at": 1783040053,
+    "answered_at": 1783040454,
+    "liked": false,
+    "reply_to_question_id": "dnQlnhMyfXa5jXEnNRis"
+  },
+  {
+    "id": "o95JauKRxWuV2B04hTqV",
+    "question": "そんなケースあるんでしょうか？\nめっちゃしごとできないとか？",
+    "answer": "具体的な理由は知らないけど、なんか不祥事起こした系とかじゃないかな。",
+    "asked_at": 1783038773,
+    "answered_at": 1783038886,
+    "liked": false,
+    "reply_to_question_id": "pcWRrQBqRLYCbLZpoIxl"
+  },
+  {
+    "id": "zjwEbF5hrim1D2PBSPsK",
+    "question": "4年後のワールドカップ行きたい。\n6月から7月なんだけど、この時期って1.2週間くらい休み取れる？シニア1.2年目とかだけど",
+    "answer": "全然取れると思う。そのために有給溜めといてな。",
+    "asked_at": 1783037751,
+    "answered_at": 1783039637,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "dnQlnhMyfXa5jXEnNRis",
+    "question": "big4以外にしとくのが無難\n銘柄ではなく基本そのファンドの発行体をファームが監査してるかどうかになってくるはず　DTだと赤い系列は無理　EYだと青い系列は無理とかそんなはず",
+    "answer": "なるほど。",
+    "asked_at": 1783025710,
+    "answered_at": 1783038741,
+    "liked": false,
+    "reply_to_question_id": "9cBksQvGlPFdZX9641Gb"
+  },
+  {
+    "id": "MR69SIoaTI462Bum2OGa",
+    "question": "わたし評価はいいんだけど辞める時全然引き止められなかった\nやりたいことが明確で辞める意思が強いと思われたのかな\nおしえて訳あり",
+    "answer": "ドライなパートナーもいるので、気にしなくていいと思う。",
+    "asked_at": 1783010006,
+    "answered_at": 1783038725,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "pcWRrQBqRLYCbLZpoIxl",
+    "question": "同期が降格人事でちょっと気まずいのですが、監査法人で降格は結構あるあるなのでしょうか？",
+    "answer": "シニマネがマネに降格してるのは見たことあるけど、あんまりないと思うな、、、",
+    "asked_at": 1783008539,
+    "answered_at": 1783038699,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "9ceXwMCcpRaRofm9sfoi",
+    "question": "三菱UFJアセットマネジメント株式会社＝有限責任査監査法人トーマツ\neMAXIS Slim 全世界株式＝PwC Japan 有限責任監査法人\n\nSBIアセットマネジメント株式会社＝有限責任査監査法人トーマツ\nSBI NASDAQ100 インデックス・ファンド＝PwC Japan 有限責任監査法人\n\n大和アセットマネジメント株式会社＝有限会社あずさ監査法人\niFreeNEXT FANG+インデックス＝有限会社あずさ監査法人\n\nゴールドはアセマネが不明だったので見ていませんが、それぞれの投資信託の請求目論見書には上記の監査報告書がありました。内規は法人ごとにそれぞれだと思われますがご参考まで。",
+    "answer": "有益情報きた。",
+    "asked_at": 1783007798,
+    "answered_at": 1783038632,
+    "liked": false,
+    "reply_to_question_id": "9cBksQvGlPFdZX9641Gb"
+  },
+  {
+    "id": "d5GOa1PRmTbOdKBTZ984",
+    "question": "てめえのキャリアはてめえで管理運営\n人のキャリアにちゃちゃ入れない",
+    "answer": "鰻屋のやつやん。",
+    "asked_at": 1783006036,
+    "answered_at": 1783006093,
+    "liked": false,
+    "reply_to_question_id": "3k8qqaJLhzLNlYKO6PXN"
+  },
+  {
+    "id": "aZlta9uDOuctRWVYj42a",
+    "question": "大学生のうちに自信つくまで風俗行ってください\nただのDTなのでオーラルまではある、とか人に言ってはいけません笑",
+    "answer": "性病貰わないようにな。",
+    "asked_at": 1783005502,
+    "answered_at": 1783006182,
+    "liked": false,
+    "reply_to_question_id": "oOQ5IPd9ddgSoikzFguF"
+  },
+  {
+    "id": "Kn6zje1mHeZwOfbmHuRb",
+    "question": "干されてるかどうかよりもスタッフ滞留やシニア滞留探した方が異常者見つけやすいよな",
+    "answer": "シニア滞留はまだわかるけど(本人がMに上がりたくない意思もあると思うので)、スタッフ滞留はキツイものがあるよな。",
+    "asked_at": 1783005481,
+    "answered_at": 1783006071,
+    "liked": false,
+    "reply_to_question_id": "f9HylAzG8ahZlZz0uHjO"
+  },
+  {
+    "id": "pBgGETd3swzsc6exsVey",
+    "question": "監査法人内の部活？サークル？みたいなのってどういう年齢層の人が入ってます？",
+    "answer": "意外とパートナーが多かったりする。もちろん若手もいます。",
+    "asked_at": 1783005451,
+    "answered_at": 1783005985,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "ZeWxC8ENjZPrsNUzo3tJ",
+    "question": "なんか余計なプライド持ってる男ってダサいしめんどくせーなって思う",
+    "answer": "男さん、余計なプライドは持たないように。",
+    "asked_at": 1783005414,
+    "answered_at": 1783005957,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "xdWg6ppjO8OBvAxIX6Cz",
+    "question": "身長低めの男でも顔がそこそこ良ければ出演依頼来ますか？",
+    "answer": "可能性はある。俺も身長低いけど、リクルート動画とか出させられたので。",
+    "asked_at": 1783005360,
+    "answered_at": 1783005410,
+    "liked": false,
+    "reply_to_question_id": "O47mmckAUnSzp4GrVLiF"
+  },
+  {
+    "id": "BawGv9qWEjFx51N8M4jH",
+    "question": "この質問の投稿者に聞きたいんだけど恋愛経験なくて性格に問題があるのかと思ってしまう年齢の下限は何歳？",
+    "answer": "気になる。",
+    "asked_at": 1783005319,
+    "answered_at": 1783005868,
+    "liked": false,
+    "reply_to_question_id": "ZnAIodmmCfQ6fEsOjYLl"
+  },
+  {
+    "id": "5S01IEeZonCkYnwy9lmt",
+    "question": "今も監査法人に追い出し部屋ってあるの？",
+    "answer": "追い出し部屋ってなんや、聞いたことない。",
+    "asked_at": 1783005163,
+    "answered_at": 1783005839,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "l63LgdWUhfEifT4vFFlr",
+    "question": "絶賛干されてます！今期はコアチーム1社800時間のみ、あとはアンアサインです",
+    "answer": "自己研鑽しよう。",
+    "asked_at": 1783005020,
+    "answered_at": 1783005815,
+    "liked": false,
+    "reply_to_question_id": "r3mYEX1xvLwmSKh0M4JH"
+  },
+  {
+    "id": "1WmGZj9ACVN21IUwoTGy",
+    "question": "回避ニキ、応援したい。\n話し合いする前に別れちゃったんか。",
+    "answer": "応援されています。",
+    "asked_at": 1783005015,
+    "answered_at": 1783005799,
+    "liked": false,
+    "reply_to_question_id": "BmTlZFk2mbKaUQSJzskT"
+  },
+  {
+    "id": "xovc0ssjq9ErmMmdzKfs",
+    "question": "付き合い4経験0 → 関係がそこまで深まらなかったかアセクノンセクあたりなのかなと思うだけ\n付き合い0経験1以上 → 貞操観念無いんだな、交際経験無しがコンプで金銭で払拭しようとしたのかな、地雷そう…と思う\n\n女より",
+    "answer": "率直なご意見ありがとうございます！",
+    "asked_at": 1783004972,
+    "answered_at": 1783005757,
+    "liked": false,
+    "reply_to_question_id": "v1mZItSRBmZ7najAiChm"
+  },
+  {
+    "id": "BQBSDlBTqaABh9pFrjNt",
+    "question": "繁忙期はマジで1人にして欲しいな\n寂しい思いさせたくないので、毎日友達と飲み歩いたり旅行行ったりしてくれてると安心して仕事に集中できる\n繁忙期中に病まれるとガチで詰む時ある、話し合おうなんて言われると地獄",
+    "answer": "そう。こういうタイプもいるので一概に言えないんよな。",
+    "asked_at": 1783004914,
+    "answered_at": 1783005777,
+    "liked": false,
+    "reply_to_question_id": "BJRhSqZmV9cI2gPbYpDl"
+  },
+  {
+    "id": "oPDv25s24ijCfprxOW1V",
+    "question": "好きすぎて考えすぎた結果疲れたなら、今の状態で関わるより、一旦疲れないようにするにはどうしたらいいか、彼氏も自分も心身健康で穏やかにいられるにはどうしたらいいかを考えればいいかと。",
+    "answer": "アドバイスきてます。出しますね！",
+    "asked_at": 1783004825,
+    "answered_at": 1783005694,
+    "liked": false,
+    "reply_to_question_id": "BJRhSqZmV9cI2gPbYpDl"
+  },
+  {
+    "id": "P9ekAJReYqzMHGSgQkFN",
+    "question": "全然間違った選択とは思わないけど、それまでの華々しい経歴を投げ捨ててイチ監査人としてキャリアスタートするのもったいなくない？\nもっとエリート街道歩けるのにって思っちゃう",
+    "answer": "明確に会計士のキャリアを思い描いてるならいいけど、そうじゃなければ商社とか華々しい業界に行くのが自然だよな。",
+    "asked_at": 1783004776,
+    "answered_at": 1783005233,
+    "liked": false,
+    "reply_to_question_id": "R1zUaVOqCvRBtERwk6eI"
+  },
+  {
+    "id": "UkBbcjEgS22Xk2yQFVp5",
+    "question": "監査法人の勤務中ずっと寝てるやん",
+    "answer": "そういえば昔往査先で爆睡してパートナーから怒られてる同期いたな。",
+    "asked_at": 1783004706,
+    "answered_at": 1783005320,
+    "liked": false,
+    "reply_to_question_id": "lTAcZzqLPCPI3v2kSDng"
+  },
+  {
+    "id": "Pi9eCCHMo5JSR5tHsB94",
+    "question": "こっちから聞いてもないのに俺だってあるんでｺﾞﾆｮｺﾞﾆｮ…ってしてきた男いて魅力半減したなー。聞かれたらあっけらかんと素直に答えりゃいいのになあ。",
+    "answer": "ゴニョゴニョが良くない。",
+    "asked_at": 1783004701,
+    "answered_at": 1783005272,
+    "liked": false,
+    "reply_to_question_id": "ZnAIodmmCfQ6fEsOjYLl"
+  },
+  {
+    "id": "f9HylAzG8ahZlZz0uHjO",
+    "question": "アサイン表なんて別に事業部の人が勝手に入れるんやからわからんくないか",
+    "answer": "未調整前のアサイン表とか見たらわかりやすい。",
+    "asked_at": 1783004616,
+    "answered_at": 1783004975,
+    "liked": false,
+    "reply_to_question_id": "r3mYEX1xvLwmSKh0M4JH"
+  },
+  {
+    "id": "oOQ5IPd9ddgSoikzFguF",
+    "question": "高３の頃、彼女と最後まではしなかったけど途中まで(オーラルまで)をして終わりました。当時は純粋だったので。結局しないまま別れて今大4dtです。異常ですかね、彼女いたことあってこれは",
+    "answer": "高校生なら異常ではないと思う。これからに期待。",
+    "asked_at": 1783004542,
+    "answered_at": 1783005033,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "AzWPkO1b5uxE7qr8QQvM",
+    "question": "主は依存先を増やせばいいのにね、ちょっと感情に支配されすぎかと。",
+    "answer": "会計士繁忙期の彼氏に対して依存MAXの対応されるのは結構しんどいと思う。",
+    "asked_at": 1783004527,
+    "answered_at": 1783004626,
+    "liked": false,
+    "reply_to_question_id": "BJRhSqZmV9cI2gPbYpDl"
+  },
+  {
+    "id": "Riqgbzkm5zLgGqdHIvdQ",
+    "question": "よくわからん試験の勉強して資格コレクターになるより、仕事に全力注いで実務経験積み上げる方が予後良い",
+    "answer": "それはそう。",
+    "asked_at": 1783004277,
+    "answered_at": 1783004917,
+    "liked": false,
+    "reply_to_question_id": "CHEH0XxAq4RniBWUeztb"
+  },
+  {
+    "id": "UgdhueM8baBySeIgCHKe",
+    "question": "慶応法から弁護士でマチ弁の奴これ見たら泣くぞ",
+    "answer": "弁護士界隈に突っ込みたくないので詳細な回答は控えます。",
+    "asked_at": 1783004206,
+    "answered_at": 1783004906,
+    "liked": false,
+    "reply_to_question_id": "3k8qqaJLhzLNlYKO6PXN"
+  },
+  {
+    "id": "r3mYEX1xvLwmSKh0M4JH",
+    "question": "監査法人で干されることって結構あるのでしょうか？",
+    "answer": "昔はあったけど、今どうなんやろな。干されてるかどうかはアサイン表で一撃でわかるんだが、今どんな感じなのかは知らない。",
+    "asked_at": 1783004150,
+    "answered_at": 1783004534,
+    "liked": false,
+    "reply_to_question_id": "bSQCWgwmSwwcMGjbfXFf"
+  },
+  {
+    "id": "XakB0pNmoCfCAE6HoWwV",
+    "question": "三優監査法人って準大手のわりにはあまりにも影薄くありません？数年後したらアークに抜かれそう。",
+    "answer": "まあ、俺もあんま情報は入ってこないな。",
+    "asked_at": 1783004103,
+    "answered_at": 1783004488,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "BJRhSqZmV9cI2gPbYpDl",
+    "question": "彼氏のこと好きすぎて、忙しいから連絡したら負担かな、自分の意見言ったらめんどくさいかな？とか考えちゃって疲れました\nでも好きなので別れなくないです\n訳アリさんのように多忙な会計士の方々は忙しい時期に彼女から頻繁に連絡きたりわがまま言われるとしんどくなりますか？",
+    "answer": "これは人によると思う。俺は繁忙期でどんなに忙しくても、基本的に連絡は返すし、相手から連絡してくれたら嬉しい気持ちにもなる。わがままのレベル感はわからないが、あまりにとわがまますぎるとちょっとキツいかもしれないが。",
+    "asked_at": 1783004057,
+    "answered_at": 1783004427,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "BmTlZFk2mbKaUQSJzskT",
+    "question": "簡単にいうと回避型なんだよね\n付き合ってしばらく経つとモヤモヤしてきて、あーこりゃ長続きしないわ→ならすぐ別れて彼女の若さと貞操を無駄にしないようにしよ　ってことを繰り返してた\n最長交際期間は5ヶ月",
+    "answer": "短期で別れるケースね。モヤモヤしない彼女に出会えるといいね。まだまだこれからよ。",
+    "asked_at": 1783004050,
+    "answered_at": 1783004295,
+    "liked": false,
+    "reply_to_question_id": "rfP8Nrt7rOaPquDgMGlp"
+  },
+  {
+    "id": "bSQCWgwmSwwcMGjbfXFf",
+    "question": "アサインは普通あるやろ",
+    "answer": "他のアサインある中で、アサイン外のメインの仕事が降ってくるっていう状況だと思う。",
+    "asked_at": 1783003837,
+    "answered_at": 1783003907,
+    "liked": false,
+    "reply_to_question_id": "2U73CJrqisNCeTA3umY3"
+  },
+  {
+    "id": "CHEH0XxAq4RniBWUeztb",
+    "question": "まだFPのほうが良いのかな",
+    "answer": "FPもあんま見たことないな。",
+    "asked_at": 1783003828,
+    "answered_at": 1783004055,
+    "liked": false,
+    "reply_to_question_id": "kNON1mAE5lhmn0XBCes3"
+  },
+  {
+    "id": "3WMm3q3IUm3n53UxfTyh",
+    "question": "慶応医から医者にならないと元とれないなあ",
+    "answer": "慶應医に行きたい人生だった。",
+    "asked_at": 1783003765,
+    "answered_at": 1783004202,
+    "liked": false,
+    "reply_to_question_id": "R1zUaVOqCvRBtERwk6eI"
+  },
+  {
+    "id": "yacss3ec2ARKmeCJMBH7",
+    "question": "中小企業の社長が相談するのは税理士なので、中小企業診断士に依頼しようみたいな状況は皆無ですね。\n地方銀行マンが名刺に書くためにとるくらいの資格で、会計士が診断しとるのは時間の無駄だと思います",
+    "answer": "そうなのか。会計士✖️中小企業診断士はあまり意味ないようてます。",
+    "asked_at": 1783003756,
+    "answered_at": 1783003840,
+    "liked": false,
+    "reply_to_question_id": "XQHp2OeRIyqQdPSgAcTW"
+  },
+  {
+    "id": "lTAcZzqLPCPI3v2kSDng",
+    "question": "訳カノモテそう\n",
+    "answer": "めっちゃモテるからいつ愛想尽かされるか心配で夜は7時間しか眠れない。",
+    "asked_at": 1783003720,
+    "answered_at": 1783003943,
+    "liked": false,
+    "reply_to_question_id": "BIb5PcbtCM7a0nPIXh1X"
+  },
+  {
+    "id": "rfP8Nrt7rOaPquDgMGlp",
+    "question": "そんなことありうる？小学生の時に4人付き合ったとか？想像つかない",
+    "answer": "性欲がゼロなのかもしれない。",
+    "asked_at": 1783003616,
+    "answered_at": 1783003696,
+    "liked": false,
+    "reply_to_question_id": "v1mZItSRBmZ7najAiChm"
+  },
+  {
+    "id": "v1mZItSRBmZ7najAiChm",
+    "question": "俺付き合い4 経験0 なんだけどバケモノってことでいいかな",
+    "answer": "すごいな。いい意味でバケモンだと思う。",
+    "asked_at": 1783003088,
+    "answered_at": 1783003475,
+    "liked": false,
+    "reply_to_question_id": "ueX1xT3RV4pHBSyPh78p"
+  },
+  {
+    "id": "2U73CJrqisNCeTA3umY3",
+    "question": "J1です\n今の時期アサインの無いメインチームから仕事がけっこう飛んできます\n他のアサインも忙しくなかったり研修だったりなのでなんとか残業で対応できているのですが、本格的に抱えきれなくなる前に仕事頼むならアサイン入れてくださいと言った方が良いのでしょうか。それともそう言うものだからあまり事を荒立てない方が良いのでしょうか",
+    "answer": "普通アサイン外の仕事って振らないのが一般的だけど、実務上は振ってくるのが現実だよな。でも上の人はアサイン外なのに申し訳ないと思いながら仕事振っているので、その中でパフォーマンス発揮できると評価には繋がりそう。評価を取るか、ワークライフバランスを取るか、どちらかですかね。",
+    "asked_at": 1783003061,
+    "answered_at": 1783003420,
+    "liked": false,
+    "reply_to_question_id": "3khiIlpngJnZYQ2kogWk"
+  },
+  {
+    "id": "cw8CR4gRBCMD11MWY7yA",
+    "question": "それ、キリンが患者？",
+    "answer": "キリンは太客です。",
+    "asked_at": 1783003016,
+    "answered_at": 1783003450,
+    "liked": false,
+    "reply_to_question_id": "vRrhimPCT7JPb5qDSepM"
+  },
+  {
+    "id": "VWUBduSDU2sqFVWv3Cwp",
+    "question": "訳カノさんに会ってみたい\n母性すごそう",
+    "answer": "母性の塊のような女です。",
+    "asked_at": 1783002985,
+    "answered_at": 1783003282,
+    "liked": false,
+    "reply_to_question_id": "BIb5PcbtCM7a0nPIXh1X"
+  },
+  {
+    "id": "kNON1mAE5lhmn0XBCes3",
+    "question": "会計士がとる意味はゼロですね！\n独占業務もないし、会計士であれば名刺に書くこともないでしょう",
+    "answer": "マジで周りの会計士では見たことないです。",
+    "asked_at": 1783002967,
+    "answered_at": 1783003237,
+    "liked": false,
+    "reply_to_question_id": "XQHp2OeRIyqQdPSgAcTW"
+  },
+  {
+    "id": "3juvpUeRPwix4X4pxnLl",
+    "question": "ワケアリさんは尻に敷かれるタイプ？",
+    "answer": "尻に敷かれるタイプだと思う。決してワンマンではない。",
+    "asked_at": 1783002922,
+    "answered_at": 1783003266,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "ZnAIodmmCfQ6fEsOjYLl",
+    "question": "キモいとは全然思わない！\nけど、恋愛経験ないのか？何か性格に問題があるのか？と身構えてしまう",
+    "answer": "なので女性と会う時は、恋愛経験は少しあります！ぐらいに言っとくのがマイナス評価にならんと思う。",
+    "asked_at": 1783002896,
+    "answered_at": 1783003179,
+    "liked": false,
+    "reply_to_question_id": "ueX1xT3RV4pHBSyPh78p"
+  },
+  {
+    "id": "Cq6siwHXSwt7PRILmnKK",
+    "question": "喧嘩は話し合いで解決しますか？それともチカラですか？",
+    "answer": "俺ビビリだからあんま人と喧嘩したことない。もしそうなったら話し合い一択やろ。",
+    "asked_at": 1783002619,
+    "answered_at": 1783002659,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "ueX1xT3RV4pHBSyPh78p",
+    "question": "アラサー素人童貞はキモい？",
+    "answer": "キモくない。今の時代普通にいると思う。",
+    "asked_at": 1783002519,
+    "answered_at": 1783002547,
+    "liked": false,
+    "reply_to_question_id": "plHFOyYSkCYmcpwQFjVr"
+  },
+  {
+    "id": "plHFOyYSkCYmcpwQFjVr",
+    "question": "付き合い0経験1←キモ\nこれなら童貞のが潔い",
+    "answer": "そこ突っ込まれると思った笑",
+    "asked_at": 1783002045,
+    "answered_at": 1783002071,
+    "liked": false,
+    "reply_to_question_id": "youzdR1kFeNvmxxqYo9W"
+  },
+  {
+    "id": "vRrhimPCT7JPb5qDSepM",
+    "question": "訳ニキカウンセラーverスペも需要大アリ",
+    "answer": "てか俺のスペースって毎回カウンセラーみたいなことしてるよな。",
+    "asked_at": 1783001968,
+    "answered_at": 1783002093,
+    "liked": false,
+    "reply_to_question_id": "5h2gUUUGfQBeuwnYMhVg"
+  },
+  {
+    "id": "5h2gUUUGfQBeuwnYMhVg",
+    "question": "× 素晴らしい考え方\n○ 人として普通の考え方\n\n更生したヤンキーみたいな褒め方をするのはやめましょう",
+    "answer": "カウンセラーやろうかな。",
+    "asked_at": 1783001085,
+    "answered_at": 1783001123,
+    "liked": false,
+    "reply_to_question_id": "qPbQKAWkmfaqBnAK5axE"
+  },
+  {
+    "id": "wFvvBeK9s6CfFU5b6qVH",
+    "question": "スペースいつやりますか？",
+    "answer": "今のところ未定です。ちょっと今日色々考えてたんだが、質問箱の選定や負荷がかなりかかっていたので、少しセーブしたいと思っています。申し訳ないが、ゆるくやっていきます。",
+    "asked_at": 1783000494,
+    "answered_at": 1783001441,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "cpufF3Z7lb9wk1ECKqQE",
+    "question": "超すっげー専門家なんだぜっていうのをアピールするためにわざと難易度吊り上げてる説",
+    "answer": "ある。",
+    "asked_at": 1782999046,
+    "answered_at": 1783002115,
+    "liked": false,
+    "reply_to_question_id": "rAExX28ZZOFGNPp0yFTE"
+  },
+  {
+    "id": "pPi9SbX9kXKFNAR7aGN2",
+    "question": "同じ属性の2人がいたら顔で選びます。当たり前です。少なくとも私は顔で選んでいます。",
+    "answer": "なるよな。",
+    "asked_at": 1782998452,
+    "answered_at": 1783002883,
+    "liked": false,
+    "reply_to_question_id": "O47mmckAUnSzp4GrVLiF"
+  },
+  {
+    "id": "R1zUaVOqCvRBtERwk6eI",
+    "question": "慶應内部で商社とか行くんじゃなくて、監査法人選ぶのもったいない",
+    "answer": "まあ会計士の方が将来の自由度高いし、一概に間違った選択とは思わないな。",
+    "asked_at": 1782997370,
+    "answered_at": 1783002594,
+    "liked": false,
+    "reply_to_question_id": "3k8qqaJLhzLNlYKO6PXN"
+  },
+  {
+    "id": "rAExX28ZZOFGNPp0yFTE",
+    "question": "どうせ忘れるのにあんなに膨大に勉強する必要あったのだろうか\nJCPAもUSくらいの難易度で十分な気がしてきた",
+    "answer": "企業法とかマジで覚えてない",
+    "asked_at": 1782997036,
+    "answered_at": 1782997179,
+    "liked": false,
+    "reply_to_question_id": "6fGxPveNOqgQh6wd3EiL"
+  },
+  {
+    "id": "9cBksQvGlPFdZX9641Gb",
+    "question": "オルカン、SBIナス100、FANG+、ゴールドのインデックスファンド持ってるんですけどこの銘柄で制限くらわない法人はありますか？\n有識者の方お願いします",
+    "answer": "俺投資全くやってないので、あまりわかってない。有識者いらっしゃいますか。",
+    "asked_at": 1782993337,
+    "answered_at": 1783001641,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "dClIYlJPuDLtgIUNBPQZ",
+    "question": "学生合格者は監査法人以外のファーストキャリアも考えた方が面白そう。特に有名大学出身は大手企業行ける可能性もあるし、監査法人なぞ後からでも入れるし。\n",
+    "answer": "選択肢としてはありだと思うけど、会計士として生きていくと決めているなら、初手は監査法人が無難だよな。",
+    "asked_at": 1782989888,
+    "answered_at": 1783001723,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "3khiIlpngJnZYQ2kogWk",
+    "question": "J1です。この時期全くアサインが入っておらず暇なのですが、これって見放されてる前兆でしょうか？",
+    "answer": "いや、今は暇な時期なので普通のことだと思います。安心して！",
+    "asked_at": 1782989331,
+    "answered_at": 1783001764,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "youzdR1kFeNvmxxqYo9W",
+    "question": "恋愛したいけど自分が奥手で恋人できないことは、付き合い０人経験1人だとしても\n少し難アリに見えそう…？\n\n少なからず理想高すぎてるんだろうなと自覚してる",
+    "answer": "いや、難ありとは思わんし、それを受け入れてくれる優しい女性はいると思う。理想はもうちょい低くしてもいいとは思うが。",
+    "asked_at": 1782988569,
+    "answered_at": 1783001933,
+    "liked": false,
+    "reply_to_question_id": "F247YcFp9CA0CIZJG6gV"
+  },
+  {
+    "id": "XQHp2OeRIyqQdPSgAcTW",
+    "question": "中小企業診断士の勉強するメリットってなんかあると思う？",
+    "answer": "会計士でありながらってこと？監査法人勤務で中小企業診断士取ってる人は俺は見たことない。独立とか考えてるなら、基本的に相手は中小なのでメリットはあると思います。",
+    "asked_at": 1782988510,
+    "answered_at": 1783001999,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "6fGxPveNOqgQh6wd3EiL",
+    "question": "訳アリさんは会計士受験の知識は受験の時と比べて今も同じくらい残ってますか？",
+    "answer": "いやめっちゃ忘れてるので、たまにメンテナンスしてる。知識量は圧倒的に受験合格した頃が一番あったな。",
+    "asked_at": 1782987473,
+    "answered_at": 1782987520,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "ouJXuzP7dDsrXGMlsX6f",
+    "question": "大事なのは肩書じゃなくて自己受容だったというオチ。逆に自分は受かる前に年齢や経験で自己肯定感の低さだいぶ落ち着いた。冷笑しなくなった。",
+    "answer": "大事だと思う。簡単に他人を冷笑したりするのはよくない。これはいくらの歳を重ねても、自分の考え方を変えなければ変わらないものだと思う。",
+    "asked_at": 1782986687,
+    "answered_at": 1782986789,
+    "liked": false,
+    "reply_to_question_id": "NoBsLkZKf1lCSwg9Quz8"
+  },
+  {
+    "id": "qPbQKAWkmfaqBnAK5axE",
+    "question": "自分女子校育ち（六年間）なんだけど、優遇されるのは嬉しいなと内心思いつつも、居心地が悪いんだよね。なんかこう、生物的に下に見られてる感じがして。\nもちろん性差を考えたらそれは当たり前な話なんだけどね。\n男性が女性の持ち物を持ってあげるとか多めに出すとかも、うーん…って感じ。\nこういう人間もいるよ。男子校女子校出身者は、あまり男女どうこうとかのフィルターで見てなさそう。",
+    "answer": "いや素晴らしい考え方だと思います。もちろん世の中には質問者さんのような地に足が付いている方もいらっしゃると思っています。",
+    "asked_at": 1782986434,
+    "answered_at": 1782986546,
+    "liked": false,
+    "reply_to_question_id": "2qeb680omU09EqMEN6rR"
+  },
+  {
+    "id": "NoBsLkZKf1lCSwg9Quz8",
+    "question": "なんか会計界隈って自己肯定感低い人多くない？目立ってるだけかもしれないけど。自己肯定感低い人が自分を変えようと思って会計士受かったけど受かっただけで何も変わらなかったってことなのかね。",
+    "answer": "自己肯定感の低さとか、何かしらのコンプレックスを原動力に受験する人はいると思う。ただ、合格しただけでは何も変わらないのも事実だと思う。",
+    "asked_at": 1782986141,
+    "answered_at": 1782986241,
+    "liked": false,
+    "reply_to_question_id": "3ueZDjg52PqCWiTyMgdo"
+  },
+  {
+    "id": "c1VOjPsI3BTzoVoqb4S2",
+    "question": "回答者です。\n論文生さんへ。\n\n素敵な言葉をもらえて嬉しいです。\n最初の質問者さんに対しての言葉だったけれど、過去の自分と重なる部分があって、立ち直った今だからこそ心の底から出てきた言葉です。\nきっと自分に対してもかけたかった言葉なのだと思います。\n論文生さんが何年勉強しているかわからないけれど、私もコロナ禍あたりからやっていてそろそろ合格したいです。一緒に頑張ろうね！",
+    "answer": "届いた！！見てくれて僕も嬉しいです！",
+    "asked_at": 1782986051,
+    "answered_at": 1782986105,
+    "liked": false,
+    "reply_to_question_id": "1gN5AwqERL1lfkYApgFa"
+  },
+  {
+    "id": "vnYS2xhk8qxzkzOZCpQ7",
+    "question": "過去と他人の価値観に引っ張られ過ぎじゃないかこの人。\n自己否定って生産性ないよ。人生の時間は限られてるから、むしろ損失。\nなりたい人物像があるなら、紙に書き出せ。どんな人？どんなことをしてる？どんなことをしてない？普段の過ごし方は？行動から変えていけ。継続すれば習慣化し、それが自認となり性格となる。\n行動を変えるにはまず環境を整えることだね。\n太陽は浴びてるか？ネットし過ぎてないか？栄養は偏ってないか？睡眠は十分とれてるか？結局あなたが変わりたいならあなたが頑張る他ないよ。\nPDCA回すんだよ。",
+    "answer": "変わりたいという意思を明確にして、行動することが大事だと思います。",
+    "asked_at": 1782985769,
+    "answered_at": 1782985973,
+    "liked": false,
+    "reply_to_question_id": "zPoECTb6qCCtuCVgh9I6"
+  },
+  {
+    "id": "KcG2IlAeG3xCGaMqsKFD",
+    "question": "一般的に言われてる幸せ（恋人がいること、友達が沢山いること）に引っ張られてない？それがあなたにとっての一番の幸せなのかな。\n今までに沢山彼女できてもクズな男もいるし、家庭持ったのに浮気された男だっているよ。\n彼女がいる=幸せとは限らないよ。\n友達一人でもいるならその人を大切にすればいいし、学生時代の友達と縁が切れても今幸せな人だっているよ。あなたのスタイルと合わなかっただけだよ。\n逆に質問なんだけど、あなたから友達を誘ってみたり、交友関係を広げる努力はしたの？誘い待ちで、自分の所に人が寄ってこないから自分は魅力ないんだ…って思ったりしてない？それを自分の評価だと無意識に定義してしまってないか？\n交友関係だって、仕事だって資格試験だって、自分軸で能動的に動かなきゃ成功に辿り着けないよ。\n",
+    "answer": "わかる。",
+    "asked_at": 1782985568,
+    "answered_at": 1782985623,
+    "liked": false,
+    "reply_to_question_id": "zPoECTb6qCCtuCVgh9I6"
+  },
+  {
+    "id": "5vDhYliAt4Mq2gsOw0yY",
+    "question": "モデルとパコれた！会計士なってなかったら確実に出会えてなかった。会計士最高！！！",
+    "answer": "陽気なヤツがいるな。",
+    "asked_at": 1782985218,
+    "answered_at": 1782986253,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "yS7bK61f7zduZ1Yzxv5z",
+    "question": "繁忙期は監査法人爆破してやろうかと思ってたのに\nこの1週間やることほとんど無いのに日給2万以上貰っていて感謝法人になってる",
+    "answer": "マジでわかる。",
+    "asked_at": 1782983974,
+    "answered_at": 1782986266,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "TcNat9bAmZIhAM0JI6Df",
+    "question": "Eが給与で下げられがちだけど、投資のこと考えると悪くないと思う\n有名どころ（全世界とかSP500）の投資信託だと\nDは三菱とSBIの買えないだろうし\nPは三菱の買えないはず\n\nそうすると必然とEかKになるんよね\n",
+    "answer": "こういう見方もあるんやな。",
+    "asked_at": 1782983497,
+    "answered_at": 1782985674,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "XqGyReEIpjk3mCTt9T9r",
+    "question": "ボーナス高いとこには優秀な人材が入り低いところには入らず淘汰される\nそれが市場の摂理\nボーナスだけに限らないけど他の一般就活はそのように就職先を決めている。\n文系就職なんて業種ではなく待遇で選んでる人が大半\nなのに監査法人になると見かけの基本給だけ合わせてあとは隠す\n年間休日等すら隠す\nこれはどう考えてもおかしいと思うが\nリクルーターに聞けというのもあまりにおかしい。昨年もリクルート期間を短くしてるし何もわからずに就職させようという魂胆がみえみえ",
+    "answer": "ちょっと質問に関連してないけど、出します。",
+    "asked_at": 1782983232,
+    "answered_at": 1782985999,
+    "liked": false,
+    "reply_to_question_id": "6V4L0occsVB5jE1gWbxf"
+  },
+  {
+    "id": "2qeb680omU09EqMEN6rR",
+    "question": "これシンプルな話で、なんだかんだ女の子って小さい頃から色々優遇してもらってるじゃん。最近は入試や採用でも優遇されてるし。　\n\nなので女性の立場からすると、チヤホヤしてもらえるのがデフォルト状態なので、大多数の女性は自然と受け身のお姫様、やってもらえて当たり前女、テイカーになる。\n\nこれに該当しなかったり、テイカーでも修正の余地があるまともな女は、早々に男にグリップされるので市場にそもそも出てこないか、出てきたとしてもすぐ確保される。\n\n以上の理由から、マッチングアプリとか婚活市場で可視化されてる女は必然的にイマイチな確率が上がる。",
+    "answer": "これは仕方ないと思う。俺が女なら港区女子でギャラ飲みしてるもん。",
+    "asked_at": 1782977886,
+    "answered_at": 1782985834,
+    "liked": false,
+    "reply_to_question_id": "N9la7otddxYu0LBDQEV6"
+  },
+  {
+    "id": "F60JJHNIabD29sFF0osj",
+    "question": "節約のために、美容室に通うのをやめて地毛に戻したのですが、地毛が少し明るいです。就活期間は黒染めした方がよろしいのでしょうか？\n",
+    "answer": "女性ですか？女性なら地毛明るい人はよくいるのであまり気にならないと思います。",
+    "asked_at": 1782977676,
+    "answered_at": 1782986308,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "HsHjOknbRQOaWcPqlwYf",
+    "question": "そんなー！泣\n就活関連の情報とか、下げるようなこと以外のとかもダメなんですか？\n生の声が聞けるのがここの良さだったのに...。\nなんか訳アリさんぽくない。裏で何かあったんじゃないかと勘繰りたくなります。",
+    "answer": "俺だって出してえよ！でも、それを許さない層がいる。どうか、ご容赦いただきたい、、、",
+    "asked_at": 1782977499,
+    "answered_at": 1782977955,
+    "liked": false,
+    "reply_to_question_id": "48fshHPUhobvRW0UQJeH"
+  },
+  {
+    "id": "3ueZDjg52PqCWiTyMgdo",
+    "question": "アカウント消えるのは悲しいからギリギリの質問答えなくていいよ😭\nそこまでリスク背負わんとってや",
+    "answer": "ゆる〜くやれればと思ってる。",
+    "asked_at": 1782977252,
+    "answered_at": 1782985875,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "48fshHPUhobvRW0UQJeH",
+    "question": "これまだですか？\nやっぱり下げ問題のとばっちり食ってお蔵入り？",
+    "answer": "うん。ちょっと控えようと思っている。マジでごめん。",
+    "asked_at": 1782976702,
+    "answered_at": 1782976863,
+    "liked": false,
+    "reply_to_question_id": "tOO2JriAvthnlnkzG1og"
+  },
+  {
+    "id": "lel7UvWK6YIMiemeod5k",
+    "question": "『そこそこ』イケメンなら0でもいい\nめっちゃイケメンなら2くらいサバ読んどいて欲しい笑\nByJ1女子",
+    "answer": "笑\n純粋なご意見だと思います。",
+    "asked_at": 1782975002,
+    "answered_at": 1782975048,
+    "liked": false,
+    "reply_to_question_id": "YzUw0Xjk6J4csDmRsCd7"
+  },
+  {
+    "id": "O47mmckAUnSzp4GrVLiF",
+    "question": "リクルートの動画とかの出演依頼って顔ですか？J1女(かわいい、リクルート所属してない、協力できたらしますくらいのスタンスでアンケ出した)に、急に依頼来たらしいです。",
+    "answer": "正直、リクルート上では顔が良い人を動画とか表に出そうとする傾向はある。そりゃそうだよ。それも法人の戦略の一つだと思うので。",
+    "asked_at": 1782974762,
+    "answered_at": 1782974873,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "ouRECB3EBjMvprrNvnVU",
+    "question": "元彼いるの嘘つかないけど非処女なことは言わない方がいいですか",
+    "answer": "いや、言ってもいいと思う。20歳ぐらい超える大人になると、そりゃ経験あるよね、ってなる。",
+    "asked_at": 1782973322,
+    "answered_at": 1782973413,
+    "liked": false,
+    "reply_to_question_id": "pL2O3yeyH7aSEgWYNlQZ"
+  },
+  {
+    "id": "ULPTzCxoNRPl6L0O58Iq",
+    "question": "社会人で週50て窓際やないのか\nワイは学生せんねんやったけど50いったことはない",
+    "answer": "要領いいタイプだ。",
+    "asked_at": 1782971413,
+    "answered_at": 1782971587,
+    "liked": false,
+    "reply_to_question_id": "SU5DXSqdOQLhW7WsKTRH"
+  },
+  {
+    "id": "DZIQvemwfitUGRGlQhYT",
+    "question": "これ失敗しても監査法人普通に戻れますか?",
+    "answer": "監査法人の辞め方によると思う。良い辞め方をしているなら、また古巣に戻るということもできる。現に、俺の同期や先輩で転職したけど上手くいかなくて出戻りしているケースはある。悪い辞め方、例えば逃げるように不義理をしながら辞めたなら、戻るのは難しいと思う。",
+    "asked_at": 1782970675,
+    "answered_at": 1782970831,
+    "liked": false,
+    "reply_to_question_id": "Fqgk1YiDETNijnVSkrcS"
+  },
+  {
+    "id": "SU5DXSqdOQLhW7WsKTRH",
+    "question": "週50時間やってもきびしいの？",
+    "answer": "社会人だとして週50時間確保できるのはすごいと思う。要領良ければいける。",
+    "asked_at": 1782969464,
+    "answered_at": 1782971026,
+    "liked": false,
+    "reply_to_question_id": "VIwfDf4BIbHOPMF235LI"
+  },
+  {
+    "id": "wU7Yzj8CcmEkWIKlZv8V",
+    "question": "うちの部署の慶應内部生の優秀な良い子、修了考査受かってすぐ辞めるんだけど親太い人にとっては監査法人は魅力的じゃないのかな",
+    "answer": "内部生みたいな優秀な人は倍率高いJTCを目指さず、敢えて会計士を選択してると思うので、元々描いていた明確なキャリアがあり、より市場価値を高めるために監査法人を早めに辞めるんだと思う。",
+    "asked_at": 1782968979,
+    "answered_at": 1782970444,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "GER8CQQyDio64VGxfJVP",
+    "question": "アドレナリンどうしたら出ますか",
+    "answer": "会計士試験に夢中になること。もう一日中受かるためにはどうするか考えること。そしたら明日への活力が湧いてきて、勉強のモチベーションが出て、それがアドレナリンにつながると思います。",
+    "asked_at": 1782965741,
+    "answered_at": 1782974191,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "qv8oYpfB931oGgTsJ339",
+    "question": "将来訳ありさんと一緒に仕事してみたいです",
+    "answer": "受験生かな？そう言ってもらえるのは嬉しいです！",
+    "asked_at": 1782965370,
+    "answered_at": 1782970307,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "TTU4WY64WrUvfNZ0Qinf",
+    "question": "好きなリスナー何人かあげて",
+    "answer": "俺のスペースって、ほぼみんな匿名で入ってるからあんまわからんのよな。",
+    "asked_at": 1782964213,
+    "answered_at": 1782972452,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "V2V06CTfZ2uoErlgA02W",
+    "question": "big4の収入は多くの会計士がシニアで辞めることを考えたら微々たるものだが、\n働きやすさにかかる一緒に仕事したくない主査・マネージャー・パートナーとかの情報の方が受験生にはいいかもと思うねぇ",
+    "answer": "ごめん、特定法人の主査やパートナーのパワハラみたいな質問はさすがに出せないです。",
+    "asked_at": 1782962705,
+    "answered_at": 1782971242,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "pKz0DkjgYzCBwFTf9t1P",
+    "question": "各法人の就活マイページ登録は論文前にしておくべきなんですか？",
+    "answer": "別にマイページ登録が遅かったからといって就活上の有利不利はないけど、募集が出たら忘れないうちに早めに登録した方がいいとは思う。",
+    "asked_at": 1782961273,
+    "answered_at": 1782974259,
+    "liked": false,
+    "reply_to_question_id": "ubxU8PmjOnuv9jIFbeXl"
+  },
+  {
+    "id": "6V4L0occsVB5jE1gWbxf",
+    "question": "負けるな訳アリ！難癖つけてくるノイジーマイノリティの言うこと聞いてたらキリないで！そもそもボーナスの話くらいしか法人で差がつくような話あらへんがな",
+    "answer": "ごめんな。あまりにも俺の存在が法人にとって迷惑なら、突如としてアカウントを消そうとは思う。監査法人業界に迷惑はかけたくない。俺の今までの発信はインドさんがまとめてくれた。それだけでも俺が存在した意義はあったと思っている。",
+    "asked_at": 1782960428,
+    "answered_at": 1782974413,
+    "liked": false,
+    "reply_to_question_id": "BvepsiGNUsK1cVIVLUxL"
+  },
+  {
     "id": "Mo9OEdV5pS4Qg1pqdWJu",
     "question": "好きなようにやってくれ。応援してる。",
     "answer": "ありがとよ！",
