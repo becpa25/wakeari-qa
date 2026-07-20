@@ -1,5 +1,581 @@
 [
   {
+    "id": "05awF7VPtBJgZm40SSdB",
+    "question": "12月短答合格で、模試①も②もE判定だったけど、本試験は上から2/3くらいだった\nA判定の人は流石にほぼ受かりそうだけど、Eでも気合いと運でなんとかなりそう",
+    "answer": "模試がEでもなんでも、気合いと運で受かります。",
+    "asked_at": 1784477929,
+    "answered_at": 1784478243,
+    "liked": false,
+    "reply_to_question_id": "LTjuYUqefRWTZfmgc53s"
+  },
+  {
+    "id": "b7cqC3oAaka7WHTaW41q",
+    "question": "わいの質問からなんか燃えてて笑った\n",
+    "answer": "話はそれにそれて、元の質問の原型が留まってないのおもろいよな。",
+    "asked_at": 1784476906,
+    "answered_at": 1784477081,
+    "liked": false,
+    "reply_to_question_id": "0wFIw5dh5S3TVFwLVQXk"
+  },
+  {
+    "id": "0KYY6AKRpc6zihSrk83j",
+    "question": "確かに関西の事務所は高い割合でいじられそう。東京事務所はドライで良くも悪くも個人主義。\n",
+    "answer": "俺は東京でゴリゴリに新人イジってたな。",
+    "asked_at": 1784476728,
+    "answered_at": 1784477284,
+    "liked": false,
+    "reply_to_question_id": "TXxpY3aJc9akZfmFhhqu"
+  },
+  {
+    "id": "NvCMyUjsEgfbkwcU1maz",
+    "question": "結局みんな出来なさすぎて、配点振られないんじゃね？！\n蓋を開けたら、平均点75点！みたいな！！😁\nこと…ない…でしょうか…？？",
+    "answer": "絶対評価なので、ないなあ。",
+    "asked_at": 1784476650,
+    "answered_at": 1784477103,
+    "liked": false,
+    "reply_to_question_id": "VBnfiIps6KJOerd3dx0r"
+  },
+  {
+    "id": "Ik7aToQFO8eBr5EshCnO",
+    "question": "管楽器できそうなイメージ。",
+    "answer": "そんな育ち良さそうに見えるか？",
+    "asked_at": 1784476639,
+    "answered_at": 1784476856,
+    "liked": false,
+    "reply_to_question_id": "KGq7p3u28P757QfYgbjr"
+  },
+  {
+    "id": "2ZgLAtZfZFmw4P293A6J",
+    "question": "確かに消費は課税事業者選択とか簡易課税とか届出漏れで賠償くらうパターン多いからな。計算で賠償くらうってあんまないかも。",
+    "answer": "システムが盤石なので、大枠さえ押さえとけばなんとかなるのが消費実務。とかいつつ俺は消費実務やったことないが。",
+    "asked_at": 1784476605,
+    "answered_at": 1784477258,
+    "liked": false,
+    "reply_to_question_id": "CzZ6kwIetWwAI01pX3gQ"
+  },
+  {
+    "id": "xmumOQTTndrPoGL7ew5C",
+    "question": "中小企業診断士とUSCPA両方持ってるJ1入ってきたけど資格取りすぎや。そんなに資格要らんと思うけどどう思う？",
+    "answer": "英語できるならUSは使えそう。にしても資格コレクター感強いな。",
+    "asked_at": 1784476475,
+    "answered_at": 1784477165,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "TXxpY3aJc9akZfmFhhqu",
+    "question": "社会人経験があろうがJ1はJ1や。\n郷に入らば郷に従えでシニアには絶対服従や。過去に社会人経験あるJ1もロックオンされてたで。気い付けや。",
+    "answer": "めちくちゃ関西弁ですね。",
+    "asked_at": 1784476382,
+    "answered_at": 1784476425,
+    "liked": false,
+    "reply_to_question_id": "evoXSyONnQlfivkV7mMk"
+  },
+  {
+    "id": "0wFIw5dh5S3TVFwLVQXk",
+    "question": "東京の無能ではなく、あなたが無能だと言われているのではないでしょうか？",
+    "answer": "打つ者は打たれる覚悟がある者であってほしい。",
+    "asked_at": 1784474508,
+    "answered_at": 1784476624,
+    "liked": false,
+    "reply_to_question_id": "kmHj576kZvTnSdQJmYhr"
+  },
+  {
+    "id": "Bv7PHaYhh4RZhXf7WutI",
+    "question": "模試では総合41、足3本失いましたが、本番54でした\n信じるものは救われます",
+    "answer": "諦めない心",
+    "asked_at": 1784474290,
+    "answered_at": 1784476438,
+    "liked": false,
+    "reply_to_question_id": "bYvYr3Pssp6Avuyr1zKC"
+  },
+  {
+    "id": "6IG6mgm7wXdNflDA7JJe",
+    "question": "わーいは48だったけど53だったー\nあんま伸びてないけど母集団踏まえるとこれくらいが一般的な伸びやで　\nもっと頑張ればこの投稿主みたいになれるかも\nがんばるんやで\nわーいはシコってくる",
+    "answer": "いい夜を",
+    "asked_at": 1784472817,
+    "answered_at": 1784472950,
+    "liked": false,
+    "reply_to_question_id": "bYvYr3Pssp6Avuyr1zKC"
+  },
+  {
+    "id": "asIIh2vd5l7VdBmP0sYy",
+    "question": "風呂ネキです！3日目最後まで頑張ってください！！ここで折れないでくださいね！！",
+    "answer": "風呂ネキ、超お疲れのところありがとう！",
+    "asked_at": 1784471923,
+    "answered_at": 1784471958,
+    "liked": false,
+    "reply_to_question_id": "g8PQWT2JwC5NytdHfOvD"
+  },
+  {
+    "id": "xTMaTPmLpkQJV5mdnAH3",
+    "question": "本当にブチギレてたら、そのポストすらできないのでダウトー",
+    "answer": "鋭い",
+    "asked_at": 1784470944,
+    "answered_at": 1784471109,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "evoXSyONnQlfivkV7mMk",
+    "question": "どこまで高級かだけど、記事が違うし体型のフィット感がちがうからわかる\n\nてか、そんなシニアいんのか\n偏見だけど仕事できなそう",
+    "answer": "割と若手J1に対するあるあるだと思う。それを上手く乗りこなして人気者になるJ1もいます。",
+    "asked_at": 1784470535,
+    "answered_at": 1784471096,
+    "liked": false,
+    "reply_to_question_id": "LG3I1pTkj1pWdMlOb1g1"
+  },
+  {
+    "id": "LG3I1pTkj1pWdMlOb1g1",
+    "question": "高級スーツって見て分かるもんなの？ワイ全然そうゆうの知らない。自分から言うの？",
+    "answer": "自分からは言わないな。俺はブランド品に疎いから全くわからんけど、詳しい人はすぐわかるんだと思う。",
+    "asked_at": 1784469586,
+    "answered_at": 1784470078,
+    "liked": false,
+    "reply_to_question_id": "qqF2KaXIhyrPEDfcVtbV"
+  },
+  {
+    "id": "VBnfiIps6KJOerd3dx0r",
+    "question": "同じく税理士法人勤めですが、各種所得控除の額なんてシステム頼りです\n最近複雑になりすぎて暗記なんてできないし、システムに頼らないとやっていけないのに暗記かつ計算させられるのは意味わかんなかったです",
+    "answer": "そらそうよな。税理士法人勤務だからといった考査強いわけではないのよ。",
+    "asked_at": 1784469439,
+    "answered_at": 1784469925,
+    "liked": false,
+    "reply_to_question_id": "fLfI7igciycFhAVWRV0z"
+  },
+  {
+    "id": "g8PQWT2JwC5NytdHfOvD",
+    "question": "フロネキさん、ホントに苦しい。模試最終日に向けてエールをお願いします！",
+    "answer": "風呂ネキは税務考査でお疲れなので、今日メッセージ来るかはわかりません。",
+    "asked_at": 1784469385,
+    "answered_at": 1784469424,
+    "liked": false,
+    "reply_to_question_id": "7qHounxRnZM9zOM4M1Dt"
+  },
+  {
+    "id": "9E9IlrbaDw7ujBNk2ksP",
+    "question": "訳ありさんはCPAでの講師やらないんですか？\nマナー講師",
+    "answer": "いや、担当科目持たせてくれや。",
+    "asked_at": 1784469362,
+    "answered_at": 1784469390,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "kmHj576kZvTnSdQJmYhr",
+    "question": "やっぱり大阪の方って仕事できて東京の無能とは違うんですね！\n勉強になります！！",
+    "answer": "人生は常に勉強です。",
+    "asked_at": 1784469228,
+    "answered_at": 1784469877,
+    "liked": false,
+    "reply_to_question_id": "nlUkeRLxvSW2CqVXr0qR"
+  },
+  {
+    "id": "yC6PTtrb8yQrStUCmeTo",
+    "question": "前職で休職期間がある場合、いうべきですか？",
+    "answer": "休職して一年経過してる？前職ある場合は入社時に源泉徴収を提出するから、そこを突かれたらバレる。一年経過後ならバレないと思う。間違ってたらごめん。",
+    "asked_at": 1784469152,
+    "answered_at": 1784470040,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "qqF2KaXIhyrPEDfcVtbV",
+    "question": "大手の事業会社からせっかく転職してきたのに社会人経験乏しいシニアから高級スーツごときで弄られたら発狂しそう\n年功序列が染み付きすぎなのかもしれないけれど",
+    "answer": "いや、それはさすがに話が変わってくるな。社会人経験あって年齢も30手前の人が高級スーツやブランド身につけるのは自然なことだと思う。さすがのワイもイジれないというか、大人やな、という感想になる。",
+    "asked_at": 1784468780,
+    "answered_at": 1784469302,
+    "liked": false,
+    "reply_to_question_id": "rQM0QByxPlGAiAWYl2lN"
+  },
+  {
+    "id": "EVhxauAjRprbiZv4Gmqb",
+    "question": "一応CPAは１回2回の模試の判定と合格率表出してるからそれが一番正しいんじゃないかな",
+    "answer": "さすがCPA",
+    "asked_at": 1784468531,
+    "answered_at": 1784469159,
+    "liked": false,
+    "reply_to_question_id": "LTjuYUqefRWTZfmgc53s"
+  },
+  {
+    "id": "bYvYr3Pssp6Avuyr1zKC",
+    "question": "58生です。7月の模試の偏差値46であきらめかけてましたが、本番は偏差値56で合格しました。58のことしか分かりませんが、いくらでも偏差値伸ばせます！(あまり緊張せず気負いせずに本試験に臨めたことがよかったのかもしれません)",
+    "answer": "58勢の方に希望溢れるコメントきています！ご参考ください。",
+    "asked_at": 1784468099,
+    "answered_at": 1784469147,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "fLfI7igciycFhAVWRV0z",
+    "question": "税理士法人の者ですが、今回の税務考査はちんぷんかんぷんでしたよ。",
+    "answer": "税理士法人勤めでも、実務でやってない範囲出るとそりゃ解けないよな。",
+    "asked_at": 1784468054,
+    "answered_at": 1784469117,
+    "liked": false,
+    "reply_to_question_id": "PKONQ6iTEvutHX42vPa4"
+  },
+  {
+    "id": "3qJKHH8RuZrT733SDNFT",
+    "question": "答えみたらそんなに見難しくないと思うんだけど、\n問題文に疑義がありすぎて、ちゃんと知識ある人は迷う問題だったと思う",
+    "answer": "なるほど。",
+    "asked_at": 1784468005,
+    "answered_at": 1784469076,
+    "liked": false,
+    "reply_to_question_id": "hruevWor5loQSUQeb9DL"
+  },
+  {
+    "id": "nlUkeRLxvSW2CqVXr0qR",
+    "question": "公認された時点で即転職すりゃいいだろそもそもいくら前よか人手不足でないにしてもスタッフ滞留なんて無能がなるもんやしな。奴隷じゃないんだから有給使って即退職もいつでもできるんだし頭使って合理的にやらないと。仲良しこよしじゃなくてビジネスやねん。",
+    "answer": "めちゃめちゃ関西弁ですね。",
+    "asked_at": 1784467989,
+    "answered_at": 1784468774,
+    "liked": false,
+    "reply_to_question_id": "3JoIe813AS0QrTaFjFXv"
+  },
+  {
+    "id": "vpSsYBQZlcCylsarD4eM",
+    "question": "同期含めて残業祭りで勉強時間あんまり取れてない人多かったけどみんな勉強できてたんやな",
+    "answer": "比較的暇な6月下旬からコツコツと仕込んでる人からすると、割と点は取れたのかもしれないな。",
+    "asked_at": 1784467833,
+    "answered_at": 1784469067,
+    "liked": false,
+    "reply_to_question_id": "qHakNwKgti6qlWJIIsrj"
+  },
+  {
+    "id": "hruevWor5loQSUQeb9DL",
+    "question": "今日の税務割と手応えあるニキやけど、この質問主みたいな正論を真っ向からぶつけるタイプは仕事で苦労しそう\n正論じゃ人は動かんのよ",
+    "answer": "往年の溝口勇児を思い出す",
+    "asked_at": 1784467550,
+    "answered_at": 1784467640,
+    "liked": false,
+    "reply_to_question_id": "qHakNwKgti6qlWJIIsrj"
+  },
+  {
+    "id": "wQixZ3tDKRWVrgaVdSgf",
+    "question": "ほなFランくらいやな〜",
+    "answer": "高学歴受験生に失礼ですよ",
+    "asked_at": 1784467500,
+    "answered_at": 1784467530,
+    "liked": false,
+    "reply_to_question_id": "6gs86Viq4JyAX2Rz9qmD"
+  },
+  {
+    "id": "touCJwSITa8Y0mqjXxOQ",
+    "question": "去年の消費税は取引の分類が既にされてたから、だいぶ解きやすかった\n今回は分類からスタートだったから時間も足りないし、論点もかなり際どいとこ攻められて厳しいものがあったっす…()",
+    "answer": "補習所も簡単に単位取らせてくれないからな",
+    "asked_at": 1784467438,
+    "answered_at": 1784467556,
+    "liked": false,
+    "reply_to_question_id": "dxmEeCjN4xKoLR22dROz"
+  },
+  {
+    "id": "SxRLIZfrPrEJW2GkMiTz",
+    "question": "立ちションする奴もどうかと思うけど、立ちション如きとかいう奴も社会人としてもレベル低いぞと共有ください",
+    "answer": "俺は反省しているので、共有します。反面教師にしてください。",
+    "asked_at": 1784467372,
+    "answered_at": 1784467417,
+    "liked": false,
+    "reply_to_question_id": "QqCc6VNESVVzgJpIMWYq"
+  },
+  {
+    "id": "qHakNwKgti6qlWJIIsrj",
+    "question": "自分は税務考査①このレベルごときでギャーギャー騒いでるのがよく分からない。\n消費税の計算解けなくても消費理論は簡単だったし、所得は過去問と同じだったし。相続税にしても過去問見た感じ絶対攻めるべき税目だったから、課税価格の合計額の計算で控除できるもの、できないものはある程度暗記していくのが普通だと思ってたから、みんながこんなに税理士費用の引っかけで引っかかってるのはびっくりしてる。何ヶ月も前から今日この日に試験があることはわかってたし、難しいって噂がたってたなら早めから勉強すればよかっただけだし、問題のせいにすんなよって思う。",
+    "answer": "激アツな意見きてます。ご一読ください。",
+    "asked_at": 1784467122,
+    "answered_at": 1784467275,
+    "liked": false,
+    "reply_to_question_id": "dxmEeCjN4xKoLR22dROz"
+  },
+  {
+    "id": "kFuUADhSZemXRv2Yu2zG",
+    "question": "人手不足だから関西でばかり会計不正起きてるんでしょ\nニデックエアウォーターKDDI全部関西じゃん\nさぞかし立派な監査人なんでしょうね",
+    "answer": "関西勢の反論をお待ちしています。",
+    "asked_at": 1784466870,
+    "answered_at": 1784466989,
+    "liked": false,
+    "reply_to_question_id": "3JoIe813AS0QrTaFjFXv"
+  },
+  {
+    "id": "8j3o8np0Kk6bqbVkkbSH",
+    "question": "一昨年はTAC模試で55だったけどギリギリ落ちたので、最後まで油断せず続けることが大事だと思ってます\n模試2の後でも捲られます",
+    "answer": "続々とコメントきています！ご参考にしてください！",
+    "asked_at": 1784466753,
+    "answered_at": 1784466817,
+    "liked": false,
+    "reply_to_question_id": "LTjuYUqefRWTZfmgc53s"
+  },
+  {
+    "id": "MeIOTGMhqtxtR5GBv7Gr",
+    "question": "今までが緩すぎただけやと思うけどな\n仕事しながらとか関係ないしね\nなおわい追試",
+    "answer": "追試頑張れ",
+    "asked_at": 1784466625,
+    "answered_at": 1784466737,
+    "liked": false,
+    "reply_to_question_id": "DmRKeMUqgC1JZ4nj4GvG"
+  },
+  {
+    "id": "lYLEDCwhsFPS9a65qJqA",
+    "question": "女性も弄られます⁉️",
+    "answer": "仲良くなったら直接イジるけど、あんまり仲良くなかったら裏でイジられるかも、、笑",
+    "asked_at": 1784466611,
+    "answered_at": 1784466727,
+    "liked": false,
+    "reply_to_question_id": "rQM0QByxPlGAiAWYl2lN"
+  },
+  {
+    "id": "7qHounxRnZM9zOM4M1Dt",
+    "question": "まだ模試受けただけでしょうが\n案外みんなできてないから52ならなんとか頑張れば届く",
+    "answer": "まだ時間あるので、これからが本番ですよ。",
+    "asked_at": 1784466562,
+    "answered_at": 1784466694,
+    "liked": false,
+    "reply_to_question_id": "8bJi6kuoQ966PNwhfXTZ"
+  },
+  {
+    "id": "dD7j4UChg4QX5MR9iHSC",
+    "question": "J1の者です。\n模試②の偏差値56くらいで、本番は模試のように実力発揮できなくて落ちたと思ってましたが、受かってました！",
+    "answer": "コメントありがとう！",
+    "asked_at": 1784466450,
+    "answered_at": 1784466600,
+    "liked": false,
+    "reply_to_question_id": "LTjuYUqefRWTZfmgc53s"
+  },
+  {
+    "id": "1Eix1KRVyDme717vUawq",
+    "question": "模試は本番一致度よりも\n網羅性のために出してない論点から出してくるからそんなに相関性ないかも\n1回からの模試の分析したら出る論点結構予測できる",
+    "answer": "回答きてます！コメントありがとうございます！",
+    "asked_at": 1784466412,
+    "answered_at": 1784466585,
+    "liked": false,
+    "reply_to_question_id": "LTjuYUqefRWTZfmgc53s"
+  },
+  {
+    "id": "6gs86Viq4JyAX2Rz9qmD",
+    "question": "論文生の偏差値52って大学受験で言うと偏差値どれくらいになるんだろ",
+    "answer": "これは永遠に議論される話題だけど、俺は早慶ぐらいじゃねと思ってる。俺Fランだけど。",
+    "asked_at": 1784466364,
+    "answered_at": 1784466553,
+    "liked": false,
+    "reply_to_question_id": "8bJi6kuoQ966PNwhfXTZ"
+  },
+  {
+    "id": "3JoIe813AS0QrTaFjFXv",
+    "question": "大阪の方って人手不足なんですね。スタッフ滞留ご存知ないのめっちゃ羨ましいです。\nみんな大阪へ急げ！！",
+    "answer": "いい皮肉効いてますね笑",
+    "asked_at": 1784465954,
+    "answered_at": 1784466503,
+    "liked": false,
+    "reply_to_question_id": "8XG0nNY7drny3RSPUSA0"
+  },
+  {
+    "id": "gV9KuFYXgo2v4jonptX4",
+    "question": "訳アリジュニアが爆誕したら空手みたいな習い事やらせたいですか？",
+    "answer": "訳アリジュニアか、俺はジュニアが興味を持ったことはやらせてあげたいと思う。逆に言うとやりたくないことはやらせない、親の強制的な習い事はさせない。ただ、物心付くまでに情報は与えてあげないとジュニアの選択肢も広がらないので、iPadは買ってあげたいと思う。",
+    "asked_at": 1784465208,
+    "answered_at": 1784465924,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "8XG0nNY7drny3RSPUSA0",
+    "question": "生殺与奪の権なんか握られてへんやろ。資格あれば転職も容易なうえシニアまで評価なんて変わらんのに何訳分からんこと抜かしとんねんお前が腰抜けビビりなだけやろw",
+    "answer": "めちゃくちゃ関西弁ですね。",
+    "asked_at": 1784465115,
+    "answered_at": 1784465153,
+    "liked": false,
+    "reply_to_question_id": "phM5F7Ztf3ob85A55YJ6"
+  },
+  {
+    "id": "LTjuYUqefRWTZfmgc53s",
+    "question": "模試②の成績と本試験の合格可能性の感覚はどんな感じっすか？",
+    "answer": "これは古い人間の俺よりも、フォロワーのJ1の方々に聞いた方がいいと思う。J1の皆さん、模試②の成績とと論文本試験の合格可能性についてコメントできますか。",
+    "asked_at": 1784465028,
+    "answered_at": 1784465517,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "8bJi6kuoQ966PNwhfXTZ",
+    "question": "論文って偏差値52で受かるのになんでこんなむずいんですか",
+    "answer": "周りのレベルが高すぎるからです。",
+    "asked_at": 1784463792,
+    "answered_at": 1784464521,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "G8blMbm45iTAVq7YO955",
+    "question": "アサイン外対応とかサビ残問題みたいに「ルール的には駄目だけど事実上みんなやってる事」が多過ぎるんだよ監査法人",
+    "answer": "これは監査法人に限らず、社会全体に言えることでもあると思う。",
+    "asked_at": 1784463734,
+    "answered_at": 1784465444,
+    "liked": false,
+    "reply_to_question_id": "yOhOQ9uwrckNry7wvX4Z"
+  },
+  {
+    "id": "dxmEeCjN4xKoLR22dROz",
+    "question": "今年の消費税はまるで論文試験みたいな感じでした＼(^o^)／ｵﾜﾀ",
+    "answer": "そのｵﾜﾀ久々見たな",
+    "asked_at": 1784463592,
+    "answered_at": 1784463634,
+    "liked": false,
+    "reply_to_question_id": "lF7waYKu1yIpEFhyz7qW"
+  },
+  {
+    "id": "CzZ6kwIetWwAI01pX3gQ",
+    "question": "まぁ、実務で消費税なんて手計算しないからミスらないけどね\n税理士費用はわかるけど",
+    "answer": "消費はたしかにそう。",
+    "asked_at": 1784463435,
+    "answered_at": 1784464507,
+    "liked": false,
+    "reply_to_question_id": "PKONQ6iTEvutHX42vPa4"
+  },
+  {
+    "id": "lF7waYKu1yIpEFhyz7qW",
+    "question": "去年辺りから出題形式変えてきたのよ\nそれまではほぼ同じような感じだった",
+    "answer": "マジか。それは補習所が悪い。",
+    "asked_at": 1784463306,
+    "answered_at": 1784463381,
+    "liked": false,
+    "reply_to_question_id": "DmRKeMUqgC1JZ4nj4GvG"
+  },
+  {
+    "id": "6RrXkMFlweZxhPHcvPYw",
+    "question": "前の質問者様とは別の者ですが、一応総合合格狙いで本番受けて手応えが惨敗だったような人の場合、万が一合格できた時に備えて自信あるフリして就活した方がいいんですよね？",
+    "answer": "J1の頃からリクルーターを齧ってたワイの個人的見解だが、論文自信ないアピールは絶対やめた方がいい。そのアピールするメリットは一つもない。フリでもいいから受かってそうな雰囲気は出しておくのが無難。",
+    "asked_at": 1784463220,
+    "answered_at": 1784463357,
+    "liked": false,
+    "reply_to_question_id": "qCxJJcZSIusNQklzHk1X"
+  },
+  {
+    "id": "aoOWijXqcWpppNSkVZNj",
+    "question": "よくわからん成金食べ物食べてる人には嫉妬しないけど遊びたい放題やりたい放題の人には嫉妬してる",
+    "answer": "わかる。",
+    "asked_at": 1784462803,
+    "answered_at": 1784462858,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "rQM0QByxPlGAiAWYl2lN",
+    "question": "たまに特定のJ1ロックオンしていじめるシニア集団とかは見かけるから要注意やで。高級スーツとか財布持ってたらロックオンされる。",
+    "answer": "いじめというか、高級品持ち歩いてるJ1をイジる構図ならよく見たことあるし、俺も結構ちょっかいかけてた笑",
+    "asked_at": 1784457202,
+    "answered_at": 1784462840,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "KGq7p3u28P757QfYgbjr",
+    "question": "なんか楽器できる？？",
+    "answer": "エレクトーンを少々。",
+    "asked_at": 1784457119,
+    "answered_at": 1784462793,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "qCxJJcZSIusNQklzHk1X",
+    "question": "論文模試の成績が振るわないため、今年は科目免除に本格的に絞ろうと思っています。この場合でも就活しておくべきでしょうか。",
+    "answer": "本当に科目合格狙いでいいのかという議論を置いておくと、今年は就活しなくていいと思う。仮にしたとしても今年受かる見込みゼロならリクルーターはあんまり相手にしてくれないと思う。",
+    "asked_at": 1784457101,
+    "answered_at": 1784462782,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "PKONQ6iTEvutHX42vPa4",
+    "question": "まあ税務で独立して計算ミスったら賠償だし今のうちに鍛えとけっていう補習所の愛情って捉えれば、、",
+    "answer": "めっちゃポジティブ！いい考え方だと思います！",
+    "asked_at": 1784457084,
+    "answered_at": 1784462667,
+    "liked": false,
+    "reply_to_question_id": "MK6bCxMWtS6v1JmBsBVE"
+  },
+  {
+    "id": "DmRKeMUqgC1JZ4nj4GvG",
+    "question": "一回の考査で膨大な範囲の税法を3税目も出題することを鑑みると、出題形式はある程度一定にしてほしい。多くの受験者が働きながら考査対策をするから効率性重視で過去問ベースの勉強をすることくらい作問者も分かるでしょうに。",
+    "answer": "出題形式自体はある程度過去問と同じだったような気がするんだが。細かすぎること聞かれて手に負えないっていう話ならわかるけど。",
+    "asked_at": 1784453029,
+    "answered_at": 1784462649,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "Ygx5yRDIMsyzrAFXYP5j",
+    "question": "税務考査1の追試が確実なものです。追試経験者の方にお伺いしたいのですが、追試の難易度は本試験と比べてどんな感じでしたか？",
+    "answer": "税務考査の追試が確実な者、結構いそうだよな。俺は補習所に重課金して追試受けまくってたけど、本試験の方が難しい回もあるし、追試の方が難しい回もあった。難易度は作問者に依存するため、ぶっちゃけわからんという感想なので、追試受けるにしても必死こいて勉強する必要がある。",
+    "asked_at": 1784452821,
+    "answered_at": 1784461955,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "MK6bCxMWtS6v1JmBsBVE",
+    "question": "アンケート見た感じ6割以上が税理士費用ミスって相続税壊滅してそうですね。消費税の計算も激ムズだったので60点以上取れてる人は3割もいないのでは？これが噂の補習所ビジネスですか…本当にひどい。",
+    "answer": "天才的なビジネスモデルだよな。",
+    "asked_at": 1784451921,
+    "answered_at": 1784452003,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "9ZU7IH49tZ0qxXcxiCV9",
+    "question": "税務考査②のアンケートもお願いすることはできるか",
+    "answer": "どんなアンケートや",
+    "asked_at": 1784442887,
+    "answered_at": 1784443060,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "svXXctJ0wRA420oOkQLG",
+    "question": "別の者だが原点にあたるやつとあたらないやつで後に差が出ると思う",
+    "answer": "これはマジでそう。",
+    "asked_at": 1784436119,
+    "answered_at": 1784461347,
+    "liked": false,
+    "reply_to_question_id": "CbohATS6NZXhKOGdIkpR"
+  },
+  {
+    "id": "phM5F7Ztf3ob85A55YJ6",
+    "question": "生殺与奪の権を握られてる相手に強気に出れるわけないじゃん。\n上司は後出しジャンケンでどうとでも評価できるのになんで言えると思ってんの？まともな大人以外も沢山いるんだよ？\n",
+    "answer": "研修あるので対応できません！ぐらいは言っていいと思うぞ。その他のわがままみたいなものは言い方に気をつけながら自分の主張を通すみたいな世渡りスキルは大事だけど、まあJ1のうちは上司にはあまり逆らわない方がいいかもね。",
+    "asked_at": 1784433957,
+    "answered_at": 1784434215,
+    "liked": false,
+    "reply_to_question_id": "yOhOQ9uwrckNry7wvX4Z"
+  },
+  {
+    "id": "aqkUz7Lm8pTVjU1xTjBg",
+    "question": "質問多くて挫折した（これは言っていいやつだよね？）昼休憩中にでもいけるだろうと思った自分がばかでした(  '-' )",
+    "answer": "そんな質問多いんや、、、\nまとまった時間ある時やろう！",
+    "asked_at": 1784433381,
+    "answered_at": 1784433425,
+    "liked": false,
+    "reply_to_question_id": "kLyWJ4kZVXnwHzJvnGwC"
+  },
+  {
+    "id": "05O3LvzysbFXW4b8YOWM",
+    "question": "税務考査1ですが相続税は過去問になかった税理士費用の引っかけにはまり、消費税は論文式試験並みの計算量・難易度になって60点からは程遠い点数になりそうです。補習所は絶対に税務考査の追試代で稼ごうとしてますよね…",
+    "answer": "みんな相続税で苦労したみたいやね。とりあえず、税務考査お疲れ！",
+    "asked_at": 1784433113,
+    "answered_at": 1784433330,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "95GpGWsnw2AlFG2UC9Ok",
+    "question": "税務考査でアンケートお願いします。相続税の課税価格の算定で税理士費用未払金を債務として引いてしまい、相続税爆死です。皆さん引っ掛からなかったのか知りたいです。\nQ.相続税の課税価格の計算で、税理士費用の未払を引かずに解けた？\n1.解けた（税理士費用引かなかった）\n2.解けなかった（税理士費用引いた）",
+    "answer": "OK\n税務考査の相続税のアンケート取ります。",
+    "asked_at": 1784432616,
+    "answered_at": 1784433188,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
     "id": "kLyWJ4kZVXnwHzJvnGwC",
     "question": "2026の監査法人の就活のマイページ登録って、本試験前にやっておいてもいいんですか？",
     "answer": "本試験前でもいいと思います。忘れないうちにやっておこう。",
