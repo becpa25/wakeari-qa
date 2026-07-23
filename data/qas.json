@@ -1,5 +1,212 @@
 [
   {
+    "id": "hfc6wtP29atSPDQvNJTt",
+    "question": "新天地？でのご活躍お祈り申し上げます！！",
+    "answer": "ありがとう！頑張るよ！",
+    "asked_at": 1784775571,
+    "answered_at": 1784776353,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "VA9I0JVAX6r5F6R4oqem",
+    "question": "トムクルーズの写真で訳アリさんどれ？前2人は女の子？",
+    "answer": "右の後ろが俺。左の2人は女の子。",
+    "asked_at": 1784774794,
+    "answered_at": 1784774822,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "dUYZykyT8DJVsqUNUR5N",
+    "question": "涼しい場所なら行く",
+    "answer": "東京よりは涼しいぞ。冬は寒すぎるから覚悟してね。",
+    "asked_at": 1784773777,
+    "answered_at": 1784773828,
+    "liked": false,
+    "reply_to_question_id": "oITmi67Tv8W10HwD3Gs9"
+  },
+  {
+    "id": "mgsnBxjv7XjnC7Ylz4zE",
+    "question": "もう引越し！早いね",
+    "answer": "よくDMしてるツイッタラーに会えず東京を離れることをお詫びしたい。",
+    "asked_at": 1784773485,
+    "answered_at": 1784774502,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "d18JjszHo3O1h0GhIIAj",
+    "question": "かなしっく。いつ帰ってくるの🙄",
+    "answer": "東京にはもう戻らんかもなあ。出張で東京行くことはあるかもだけど、、、",
+    "asked_at": 1784772430,
+    "answered_at": 1784772484,
+    "liked": false,
+    "reply_to_question_id": "Y6C9ypvxocivF8PwTx6n"
+  },
+  {
+    "id": "oITmi67Tv8W10HwD3Gs9",
+    "question": "結婚するなら私も一緒に行くパターンですか？",
+    "answer": "ついてくる？",
+    "asked_at": 1784771703,
+    "answered_at": 1784772492,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "Y6C9ypvxocivF8PwTx6n",
+    "question": "え、海外に行くんですか？\n近いうちにスペースしてください。訳ありさんには就活の期間からお世話になったので、餞の言葉を述べさせてください。",
+    "answer": "いや、海外は冗談笑\n国内だよ。",
+    "asked_at": 1784738868,
+    "answered_at": 1784771059,
+    "liked": false,
+    "reply_to_question_id": "051foj0LWH18qPMP3D7C"
+  },
+  {
+    "id": "iCefSpTpoWviQdkSyRtB",
+    "question": "同期と結婚かいいなー",
+    "answer": "でへへ",
+    "asked_at": 1784734820,
+    "answered_at": 1784734836,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "YTQz3pDnzOxKmQvfexey",
+    "question": "まじ？",
+    "answer": "マジ",
+    "asked_at": 1784730430,
+    "answered_at": 1784730787,
+    "liked": false,
+    "reply_to_question_id": "0zGqywEAhT6zhU02w1ah"
+  },
+  {
+    "id": "051foj0LWH18qPMP3D7C",
+    "question": "訳アリさんついに海外進出ですか！\n海の向こうから応援しています！",
+    "answer": "ありがとう！",
+    "asked_at": 1784730270,
+    "answered_at": 1784730800,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "0zGqywEAhT6zhU02w1ah",
+    "question": "毎日飲み会なのなんで？",
+    "answer": "俺が東京からいなくなるからです。",
+    "asked_at": 1784715393,
+    "answered_at": 1784730201,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "k6ulp298N3GNliuXiWAO",
+    "question": "黄色リクルーターですが、黄色も年3回になっています。\nリクルートのパンフレットの記載も去年から3回になっていたはずです。\nとはいっても、真ん中の賞与はかなり少ない印象ありますが。。。",
+    "answer": "ありがとうございます！3回あっても4か月分ほどはもらえないんですかね、、、",
+    "asked_at": 1784708950,
+    "answered_at": 1784709056,
+    "liked": false,
+    "reply_to_question_id": "qkYgqeSuuR2V9sQpGj0b"
+  },
+  {
+    "id": "dxQy6cKUbeZMaVY4xV8X",
+    "question": "これくらい自分で調べる意欲ない人間は会計士試験受からんよ",
+    "answer": "マジでそう。",
+    "asked_at": 1784707576,
+    "answered_at": 1784707797,
+    "liked": false,
+    "reply_to_question_id": "FVMY6GogmieSItwM4Z39"
+  },
+  {
+    "id": "7KAJ6Xc9RGM7V4T8LBdZ",
+    "question": "でも夜はムッツリーニがええんやろ？",
+    "answer": "そりゃそうや。",
+    "asked_at": 1784707450,
+    "answered_at": 1784707808,
+    "liked": false,
+    "reply_to_question_id": "6cfUE55LMW02ZIdNXZtX"
+  },
+  {
+    "id": "P6ALmIBUHBHT6K3MguKy",
+    "question": "工作員さんお疲れ様です\n基本給にボーナス織り込んでるなんて聞いたことないです",
+    "answer": "ありがとうございます！正しい情報を投稿してくれると助かります！",
+    "asked_at": 1784698325,
+    "answered_at": 1784698445,
+    "liked": false,
+    "reply_to_question_id": "gx8Db1dog35FtdjaXmPc"
+  },
+  {
+    "id": "DeBYtVLkiOE1iY1c0Z73",
+    "question": "今年のリクルート見たら、黄色は賞与2回になってた。",
+    "answer": "じゃあ2回やんけ！",
+    "asked_at": 1784698212,
+    "answered_at": 1784698258,
+    "liked": false,
+    "reply_to_question_id": "W9WrKxAT94gWJ8VptWqK"
+  },
+  {
+    "id": "W9WrKxAT94gWJ8VptWqK",
+    "question": "3回はシニア以降ちゃうの？\n9月のやつでしょ\nそんで基本給にボーナス入れでるってどういうことや\n基本給他の法人と同じやぞ\nわけわからん",
+    "answer": "ごめん、俺もよくわからん。",
+    "asked_at": 1784697144,
+    "answered_at": 1784697371,
+    "liked": false,
+    "reply_to_question_id": "gx8Db1dog35FtdjaXmPc"
+  },
+  {
+    "id": "6cfUE55LMW02ZIdNXZtX",
+    "question": "下ネタ耐性の有る女と無い女だったら、男からしたらどっちがいいんでしょうか",
+    "answer": "耐性自体はあった方がいいけど、自分から下ネタをベラベラ話すのは色気を感じないので控えた方がいいと思う。個人的な理想は、男が下ネタぶっこんだ時に「やだーw」みたいに笑いながら受け流すぐらいにとどめた方が品あって好き。\n",
+    "asked_at": 1784691113,
+    "answered_at": 1784697336,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "H65OA6UwRqpNvBQ5NvgE",
+    "question": "j1です。期ズレの初年度監査アサインされて、資料があるのかないのかも分からないのに直上が常に忙しそうなMです。聞きすぎるのも悪いと思いなるべく自分で考えてから質問しに行くようにはしているのですが、自分で考えることに膨大な時間がかかり悩みを1人で抱えて残業だけが膨らむ日々です。合ってるんですかこれ",
+    "answer": "俺もJ1の頃は初年度監査のメインメンバーだったことあるけど、あの時期が一番勉強になったと思っている。長期的に見たらその環境で悩みながら仕事できるのはラッキーだと思う。ただ、俺はわからないことや手続どうすればいいかなどを聞ける上司がいたからなんとかやり切れたけど、気軽に聞ける上司がいなかったら結構地獄だと思う。J1でいきなり初年度監査はかなりハードル高いし、周りもそれを理解してると思うので、俺はガンガン聞いていいと思う。手続不足になって後から問題になる方がチームにとってマイナスなので。",
+    "asked_at": 1784683373,
+    "answered_at": 1784696673,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "gx8Db1dog35FtdjaXmPc",
+    "question": "黄色も3-4回出るんだがなあ…。\nちゃんと年で100万出たよ。\nしかも基本給にボーナスを少し混ぜてるから、残業するとかなり上がるんだけどね。\nリクルートイベントにも参加してないけど、スタッフ職階でも100万は出ました。\n評価の得方を間違っているように見えます。",
+    "answer": "黄色も3回ぐらい出るのか。じゃあ他の法人と大して変わらなくね。",
+    "asked_at": 1784682961,
+    "answered_at": 1784696452,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "3aBf2fVbFqeKrQuXNpQg",
+    "question": "東カレ入れたら美女多すぎてびびった\nまあドブスの準会員ごときじゃまっちしないだろうけど",
+    "answer": "俺も新人時代は友達に紹介してもらって東カレやってたことあるけど、マジでモデルかよみたいな女性ゴロゴロいるよな。俺は当時22歳とかで、顔面もルックスも弱者男性だったので誰にも相手されなかったという苦い思い出がある。",
+    "asked_at": 1784677516,
+    "answered_at": 1784696420,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "peUn2tgYfHQ81CRpwthW",
+    "question": "やはり答案にチンポを書くことは大人の嗜みだよな",
+    "answer": "これ本試験でやったら伝説になる。",
+    "asked_at": 1784677433,
+    "answered_at": 1784696306,
+    "liked": false,
+    "reply_to_question_id": "8APRvg8y9DYMFMDWyiug"
+  },
+  {
+    "id": "ZpFB4b4pXBQapNiQIkB1",
+    "question": "移動時間ヤバそう",
+    "answer": "羽田から十勝まで飛行機で一本だし、1時間半ぐらいだから意外と時間はかからないのよ。",
+    "asked_at": 1784677323,
+    "answered_at": 1784696248,
+    "liked": false,
+    "reply_to_question_id": "6iUWxjyZ8Jkt1YgwZQ5H"
+  },
+  {
     "id": "FVMY6GogmieSItwM4Z39",
     "question": "すみません、もし可能なら黄色とか緑とかどの法人なのかヒント教えて頂きたいです。",
     "answer": "この質問めっちゃ来るんだけど、各法人のロゴを見てください。すぐわかります。",
@@ -7,6 +214,33 @@
     "answered_at": 1784684812,
     "liked": false,
     "reply_to_question_id": "40ZXkeuzcNPRdJjUvAVk"
+  },
+  {
+    "id": "0HnVC9K283UxzQs9Fd8x",
+    "question": "監査法人なんで唯一の福利厚生がリモートワークみたいなもんなんでやめるなら退職者たくさん出そうですね　実際outlookとか見てもマネとかインチャはリモートじゃないとまわらないのでは?移動時間無駄だし",
+    "answer": "リモートワーク自体はなくらないと思うけど、チームによって方針違うからなんとも言えないところはある。マネージャーぐらいまで上がって上場主任を滞りなく出来るようになれば、自分の裁量でリモートの比重を高めることもできると思う。",
+    "asked_at": 1784665655,
+    "answered_at": 1784696195,
+    "liked": false,
+    "reply_to_question_id": "3djzoPMpBee86d1P1Aah"
+  },
+  {
+    "id": "YSFnm0FahLBiIbZfo747",
+    "question": "弊法人42",
+    "answer": "どこや！",
+    "asked_at": 1784651631,
+    "answered_at": 1784696002,
+    "liked": false,
+    "reply_to_question_id": "96gFfMMdPQvCBSi6d74w"
+  },
+  {
+    "id": "GrgEUN1I83c1ANrQmxdM",
+    "question": "謙虚さ本当に大事だと思います。\n年上後輩とおなじチームで仕事してますが、そこまで年齢離れてない年上後輩は自分のこと舐めてるんだろうなーってのが何となく伝わってきますが、かなり歳離れてる年上後輩はすごい礼儀正しくて一緒に仕事してても特に嫌な感じはしてないです。",
+    "answer": "わかるよ。年下上司からすると、低姿勢な年上ってだけで人間性が成熟しているように見える。年上という肩書を逆手に取って謙虚さ出せると強みになるし、周りも働きやすくなる。",
+    "asked_at": 1784651197,
+    "answered_at": 1784695990,
+    "liked": false,
+    "reply_to_question_id": "oUkgNvNT3ibYWz7JqOGN"
   },
   {
     "id": "8APRvg8y9DYMFMDWyiug",
@@ -79,6 +313,15 @@
     "answered_at": 1784644732,
     "liked": false,
     "reply_to_question_id": "hHcTKQmGYh88h74KbR1N"
+  },
+  {
+    "id": "N9OUfbRu0iLUOfS5V2uK",
+    "question": "吾輩の質問は全然来ない\n童貞だとバレてるからか",
+    "answer": "吾輩ニキに対する質問は一件も来たことがありません。",
+    "asked_at": 1784642978,
+    "answered_at": 1784697587,
+    "liked": false,
+    "reply_to_question_id": "AjAFM28abq0qwVTXqE3I"
   },
   {
     "id": "XF7GVmQ6OV2byijrgUvy",
@@ -169,6 +412,15 @@
     "answered_at": 1784642114,
     "liked": false,
     "reply_to_question_id": "zeHnD0LWSlOpkCWnyhKa"
+  },
+  {
+    "id": "2wtDBpPQNyYvru3FXD2j",
+    "question": "部活と会計士受験やってた時が1番本気出して輝いてた。今は全てに対してそこそこのエネルギー。あの頃の俺らを取り戻したくないか？",
+    "answer": "わかる。あの頃の情熱を仕事にぶつけることができれば、イキイキ働ける気がする。",
+    "asked_at": 1784556005,
+    "answered_at": 1784697941,
+    "liked": false,
+    "reply_to_question_id": null
   },
   {
     "id": "sHHaKyBWkSIXTfAnzWOP",
