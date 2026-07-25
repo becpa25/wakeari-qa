@@ -1,5 +1,644 @@
 [
   {
+    "id": "sYRLkg8qNGGnGeyndTgf",
+    "question": "基本を学べる講座はExcelラボ(基礎編)ぐらいしか無さそうですね…\n私自身も実務でexcelを使う機会は多かったのですが、何となく使えているだけだったので、これを機にもう一度学び直すのもアリかもですね！",
+    "answer": "基礎編でいいと思います！\n今までなんとなくこなしてたExcel操作も、ラボとみは原理原則から教えてくれるからかなり定着すると思う。ちょっとお高いけど、その価値はあります！",
+    "asked_at": 1784948689,
+    "answered_at": 1784948775,
+    "liked": false,
+    "reply_to_question_id": "VWc4VewLope5SKyHfQFE"
+  },
+  {
+    "id": "x1gv4jmzjvrU7rqFbQCp",
+    "question": "監査法人アンチのワイですらそんなところ知らんぞ。\nそもそも初任給45万の企業に入れるような人は会計士試験くらい半年で受かるだろう。",
+    "answer": "初任給45万、あったとしても見込残業とんでもないことになってそう。",
+    "asked_at": 1784947870,
+    "answered_at": 1784948834,
+    "liked": false,
+    "reply_to_question_id": "WG5oYrM87OByCA75Nedp"
+  },
+  {
+    "id": "J8Z2mXukVlbWdYwFNXf8",
+    "question": "訳アリは明らかに夜職に対するイメージが一般的感覚からはかけ離れてるから参考にならんやろ笑",
+    "answer": "俺はキャバ嬢と結婚できる側の人間だからな。",
+    "asked_at": 1784946599,
+    "answered_at": 1784946977,
+    "liked": false,
+    "reply_to_question_id": "C6ms3kqyhL4ber9ppoQt"
+  },
+  {
+    "id": "VWc4VewLope5SKyHfQFE",
+    "question": "ありがとうございます！\nラボとみのExcel講義ですね！結構色々な講義がありますね。訳ありさんの仰る講義はexcel監査マクロラボのことでしょうか？",
+    "answer": "いや、マクロじゃないです！マクロスキルはあったないいなレベルなので、まずは基本を学べるものを見てほしいです。俺も今ちょっと見たけど、基本編みたいなやつ見つからなかったから、もしかしたら今やってないのかも、、、",
+    "asked_at": 1784946527,
+    "answered_at": 1784946873,
+    "liked": false,
+    "reply_to_question_id": "Q1X1XBYKMy9Li9jwGpNB"
+  },
+  {
+    "id": "IwQ0pZEQ7Oe1bYFoF41r",
+    "question": "有報に書いてあるだろ😡\n受験生ならそれくらい調べ無いと受からんぞ😡",
+    "answer": "出た、激怒ニキ。",
+    "asked_at": 1784943300,
+    "answered_at": 1784943546,
+    "liked": false,
+    "reply_to_question_id": "qkth8z4HETXqjD7WTsqg"
+  },
+  {
+    "id": "XitADIv0fYVYTidOX1tn",
+    "question": "関西人だから知らなかったんだけど、別府温泉って彼女と行く所じゃないんだね。ソープ街もあるし、歓楽温泉って感じ。",
+    "answer": "そうだな、次は男と行こうぜ。",
+    "asked_at": 1784939822,
+    "answered_at": 1784944772,
+    "liked": false,
+    "reply_to_question_id": "21AHwWBALQG4lMCW9kJV"
+  },
+  {
+    "id": "ghSwsIVRmUXEtJ4GPV7s",
+    "question": "前職の時の協力業者やってん、近くに提携してる温泉宿もあって過ごしやすかったぜ",
+    "answer": "最高だな。留辺蘂は道民の俺すら行ったことない笑",
+    "asked_at": 1784938039,
+    "answered_at": 1784944739,
+    "liked": false,
+    "reply_to_question_id": "2kmemEUHqksQUNoaQW3z"
+  },
+  {
+    "id": "CBZhSpXOAI63F43LbzpK",
+    "question": "論文生です。合格発表までにMOSを勉強しようと思ってます。正直、MOSって必要ですか？それか、「必要」とはいわなくても「あったらよい」という感じなのか、「あった方がよい」なのか…うーん。どうなんでしょうか。",
+    "answer": "これ前も話題になったけど、就活上のMOSは全く意味をなさない、むしろ恥ずかしくて言わない方がマシとか言われていたな。ただ、単純にExcelの基本動作は学べるので、勉強教材としてはいいと思うよ。",
+    "asked_at": 1784933221,
+    "answered_at": 1784944682,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "hgWfdY9wBw11hl2AOydo",
+    "question": "「ぶんて」派ですが、分析的手続か分析的実証手続か分からなくなるので「ぶんじつ」もありかなと思いました。",
+    "answer": "ぶんじつ、初めて聞いたので慣れないww",
+    "asked_at": 1784929604,
+    "answered_at": 1784944556,
+    "liked": false,
+    "reply_to_question_id": "PWvCVcmYVdxc4rqz7Y3I"
+  },
+  {
+    "id": "5GKtCBT1BaldBuZ4C75n",
+    "question": "監査法人のコワモテ上司とサウナ入ってる時にLGBTの話題から匂わせた後、ガッツリ掘って泣かせて後日何事もなかったかのように仕事したのは嘘なんですけど、ピストンマシンでガン突きされて泣きながらイク姿は見てみたいです",
+    "answer": "嘘が長えよ。",
+    "asked_at": 1784923311,
+    "answered_at": 1784944539,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "Q1X1XBYKMy9Li9jwGpNB",
+    "question": "訳ありさん、こんばんは。以前に橙グループの契約社員で監査アシスタントの質問をした者です。この度、無事内定を頂き入社することになりました。監査アシスタントになるに当たって、これだけはやっておいた方が良いことなどありますでしょうか？長文失礼致しました。",
+    "answer": "おお！内定おめでとう！！\nExcel極めてください。おすすめはラボとみのExcel講義です。調べたら出てくるはず。監査法人で使える機能を要点まとめて教えてくれるから、初学者に向いてる。",
+    "asked_at": 1784909587,
+    "answered_at": 1784944508,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "YdYIi50N4eTJFSzggMrb",
+    "question": "まあ関西はどの道買い手市場で厳しいから覚悟しとけ。学生の多さに比べて企業の数が少ないんよね、関西は。そもそもの構造上の問題で永遠に買い手市場だよ。",
+    "answer": "関西は引き続き買い手市場のようです。",
+    "asked_at": 1784908739,
+    "answered_at": 1784944158,
+    "liked": false,
+    "reply_to_question_id": "ExpcFb4YvCQxJvmMrfQw"
+  },
+  {
+    "id": "FiH6krPi5XZ5hPjgXuSi",
+    "question": "結局親も他人だし先に死ぬ。となると自分の人生を最期まで見てくれるのって自分だけだべ。\n自分がやりたいこと貫き通したほうがいい。関係性悪くなろうがずっと続く訳じゃないでしょ？親じゃなくて自分の人生を生きなさい。",
+    "answer": "この意見はわかるけど、もし会計士受からんかったら大きいものを失うことになるからな。それでも覚悟決めて背水の陣で会計士試験挑むなら応援するよ。",
+    "asked_at": 1784908582,
+    "answered_at": 1784944138,
+    "liked": false,
+    "reply_to_question_id": "e0cqkGdxqDugbf0mGXO1"
+  },
+  {
+    "id": "C6ms3kqyhL4ber9ppoQt",
+    "question": "一時の金銭的な理由だけならやめなよ\n夜職の履歴がある人と結婚したくない人は一定数いるし、過去は消せないからね\n監査法人があからさまに差別することはないと思うが",
+    "answer": "夜職歴ある人と結婚したくない人は俺の周りではあんま見たことないけど、いるにはいるよな。",
+    "asked_at": 1784906364,
+    "answered_at": 1784943929,
+    "liked": false,
+    "reply_to_question_id": "EdeZZSCkJ4WboAon6NUT"
+  },
+  {
+    "id": "hHXOhfLuFzV63DtSsXWo",
+    "question": "北海道は札幌しか知らないけど、あの地が牧歌的な雰囲気を醸してる理由を知りたい。\n内地にはない、大らかな雰囲気がある。\n喫煙所多いとか笑",
+    "answer": "わかる。札幌でそれを感じ取ったなら、札幌以外の市町村行くともっと感じ取れると思うよ。土地が広い分おおらかな人間は多いと思う。ただ、そんな中残虐な事件が近年で頻繁に起きてる理由は俺も知りたい。",
+    "asked_at": 1784906355,
+    "answered_at": 1784943842,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "tLwrJ2mCzCeeMxnvXg45",
+    "question": "非常勤はカウントされない\n3年で受かると次の年の合格者に年次を揃えられる",
+    "answer": "これは俺がミスった情報発信したかも。俺の時代と変わっているようだ。",
+    "asked_at": 1784906047,
+    "answered_at": 1784943731,
+    "liked": false,
+    "reply_to_question_id": "RnPplx4ZrwO8ue4h7pYZ"
+  },
+  {
+    "id": "kKndKVaVgLSiuuUwJkXn",
+    "question": "弊法人はSAPやな\nSubstantive Analytical Procedures\nなおメソドロジーで使用が原則禁止された模様",
+    "answer": "色々呼び方違うんやな。",
+    "asked_at": 1784905653,
+    "answered_at": 1784943689,
+    "liked": false,
+    "reply_to_question_id": "PWvCVcmYVdxc4rqz7Y3I"
+  },
+  {
+    "id": "F2Xl6vKjntwbFKDttRP6",
+    "question": "黙っておけば何も問題ありません。\nただ、源泉徴収で法人から確認される可能性はありますが、そのタイミングに限って飲食店で働いていた旨を伝えればよいです(ここだけ重要)。夜だからヤバいのではなくて、過去の所得を正確に申告していないことが問題になります。\n\n法人内・クライアントへのレピュテーションは心配だと思いますが黙っておけば何も問題ありません。\n\nちなみに私は3年間現金で丸々受け取り、そのまま何もせず現在に至りますが、なんら問題ありません(やばい)。",
+    "answer": "夜食に関する詳細なコメントありがとうございます！ご参考ください！！",
+    "asked_at": 1784904931,
+    "answered_at": 1784943599,
+    "liked": false,
+    "reply_to_question_id": "EdeZZSCkJ4WboAon6NUT"
+  },
+  {
+    "id": "erQ8Kq0Ymk38DGVTfRwT",
+    "question": "普通の人なら受かりますよ\n",
+    "answer": "普通じゃない人も多いのが会計士界隈だよな。",
+    "asked_at": 1784904792,
+    "answered_at": 1784943627,
+    "liked": false,
+    "reply_to_question_id": "mHVcONMgBvAkRjtbm2ZU"
+  },
+  {
+    "id": "zdmOCDwp2RYaTuxx9cHw",
+    "question": "訳アリさん、資格コレクターのこと嫌ってそう",
+    "answer": "全然！嫌ってないっすよ！",
+    "asked_at": 1784903993,
+    "answered_at": 1784904117,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "21AHwWBALQG4lMCW9kJV",
+    "question": "すげぇ、九州人の私は読み方もわからんし、どんな場所なのかもさっぱり見当が付かん。",
+    "answer": "「るべしべ」ね。ガチの田舎。",
+    "asked_at": 1784903729,
+    "answered_at": 1784903790,
+    "liked": false,
+    "reply_to_question_id": "DUv5whSmNiex3YYdum2G"
+  },
+  {
+    "id": "ExpcFb4YvCQxJvmMrfQw",
+    "question": "関西のbig4J1の方の意見も聞きたいです！\nだれか！！",
+    "answer": "たぶんまだ採用方針とか固まってないんじゃないかな。仮に固まったとしても信憑性ある情報が訳アリまで届くかすら微妙。",
+    "asked_at": 1784902473,
+    "answered_at": 1784903637,
+    "liked": false,
+    "reply_to_question_id": "qrtMFECF3UjQUbdn0O8Z"
+  },
+  {
+    "id": "mHVcONMgBvAkRjtbm2ZU",
+    "question": "あ、big4今年も採用絞るんですか？\n就活怖すぎる、。",
+    "answer": "最新情報はリクルーターが持ってるのでその情報が得られたら発信したいとは思う。",
+    "asked_at": 1784900976,
+    "answered_at": 1784903833,
+    "liked": false,
+    "reply_to_question_id": "wIUv7uW6xYabfm8amtYH"
+  },
+  {
+    "id": "LnaJUcNN5LamFjagbzA3",
+    "question": "悪いこと言わんから太陽以上にはしといたほうがいい　\nAI投資経験十分できてるかで今後監査法人かなり変わると思う",
+    "answer": "今後AI経験あるのはたしかにデカいと思う。準大手がどこまで対応できているのかはわからんが。",
+    "asked_at": 1784899739,
+    "answered_at": 1784904085,
+    "liked": false,
+    "reply_to_question_id": "TyObpNEv88Qd2nhpaEjz"
+  },
+  {
+    "id": "2kmemEUHqksQUNoaQW3z",
+    "question": "るべしべ！乾電池と蛍光灯の処分場なら行ったことあるぜ",
+    "answer": "なんちゅうとこ行ってんねん。",
+    "asked_at": 1784899667,
+    "answered_at": 1784902591,
+    "liked": false,
+    "reply_to_question_id": "DUv5whSmNiex3YYdum2G"
+  },
+  {
+    "id": "gW7sbEAO296tDIoDd5hF",
+    "question": "ツイ校生がbig4入れるかどうかは訳アリにかかってるかもしれん",
+    "answer": "そもそも俺のアカウントって今のJ1がボリュームゾーンだと思っているんだが、受験生って結構いる？鍵アカにしてるから広くは届かないんだよな、、、",
+    "asked_at": 1784897919,
+    "answered_at": 1784898044,
+    "liked": false,
+    "reply_to_question_id": "qrtMFECF3UjQUbdn0O8Z"
+  },
+  {
+    "id": "ZCWU4xiZDOyNVOInZV6g",
+    "question": "そろそろスペが恋しいかも",
+    "answer": "俺も恋しい。。。",
+    "asked_at": 1784897530,
+    "answered_at": 1784898156,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "xGQS3ctJlqNztJlyW2xx",
+    "question": "シニアでも基本給40万いかないところがあるらしい",
+    "answer": "うせやろ。",
+    "asked_at": 1784897360,
+    "answered_at": 1784898165,
+    "liked": false,
+    "reply_to_question_id": "WG5oYrM87OByCA75Nedp"
+  },
+  {
+    "id": "WG5oYrM87OByCA75Nedp",
+    "question": "監査法人4年目シニア（42万）\n高給JTC1年目（45万）\n学生時代を投げ打つ価値はないな",
+    "answer": "JTC(45万)ってどこや。",
+    "asked_at": 1784896695,
+    "answered_at": 1784896804,
+    "liked": false,
+    "reply_to_question_id": "8MllHp1KUcF3naZtV8Yj"
+  },
+  {
+    "id": "EdeZZSCkJ4WboAon6NUT",
+    "question": "結婚の時とかに相手に夜職バレるのは全然良いんですけど、\n今夜職に手出したら一般企業で雇ってもらえないとかいうのが話題になってるんですけど、、例えば1年目の時の年末調整でバレるとかなんとか、、\n監査法人的に夜職してたのがバレてもいいのか、バレないようにするには11月とかまででやめておいた方がいいのか、あるいはそれでもバレるのか、、\nもし詳しいことわかる方教えてください。。\n訳アリさんの周りに夜職経験の会計士の方いますか？？",
+    "answer": "これ前も話題上がってたけど、夜食経験ある人が俺のフォロワーにいて、普通に監査法人で働いてると言ってたよ。仮にバレたとしても問題ないと思うんだが、もし補足あればコメントお願いします！",
+    "asked_at": 1784896227,
+    "answered_at": 1784896565,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "e0cqkGdxqDugbf0mGXO1",
+    "question": "こんにちは。以前ご相談させていただいた者です。休学もありだなと思い、親に相談したところ猛反対され、説得できそうにないです。この状況で、親に理解してもらえないまま、反対を押し切って休学手続きを進めるという選択はありだと思われますか。学費は自分で負担しています。",
+    "answer": "なるほど。大学の学費と予備校費用は自分で負担しているということですかね。反対を押し切って休学に踏み込むのは一つ手段だけど、親との関係悪化しない？そこの温度感がなんともわからないけど、適当なこと言えないけど、結局は会計士試験に対する覚悟を決めれるかどうかの問題な気がします。皆さん、いかがでしょうか。",
+    "asked_at": 1784895100,
+    "answered_at": 1784896772,
+    "liked": false,
+    "reply_to_question_id": "ETSFJiCZuZfuD4Tie0cI"
+  },
+  {
+    "id": "gGphv1ED7hypI9KDi4vZ",
+    "question": "他校の模試で、かつ普段より特段偏差値が高かった科目がある訳でもなく、むしろ普段より大きく失敗した科目すらあった という状態の総合成績は下振れ(本番での下限に近い)と考えて良いですよね。一般的には。",
+    "answer": "下振れだと思う。",
+    "asked_at": 1784892230,
+    "answered_at": 1784892346,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "QEoXC9Bpm9LfMEHR5i2j",
+    "question": "もっと多いかと思ってました。150人で監査できるものなんですか？",
+    "answer": "ちょろっと関与してる人も含めるなら200人いくかも",
+    "asked_at": 1784891623,
+    "answered_at": 1784891887,
+    "liked": false,
+    "reply_to_question_id": "qkth8z4HETXqjD7WTsqg"
+  },
+  {
+    "id": "wIUv7uW6xYabfm8amtYH",
+    "question": "今年もbig4絞るのか\n就職も多少難儀するなら\n英語といい会計士受験ブームはそろそろ終息しそう、てか受験者減ってくれ頼む(泣)\n",
+    "answer": "CPAが在り続ける限り受験者数は増え続けます。",
+    "asked_at": 1784891369,
+    "answered_at": 1784891921,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "DUv5whSmNiex3YYdum2G",
+    "question": "自分は留辺蘂出身なので",
+    "answer": "超レアキャラやん、、、",
+    "asked_at": 1784889315,
+    "answered_at": 1784889559,
+    "liked": false,
+    "reply_to_question_id": "rXP4Usj32VD0tSt0Fai1"
+  },
+  {
+    "id": "ZJX6epTyI2oJQgeQ21SA",
+    "question": "修了考査終わったら他big4への転職(監査部門のまま)を考えているのですが、結構厳しい道ですか？その時年齢は30半ばくらいになります。",
+    "answer": "うーん、時期によるな。Big4側は人がいないタイミングで募集かけることになるけど、例えばKPとかは今中途採用の募集していないと聞いた。仮に募集出てたとしても、なぜBig4→Big4への転借を希望しているのか厚く聞かれることになると思う。",
+    "asked_at": 1784889130,
+    "answered_at": 1784889741,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "rXP4Usj32VD0tSt0Fai1",
+    "question": "訳さん、幌加内に移住ってまじ？",
+    "answer": "よくそんな北海道のマイナー地名知ってんな",
+    "asked_at": 1784888916,
+    "answered_at": 1784889139,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "t3i3lGnYWHnD2C988kqi",
+    "question": "工作員さんお疲れ様です\nシニアの話をしてます、初任給揃えてることぐらい馬鹿でも知ってるわい",
+    "answer": "工作員言いたいだけだろ。",
+    "asked_at": 1784888756,
+    "answered_at": 1784888881,
+    "liked": false,
+    "reply_to_question_id": "pD0M42HOLyh81cEMRV4o"
+  },
+  {
+    "id": "RnPplx4ZrwO8ue4h7pYZ",
+    "question": "Kはその計算にはならないこと共有してください！",
+    "answer": "な、な、なんと！",
+    "asked_at": 1784888609,
+    "answered_at": 1784888758,
+    "liked": false,
+    "reply_to_question_id": "KdTMiY8w0TyR1zYiHMqW"
+  },
+  {
+    "id": "5PPjRdWv3eobutDf4khK",
+    "question": "とかちの人そんなことばっかり言ってるとかちーんて来るよ",
+    "answer": "上手いな",
+    "asked_at": 1784888421,
+    "answered_at": 1784888822,
+    "liked": false,
+    "reply_to_question_id": "KuNWebu0zwgRO8Ggt7gG"
+  },
+  {
+    "id": "qrtMFECF3UjQUbdn0O8Z",
+    "question": "J1です。\n当期は少しキツいのではと思います。\n上層部大好きAIに加えて、\n黄色→前期取りすぎた\n青色→前々期取りすぎた\n緑色→今年も絞るイメージ\n橙色→そもそもそんな取らないイメージ\nこのような状況なのできちんと就活することをおすすめします。",
+    "answer": "見解ありがとう！今年も結構絞る傾向にあるですねー。",
+    "asked_at": 1784888249,
+    "answered_at": 1784888848,
+    "liked": false,
+    "reply_to_question_id": "z2iakmN7V0ofVW0YCUlZ"
+  },
+  {
+    "id": "KuNWebu0zwgRO8Ggt7gG",
+    "question": "十勝に農家以外の職業ある？",
+    "answer": "ないに決まってるだろ。",
+    "asked_at": 1784887534,
+    "answered_at": 1784887975,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "lFbW9XR8l0eoFhgkdXRc",
+    "question": "実家農家だから米買ったことない",
+    "answer": "羨ましい人生。",
+    "asked_at": 1784887188,
+    "answered_at": 1784891938,
+    "liked": false,
+    "reply_to_question_id": "KbHItJOfURDspgyLyeT7"
+  },
+  {
+    "id": "Sy2kmDnFATZu0NLAg6Q0",
+    "question": "工作員さんお疲れ様です\n今日はペットボトルで空気砲を作りました。\nよろしくお願いいたします",
+    "answer": "工作員ネタにすんなwww",
+    "asked_at": 1784886943,
+    "answered_at": 1784886969,
+    "liked": false,
+    "reply_to_question_id": "pD0M42HOLyh81cEMRV4o"
+  },
+  {
+    "id": "tEJfHm99emweOi63ExoK",
+    "question": "フォロワーから愛される人生いいじゃないか",
+    "answer": "最高だよ。",
+    "asked_at": 1784886692,
+    "answered_at": 1784886780,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "ZX6X9uadomoxmDJXmS8L",
+    "question": "ばんえい競馬で彼女と出会えた？",
+    "answer": "俺十勝民だけどばんえい競馬一回しか行ったことない。",
+    "asked_at": 1784884673,
+    "answered_at": 1784884805,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "KbHItJOfURDspgyLyeT7",
+    "question": "実家の農家を継ぐってこと？",
+    "answer": "実家が農家な人生でありたかったよ。",
+    "asked_at": 1784884635,
+    "answered_at": 1784884777,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "z2iakmN7V0ofVW0YCUlZ",
+    "question": "合格者の半分しか大手に入れない時代がきてるということ？",
+    "answer": "東京オンリーで考えるなら大手は200人前後(黄色は去年これよりも多かったけど)とすると、ビッグ4入れるのは多くて1,000人ぐらいじゃないかな。",
+    "asked_at": 1784884086,
+    "answered_at": 1784884533,
+    "liked": false,
+    "reply_to_question_id": "RsjbCuPNHkXy10rLfcIy"
+  },
+  {
+    "id": "DZGg2C4BadgCXPypksnh",
+    "question": "大3で合格→定期採用→内定のうえ、大4で留学しました。若いうちに短期間でも海外で暮らすって貴重な体験なのでいいと思います。留学したとこでキャリアに大きな変化はないですが、ベースアップされた英語力とか外人とのコミュニケーション慣れとかは役に立ちました。",
+    "answer": "留学経験者の方からコメントきています！ありがとう！！ご参考ください！",
+    "asked_at": 1784882307,
+    "answered_at": 1784883585,
+    "liked": false,
+    "reply_to_question_id": "8hXeFfIpa2rvOxRLkjmi"
+  },
+  {
+    "id": "KvSMfRT0X7SleFlnSDzb",
+    "question": "監査なんて社会人になってからいくらでもできるんだから監査以外のことを学生の間にはしてほしいと思う。留学はいいと思う。",
+    "answer": "だよな。ご意見ありがとう！",
+    "asked_at": 1784879224,
+    "answered_at": 1784883544,
+    "liked": false,
+    "reply_to_question_id": "8hXeFfIpa2rvOxRLkjmi"
+  },
+  {
+    "id": "xAYc5RZfz74Pk9F9iEKC",
+    "question": "東京離れる…網走…\n何か悪さしたんか？",
+    "answer": "網走悪いイメージ持たれすぎてる笑",
+    "asked_at": 1784875727,
+    "answered_at": 1784883529,
+    "liked": false,
+    "reply_to_question_id": "rWGdPyIztRv9kfFtMGK2"
+  },
+  {
+    "id": "aETjBhHcqdAwOE4KayfU",
+    "question": "サカイが個人的には無難\n安いし最大手だからちゃんとしてる\n東京から関西に引っ越す時、単身で6万やった",
+    "answer": "マジか。サカイにしとけばよかったー！",
+    "asked_at": 1784875527,
+    "answered_at": 1784883514,
+    "liked": false,
+    "reply_to_question_id": "4dtbvemJeYCGl7ymDo1s"
+  },
+  {
+    "id": "pD0M42HOLyh81cEMRV4o",
+    "question": "工作員さんお疲れさまです。\n定期採用の1年目基本給は変わらんで\n少なくとも一番下ではない。\n2年目以降なら評価入るから一番低いとは言い切れない",
+    "answer": "工作員どんだけおんねん。",
+    "asked_at": 1784875216,
+    "answered_at": 1784883502,
+    "liked": false,
+    "reply_to_question_id": "QWwLgauKwbzsvhPmt1tR"
+  },
+  {
+    "id": "zlyMmXoWenqXPidE4M6o",
+    "question": "ただ、上場クライアント数は合併によりPwcと並ぶって噂\nクライアント規模は知らんけど",
+    "answer": "俺も準大手全然詳しくないからなんとも言えん。",
+    "asked_at": 1784874947,
+    "answered_at": 1784883480,
+    "liked": false,
+    "reply_to_question_id": "QaBi6CHPNhCteG2N2BIH"
+  },
+  {
+    "id": "mMOkAEQCWyBQArq5NmFo",
+    "question": "ハブられてる59人にはなりませんように",
+    "answer": "1,659人に訂正します。",
+    "asked_at": 1784870589,
+    "answered_at": 1784883328,
+    "liked": false,
+    "reply_to_question_id": "rcIHVhZIQENNXFF0e7bL"
+  },
+  {
+    "id": "gFAtuZb1Kk8IOeWRZLAd",
+    "question": "この彼女だるくね。好きなら理解しようとしないんかい",
+    "answer": "まあ無理と言っても駄々こねるのはちょっと幼い気もする。",
+    "asked_at": 1784870484,
+    "answered_at": 1784883317,
+    "liked": false,
+    "reply_to_question_id": "oGIGznD3yQtISgxkuW5D"
+  },
+  {
+    "id": "2vwWegCuwzE5wOQPrkmY",
+    "question": "三振してもまだ25なの羨ましいよ。",
+    "answer": "25歳三振は全然舞える。",
+    "asked_at": 1784870379,
+    "answered_at": 1784883285,
+    "liked": false,
+    "reply_to_question_id": "aUShaPvjmWI3jhrJgsKg"
+  },
+  {
+    "id": "DXyVoFuItQozo6mXzjk8",
+    "question": "将来的に転職や婚姻時のバックグラウンドチェックで判明する可能性あり。また駐妻としてアメリカ行くと夫婦一緒に全ての資産を確定申告するのでバレるなど。先述のような予定がなく隠し通せるならいいけど、一般にマイナスで一定リスクあることは了承した上で目先の金と天秤に掛ければいいと思う。",
+    "answer": "ありがとうございます！可能性としては薄そうだけど、不都合があることはあるそうです！ご参考ください！",
+    "asked_at": 1784870155,
+    "answered_at": 1784882466,
+    "liked": false,
+    "reply_to_question_id": "9KAVubn1g8qzjQM4P01X"
+  },
+  {
+    "id": "07S5lVTKfaWMOjxkagEC",
+    "question": "引越し代金を値切ると、業者に雑に対応されたり、わざと家具をぶつけられたりしないの？",
+    "answer": "大手だし、そんなことはしないと思う。",
+    "asked_at": 1784869575,
+    "answered_at": 1784883450,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "apAsRobWl6QspKsxFebX",
+    "question": "とある四大は非常勤何年やっても新卒1年目はJ2からになる",
+    "answer": "マジけ。当時の俺の古巣は非常勤でも時間数満たしてたら常勤と一緒に上がってたな。",
+    "asked_at": 1784868692,
+    "answered_at": 1784883422,
+    "liked": false,
+    "reply_to_question_id": "KdTMiY8w0TyR1zYiHMqW"
+  },
+  {
+    "id": "8MllHp1KUcF3naZtV8Yj",
+    "question": "監査法人と高給JTCで可処分所得比較されることあるけど、会計士試験ムキムキにしばいたら新卒2年目からいっぱいお給料貰えるってことですね🔥\n勉強しばきたおします🔥🔥",
+    "answer": "その通りだ。ムキムキにしばけ。",
+    "asked_at": 1784867867,
+    "answered_at": 1784867931,
+    "liked": false,
+    "reply_to_question_id": "KdTMiY8w0TyR1zYiHMqW"
+  },
+  {
+    "id": "RsjbCuPNHkXy10rLfcIy",
+    "question": "big4東京事務所の採用枠って大体1000人くらいですかね？もう少し少なめ？",
+    "answer": "大体合ってると思う。厳しく見積もるなら800~900で見て良いと思う。",
+    "asked_at": 1784867474,
+    "answered_at": 1784868002,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "yRE5J3tBkSTiZ1kLZlSi",
+    "question": "大手以外だと初手はどこがおすすめですか？",
+    "answer": "太陽やろ。",
+    "asked_at": 1784867144,
+    "answered_at": 1784867186,
+    "liked": false,
+    "reply_to_question_id": "TyObpNEv88Qd2nhpaEjz"
+  },
+  {
+    "id": "4I05y5RGjPM7T0nBut3U",
+    "question": "彼女の地元で結婚するんだ！おめでとー",
+    "answer": "車買ってもらうでバレてもうたな。",
+    "asked_at": 1784867115,
+    "answered_at": 1784867174,
+    "liked": false,
+    "reply_to_question_id": "2wH7LfyCvdqLvWqrNj9V"
+  },
+  {
+    "id": "KdTMiY8w0TyR1zYiHMqW",
+    "question": "学部2年で受かって3,4年は学生非常勤してたら、新卒1年目にJ3で2年目にシニアってことですか？",
+    "answer": "その計算になる。厳密には学生非常勤時代の労働時間を加味されることになる。非常勤時代に昇格要件を満たすぐらいの労働時間を満たせていれば、おっしゃる通りの昇格ができると思います。",
+    "asked_at": 1784864993,
+    "answered_at": 1784865113,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "rWGdPyIztRv9kfFtMGK2",
+    "question": "網走忘れてんぞ",
+    "answer": "流氷忘れんなよ。",
+    "asked_at": 1784864878,
+    "answered_at": 1784864945,
+    "liked": false,
+    "reply_to_question_id": "yJsJ2i7X9p2262nMHHF9"
+  },
+  {
+    "id": "UXg0RipVzXVSJ5Xqu8vP",
+    "question": "かわいくてすき",
+    "answer": "恥ずいけど、ワイ結構寂しがり屋なんすよ。",
+    "asked_at": 1784864878,
+    "answered_at": 1784864919,
+    "liked": false,
+    "reply_to_question_id": "oGIGznD3yQtISgxkuW5D"
+  },
+  {
+    "id": "2wH7LfyCvdqLvWqrNj9V",
+    "question": "色々というのは良いこと？悪いこと？",
+    "answer": "とても良いことです。",
+    "asked_at": 1784864743,
+    "answered_at": 1784864766,
+    "liked": false,
+    "reply_to_question_id": "e2drbI5pVUmADWGtPMOz"
+  },
+  {
+    "id": "2jSKIAMqcVZuay7c2YlM",
+    "question": "質問者さんへ\n\nこれで三振撤退して地獄を彷徨っている者より",
+    "answer": "かなり厳しいな。",
+    "asked_at": 1784863964,
+    "answered_at": 1784864698,
+    "liked": false,
+    "reply_to_question_id": "aUShaPvjmWI3jhrJgsKg"
+  },
+  {
+    "id": "PWvCVcmYVdxc4rqz7Y3I",
+    "question": "「ぶんて」が主流です",
+    "answer": "俺もずっと「ぶんて」と言ってた。",
+    "asked_at": 1784863848,
+    "answered_at": 1784864690,
+    "liked": false,
+    "reply_to_question_id": "9xHvdbf0od7SDdta5hjr"
+  },
+  {
+    "id": "4dtbvemJeYCGl7ymDo1s",
+    "question": "おれはアリさんに頼んだンゴ🍎",
+    "answer": "アートの方が安いぞ。",
+    "asked_at": 1784863190,
+    "answered_at": 1784864674,
+    "liked": false,
+    "reply_to_question_id": "xjKpwJEQmKQDdtrfMeiA"
+  },
+  {
     "id": "xjKpwJEQmKQDdtrfMeiA",
     "question": "アート引越センターでバイトしてました。3段ボックスとかの天板を傷つけた時とかに上下逆さまにして隠蔽したりする会社なのでしっかり確認してください！",
     "answer": "マジすか！！搬入されたら確認するようにします！！",
@@ -7,6 +646,78 @@
     "answered_at": 1784862107,
     "liked": false,
     "reply_to_question_id": null
+  },
+  {
+    "id": "9KAVubn1g8qzjQM4P01X",
+    "question": "監査法人に入社するまでに夜職しようとおもうんだけどまずいですか？\n元夜職してた方詳しく教えてください、、",
+    "answer": "俺はいいと思うぞ。不都合はないと思う。一応聞くけど、フォロワーさん、夜職を論文後にやるデメリットとかありますか？",
+    "asked_at": 1784813244,
+    "answered_at": 1784864663,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "qkth8z4HETXqjD7WTsqg",
+    "question": "三菱ufjやみずほ、三井のような各監査法人の監査報酬の額で上位のクライアントはどれくらいの人数で監査するんですか",
+    "answer": "150人ぐらいいた記憶がある。今はもう少し縮小してるかも。",
+    "asked_at": 1784811701,
+    "answered_at": 1784864603,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "gVKSJrdqpalFmWSZ9ww9",
+    "question": "準大手監査法人の序列って\n① 太陽\n② 仰星&三優\n③ 東陽\nになるということですか？",
+    "answer": "そういうことになると思う。",
+    "asked_at": 1784811307,
+    "answered_at": 1784864583,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "tWS7MxZxZqXYEhpnxKpq",
+    "question": "彼女さんと雰囲気とか顔の系統似てる？",
+    "answer": "いや、雰囲気も顔の系統も似てないと思う。唯一合うのは笑いのツボのみ。",
+    "asked_at": 1784810885,
+    "answered_at": 1784864552,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "oGIGznD3yQtISgxkuW5D",
+    "question": "彼女が毎日電話しよしよ言ってきます\n忙しいから毎日は無理と言ったら私のこと好きじゃないのとか言われました\nなんすかこれ",
+    "answer": "マジか。俺は電話大好き人間だから全く苦じゃなかったな。なんなら俺が毎日電話しよ、っていうタイプ。",
+    "asked_at": 1784810692,
+    "answered_at": 1784864482,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "yBBCyTq8g3kG7oz4t19K",
+    "question": "東京バイバイスペースは？",
+    "answer": "スペースやりたすぎる。",
+    "asked_at": 1784810415,
+    "answered_at": 1784864430,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "TyObpNEv88Qd2nhpaEjz",
+    "question": "初手でESネクスト行くやつって目先の利益に囚われてる気がするな\n",
+    "answer": "どうなんかな。ESネクストも最近かなり伸びてると聞いてる。",
+    "asked_at": 1784810176,
+    "answered_at": 1784864414,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "QaBi6CHPNhCteG2N2BIH",
+    "question": "そもそも太陽のライバルはPwCなのでそんな小さいとこは眼中にないはず",
+    "answer": "それはそうよな。",
+    "asked_at": 1784810050,
+    "answered_at": 1784864377,
+    "liked": false,
+    "reply_to_question_id": "r9s3PzZtMlTlQZIuoEug"
   },
   {
     "id": "r9s3PzZtMlTlQZIuoEug",
@@ -27,11 +738,56 @@
     "reply_to_question_id": null
   },
   {
+    "id": "783i1IMR5mCVUIJPAOk6",
+    "question": "彼女と出会って自分が変わったなって思うことありますか？",
+    "answer": "おれ昔めっちゃ尖ってたんだけど、今の彼女の意見が正論すぎて全てに従うようになってしまったな。",
+    "asked_at": 1784804907,
+    "answered_at": 1784864362,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
     "id": "XFKgbpsyWRrsbRpstBSm",
     "question": "監査法人合併するらしいね",
     "answer": "アツいよな。規模的にはどうなんやろ。さすがに太陽は超えないよな。",
     "asked_at": 1784802116,
     "answered_at": 1784809567,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "QWwLgauKwbzsvhPmt1tR",
+    "question": "工作員さんお疲れ様です、なら某法人はボーナスを基本給に織り込んだ上で基本給が1番低いと言うことですか…",
+    "answer": "そういうことなんじゃないすかね、、、",
+    "asked_at": 1784800735,
+    "answered_at": 1784864287,
+    "liked": false,
+    "reply_to_question_id": "9u1XW18xGRGMEa2zoSsX"
+  },
+  {
+    "id": "yJsJ2i7X9p2262nMHHF9",
+    "question": "ほなシベリアか釧路やないかい",
+    "answer": "なんで釧路やねん。",
+    "asked_at": 1784799735,
+    "answered_at": 1784864493,
+    "liked": false,
+    "reply_to_question_id": "F5uEFlmURbQbBuUAypKT"
+  },
+  {
+    "id": "xtsJ6TDnicfV1fX21svk",
+    "question": "おめでたい",
+    "answer": "ありがとう。",
+    "asked_at": 1784798460,
+    "answered_at": 1784864562,
+    "liked": false,
+    "reply_to_question_id": "WYS4AH90UWDDVpyZsur5"
+  },
+  {
+    "id": "rcIHVhZIQENNXFF0e7bL",
+    "question": "結婚式呼んでね ",
+    "answer": "フォロワー1,600人呼びます。",
+    "asked_at": 1784797573,
+    "answered_at": 1784864574,
     "liked": false,
     "reply_to_question_id": null
   },
@@ -162,6 +918,78 @@
     "reply_to_question_id": "051foj0LWH18qPMP3D7C"
   },
   {
+    "id": "xO6bbRrDt96D1ICVI9Nz",
+    "question": "前期は9月に決算賞与ありましたよ。\n金額は多くないですが。",
+    "answer": "経費かと思うぐらいの決算賞与と言われてましたね。",
+    "asked_at": 1784738442,
+    "answered_at": 1784864260,
+    "liked": false,
+    "reply_to_question_id": "DeBYtVLkiOE1iY1c0Z73"
+  },
+  {
+    "id": "B59pgcXbJmee4AjrNLMc",
+    "question": "夏期賞与出ませんか？\nもっと言えば、ボーナス分をスライドさせるとか2023年あたりにそんなことでTLも賑わってましたよね。\n工作員とか穏やかではないですね。。。(認識不足とかあるかもですが)",
+    "answer": "俺のフォロワーに工作員はマジで紛れてると思う。俺も世に出してない質問はいっぱいあるので。",
+    "asked_at": 1784737671,
+    "answered_at": 1784864233,
+    "liked": false,
+    "reply_to_question_id": "P6ALmIBUHBHT6K3MguKy"
+  },
+  {
+    "id": "zura49XrioYICJwaKeGP",
+    "question": "会計士と大企業サラリーマンってどっちが社会的地位高いの？",
+    "answer": "職位によるな。",
+    "asked_at": 1784737348,
+    "answered_at": 1784864181,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "8hXeFfIpa2rvOxRLkjmi",
+    "question": "学生合格して、海外留学に行くというのは可能なのでしょうか\nまたキャリアへはプラスになりますか？\n学生合格された方の監査業務などはどのような形なのでしょうか\n訳さんや詳しい方お願いします🤲",
+    "answer": "海外の留学は学生の今しかできないと思うので、ありだと思います。そこで英語力身につけて、監査法人で活躍できると思う。個人的にはありな選択肢だと思うが、皆さんどう思う？",
+    "asked_at": 1784736519,
+    "answered_at": 1784864142,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "OLbfkPKf4ClD62AWSTkv",
+    "question": "本試験、そこそこいいホテルかビジネスホテルのどちらがいいと思う？地方受験します。",
+    "answer": "ビジネスホテルでいいと思う。",
+    "asked_at": 1784735240,
+    "answered_at": 1784863941,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "2Go0t0tlQeTR6bA43pDZ",
+    "question": "これシニアに上がっても年間100万ちょっとくらいしか変わらない？？？",
+    "answer": "いや、シニアなると200万は上がると思うぞ。",
+    "asked_at": 1784735182,
+    "answered_at": 1784864042,
+    "liked": false,
+    "reply_to_question_id": "YSFnm0FahLBiIbZfo747"
+  },
+  {
+    "id": "mpsGWfLnl1KqCTlki7FP",
+    "question": "ここ数年賞与下げすぎてtier2落ち目前の黄色、行く人も謎だし頑なに賞与上げない法人も謎",
+    "answer": "ボーナス関連の話題怖いンゴ。",
+    "asked_at": 1784735109,
+    "answered_at": 1784863901,
+    "liked": false,
+    "reply_to_question_id": "gx8Db1dog35FtdjaXmPc"
+  },
+  {
+    "id": "gOh2GGYFww4Uu0DAzZTe",
+    "question": "他の法人と基本給一緒なのに基本給にボーナス混ぜてるのワロタ\nそれただのボーナス純減や笑",
+    "answer": "これは擁護のしようがないな。",
+    "asked_at": 1784734914,
+    "answered_at": 1784864164,
+    "liked": false,
+    "reply_to_question_id": "gx8Db1dog35FtdjaXmPc"
+  },
+  {
     "id": "iCefSpTpoWviQdkSyRtB",
     "question": "同期と結婚かいいなー",
     "answer": "でへへ",
@@ -169,6 +997,51 @@
     "answered_at": 1784734836,
     "liked": false,
     "reply_to_question_id": null
+  },
+  {
+    "id": "W3RxUB6SpvkcWG2Az3xC",
+    "question": "年100万で…ちゃんと？",
+    "answer": "他の法人は120万ぐらいだと思うぞ。スタッフなら。",
+    "asked_at": 1784733859,
+    "answered_at": 1784863880,
+    "liked": false,
+    "reply_to_question_id": "gx8Db1dog35FtdjaXmPc"
+  },
+  {
+    "id": "e4ch9ZlYUVNfvWIFgUMD",
+    "question": "あの雀の涙の決算賞与を一回カウントしてるの笑う\n2.1回くらいなので誤解なきよう",
+    "answer": "決算賞与が雀の涙なのおもろいな。",
+    "asked_at": 1784733727,
+    "answered_at": 1784863855,
+    "liked": false,
+    "reply_to_question_id": "gx8Db1dog35FtdjaXmPc"
+  },
+  {
+    "id": "0hhM2l18H23KFzMPjsR1",
+    "question": "社会人経験者などを除いて、同期の中で最速で出世する人はやはり在学中合格者が多いですか？",
+    "answer": "いや、そんなことない。30代同期でも優秀な奴は上がっていく。年齢はあまり関係ないと思う。",
+    "asked_at": 1784732417,
+    "answered_at": 1784864753,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "aUShaPvjmWI3jhrJgsKg",
+    "question": "今年25歳でなんか周りの結婚報告結構見るようになって論文直前の今になって彼女欲しくなってきました。アプリ以外がいいんです終わればできますか",
+    "answer": "とりあえず論文絶対受かれ。今は我慢してくれ。会計士なったらいくらでも出会いあるから。",
+    "asked_at": 1784732351,
+    "answered_at": 1784863833,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "e2drbI5pVUmADWGtPMOz",
+    "question": "何かあったんですか？",
+    "answer": "プライベートで色々あってな。",
+    "asked_at": 1784730968,
+    "answered_at": 1784863775,
+    "liked": false,
+    "reply_to_question_id": "YTQz3pDnzOxKmQvfexey"
   },
   {
     "id": "YTQz3pDnzOxKmQvfexey",
@@ -189,11 +1062,56 @@
     "reply_to_question_id": null
   },
   {
+    "id": "W58tvYmQORH8iKG6xp20",
+    "question": "ちなみにそいつの保有資格　\n公認会計士(試験合格)、中小企業診断士、USCPA、宅建、FP2級、システム監査技術者、情報処理安全確保支援士、TOEIC900、英検1級\n\nさすがに資格コレクターすぎる",
+    "answer": "やりすぎ。それで定時で上がるのパフォーマンス発揮してるとは思えない。",
+    "asked_at": 1784725157,
+    "answered_at": 1784863760,
+    "liked": false,
+    "reply_to_question_id": "UxVgOJLKlKACXFihxVf2"
+  },
+  {
+    "id": "ZaWmX3lZBSe68LavrS10",
+    "question": "結局太陽の独り勝ちや\nBIG4の奴は看板が欲しくて来たんやろ\nボーナスちょっと少ないくらい我慢しろ",
+    "answer": "太陽は本当に素晴らしいですね。",
+    "asked_at": 1784724940,
+    "answered_at": 1784863739,
+    "liked": false,
+    "reply_to_question_id": "FVMY6GogmieSItwM4Z39"
+  },
+  {
+    "id": "9xHvdbf0od7SDdta5hjr",
+    "question": "分析的実証手続を「ぶんじつ」と略す人が周りに数名いてストレスです。\nどうしたら分からせられるでしょうか。",
+    "answer": "わけわからんイキり略称使う人いるよな。分からせられないと思うので、ストレスは溜まると思うがじっと我慢するしかない。",
+    "asked_at": 1784715465,
+    "answered_at": 1784863724,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
     "id": "0zGqywEAhT6zhU02w1ah",
     "question": "毎日飲み会なのなんで？",
     "answer": "俺が東京からいなくなるからです。",
     "asked_at": 1784715393,
     "answered_at": 1784730201,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "lTjRrw9Tv9mt9LAyEapc",
+    "question": "短縮して2年目でシニアになるのと\n普通に4年目でシニアになるのだったら\nシニア1年目の基本給は後者の方が高くなる？同じ？\n\nもちろん早く給与上がる方がいいから短縮はすべきだと思うけど",
+    "answer": "いや、これは短縮して早めにシニア上がった方が給与高いぞ。",
+    "asked_at": 1784714014,
+    "answered_at": 1784863657,
+    "liked": false,
+    "reply_to_question_id": "YSFnm0FahLBiIbZfo747"
+  },
+  {
+    "id": "UMuXxY4Dxw6fr2w3vTmk",
+    "question": "WTで会社の資料がいけてないのはあるあるですか、、、。",
+    "answer": "超あるあるだと思う。3点セットの内部統制通りの資料がないみたいなのは指摘していいと思う。",
+    "asked_at": 1784710529,
+    "answered_at": 1784863584,
     "liked": false,
     "reply_to_question_id": null
   },
