@@ -1,5 +1,626 @@
 [
   {
+    "id": "cJCNMpw206st8WIvYWYR",
+    "question": "Dは新卒は3月入社、既卒は1月入社だったけど、いま変わったらしいよ。\nEは新卒は2月入社で4月から働く場合3月は暇らしい。研修の内容飛んじゃうよね？これだからおかま法人は、、",
+    "answer": "俺もそのイメージだったけど、変わったんやな。",
+    "asked_at": 1785206350,
+    "answered_at": 1785206778,
+    "liked": false,
+    "reply_to_question_id": "aptGzgc4ydwrq8pDcNJM"
+  },
+  {
+    "id": "aptGzgc4ydwrq8pDcNJM",
+    "question": "訳アリさんの回答はDだけかもです、、他Big4は2月入社で研修を受けて常勤はそのまま現場入り、学生非常勤はアサインある人とない人にわかれるケースが多いような気がします！\n中小は12月とか1月入社のところあると思いますが全部は把握してません。就活時に聞くのがいちばん良いかと",
+    "answer": "ありがとうございます！補足してくれるの大変助かります！",
+    "asked_at": 1785205947,
+    "answered_at": 1785206112,
+    "liked": false,
+    "reply_to_question_id": "UpscBrP7HG7OVbYc69kM"
+  },
+  {
+    "id": "jMPTVXRzTgBIx1EVdana",
+    "question": "会計士資格を持っていても地方で世帯年収1500万はハードルが高くないですか…！\n訳カノさんはお仕事は何やってるんですか？訳カノさんも会計士ですか？",
+    "answer": "訳カノのプライバシーもあるので詳細は控えるが、税理士法人勤務です。",
+    "asked_at": 1785205031,
+    "answered_at": 1785205183,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "fJGLmSzGIn1SfJwetaMX",
+    "question": "私の方が相手のことを好きなんだろうなってひしひし伝わってきてつらいです。",
+    "answer": "これツイートに関連されてるけど、たぶん関連されてないよな？恋愛って好き度合いのバランスを保つのってなかなか難しいと思う。大体どちらかがめっちゃ好きで、一方がちょっと好きみたいなこと多いので、世のカップルはそんなもんだと割り切ってほしい。",
+    "asked_at": 1785198637,
+    "answered_at": 1785202971,
+    "liked": false,
+    "reply_to_question_id": "dB79HsV6fGl51NXzYt0i"
+  },
+  {
+    "id": "9dXCTMgcJVRiQ37axa5p",
+    "question": "やっぱ家賃でけーよなー",
+    "answer": "直近の東京の家賃が13万やったんだけど、勿体なさすぎて早々に地方行きたかった。地方行ったら友達に頻繁に会えなくなるのは残念だけど、これから家族になる人と一緒に過ごすことを優先しました。",
+    "asked_at": 1785179540,
+    "answered_at": 1785202861,
+    "liked": false,
+    "reply_to_question_id": "dB79HsV6fGl51NXzYt0i"
+  },
+  {
+    "id": "9GsJE7VU8e437OUvEpAj",
+    "question": "ななんでそんなに北陸に詳しいの？",
+    "answer": "北陸は昔住んでたことがあるから。",
+    "asked_at": 1785173926,
+    "answered_at": 1785200923,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "hHHsx3DE6wICGpAiBBGp",
+    "question": "今までで1番怖かった体験は何？\n幽霊でも人間でも事故でも。\n\n俺は大勢の観客が見てる中、木製バットを生身で折れとアドリブで指示された時が1番冷や汗かいた。",
+    "answer": "ちょっと体調悪くなった時に霊媒師に助言を求めたことがあったんだが、俺の父親方の祖父が首吊り自殺してたことをなんの脈略もなく当てられたこと。こいつ、ホンモノや。と思って怖くなった。",
+    "asked_at": 1785172029,
+    "answered_at": 1785202746,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "fYsSJjcQB3CGY4bWaBOG",
+    "question": "格上の女性様としか付き合えないのわかる\nでも好かれるのは格下の女ばっか\n無職専念の時は非正規でも働いてる女性様全員勝ち組だったから幸せだったけど合格して詰んだ",
+    "answer": "何をもって格上か格下かを判断してるんや。俺はお相手の格とやらを気にしたことがないので純粋に気になる。",
+    "asked_at": 1785171026,
+    "answered_at": 1785202664,
+    "liked": false,
+    "reply_to_question_id": "rxe9kNv7I5GtrKBJzW3f"
+  },
+  {
+    "id": "SpEDXATawbi6SAcmB03K",
+    "question": "学生から質問です。会計士に限らずビジネスマンは複数枚モニターを使うのは一般的でしょうか？また、複数枚ではなく、1枚のでっかいモニターにしない理由はありますか？",
+    "answer": "俺は監査法人時代からモニターは3台使いなんなが、監査って色んな資料見る時に3台あったら便利なんよな。その名残が今でも残ってるんだが、プライベートでは3台もいらないと思っています。",
+    "asked_at": 1785170632,
+    "answered_at": 1785201982,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "ddbQeYDIWjlGDltrT2pX",
+    "question": "人生濃ゆいですね",
+    "answer": "30年も生きてれば大体こんなもんじゃないか。",
+    "asked_at": 1785169800,
+    "answered_at": 1785201848,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "vTGB3OW5lUfLI5fz4lSp",
+    "question": "訳ニキと同じコミュ強やな",
+    "answer": "ただ、彼女は両親に会う前は震えるほど緊張してて笑っちゃった。会ったら緊張解けたらしい。",
+    "asked_at": 1785169723,
+    "answered_at": 1785201906,
+    "liked": false,
+    "reply_to_question_id": "fctLSNckN5HJWiFisB6A"
+  },
+  {
+    "id": "dB79HsV6fGl51NXzYt0i",
+    "question": "地方で世帯年収1500万て大富豪やん",
+    "answer": "これを目指してたのよ。",
+    "asked_at": 1785169456,
+    "answered_at": 1785169536,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "RCdqng9Gceg3RxiTJ48i",
+    "question": "どゆこと！？",
+    "answer": "彼女の仕事の関係で1ヶ月遅れて来るんだよな。俺だけ先に地方にinしてる笑",
+    "asked_at": 1785165155,
+    "answered_at": 1785165355,
+    "liked": false,
+    "reply_to_question_id": "ZBazZhIbhTa2hTszUogf"
+  },
+  {
+    "id": "yOgjrLZKvLy4APIWMaCc",
+    "question": "訳ありさんの失敗エピ可能な範囲でお聞きしたいです。\nどういう視点で転職先決めて、どういう所が失敗だったのか、逆に転職してよかった点など。",
+    "answer": "ちょっと濁すけど、俺が大好きなゲーム会社の社長と知り合って、会計士として参画してほしいと言われ、入社した。その会社は上場を目指しており、上場のお手伝いをするつもりで入社したが、中身はボロボロで人手不足。中に入って現実的に考えたら上場なんて10年以上かかるという個人的な見立てがあり、この会社に人生をベットできないと判断して早々に撤退しました。",
+    "asked_at": 1785164235,
+    "answered_at": 1785165056,
+    "liked": false,
+    "reply_to_question_id": "qmOim6AoGjvDgSBbXWvn"
+  },
+  {
+    "id": "mzEN6iQd6w2hdHSxzeV6",
+    "question": "嬉しそうに尻に敷かれる顔おもいうかんで草",
+    "answer": "なんで顔知ってんだよ",
+    "asked_at": 1785162666,
+    "answered_at": 1785163463,
+    "liked": false,
+    "reply_to_question_id": "tlxEEqOtNZEX9x6SqU4B"
+  },
+  {
+    "id": "gnYlEEsyqRoaFsHUd4t7",
+    "question": "前年とかなら源泉徴収票でわかるけど、数年前のならわからないんじゃない？",
+    "answer": "これはそう。一年以内ならわかるけど、それ以前はわからんと思う。",
+    "asked_at": 1785162632,
+    "answered_at": 1785163492,
+    "liked": false,
+    "reply_to_question_id": "RYQA0U5B7wBGDT2Lrxqu"
+  },
+  {
+    "id": "xHWv0VmQSeCz0W8jWFGx",
+    "question": "格上の女性って医師か弁護士くらいしか居なくね。",
+    "answer": "俺はてっきり人間性の話かと思ってた。",
+    "asked_at": 1785158902,
+    "answered_at": 1785159203,
+    "liked": false,
+    "reply_to_question_id": "rxe9kNv7I5GtrKBJzW3f"
+  },
+  {
+    "id": "Lhp2cV9rhsdZbm78YY1s",
+    "question": "ムズいのはムズいけど会計士よりは母集団レベル高くないから受かりやすくはあるな。\nあと業界自体が超高齢化で受かってからも就活がめちゃくちゃ楽。\nで独立してからも公的案件が豊富で営業力なくても食い繋げる。\n\nデメリットは異性にモテにくいことくらいかな",
+    "answer": "不動産鑑定士、アツいな。",
+    "asked_at": 1785158783,
+    "answered_at": 1785159185,
+    "liked": false,
+    "reply_to_question_id": "zf4HjNItm1omaMYjLES5"
+  },
+  {
+    "id": "5vjxpnHAWVcqM1Z7DRqM",
+    "question": "監査法人ってゴリゴリの体育会系ですか？\n仕事できるほうではないので不安になってきました。",
+    "answer": "ゴリゴリの人もいる。ゆるふわな人もいる。どのタイプの上司に当たるかで監査法人人生は大きく変わります。",
+    "asked_at": 1785158726,
+    "answered_at": 1785159148,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "U4grHBnCAsHNkbvjYYCI",
+    "question": "中小J1です。元々大手しか考えていなかったのですが、合同説明会で運命的な出会いがあって中小にしました。行くことをお勧めします。",
+    "answer": "ありがとうございます！\n運命的な出会い、、、気になりますね。",
+    "asked_at": 1785158586,
+    "answered_at": 1785158637,
+    "liked": false,
+    "reply_to_question_id": "kc2DkDSvdT9RAy1F3d2k"
+  },
+  {
+    "id": "wdqETOXgsPVB3bVIIh6c",
+    "question": "AGAの治療をしているものですが、早い方が安く確実ですからね。専門医にかかって薬飲むのが1番確実です。美容外科は変な治療してくるとこも多いので基本は専門医で保険適用の治療をするのが無難です。",
+    "answer": "保険効くんや！早いうちから対策しといた方がよさそうね。ありがとう！",
+    "asked_at": 1785158393,
+    "answered_at": 1785158664,
+    "liked": false,
+    "reply_to_question_id": "Y5d3Tg4vk1Jx5sQ1xx3f"
+  },
+  {
+    "id": "0bnOADQjVZRfzjFN0iNt",
+    "question": "訳アリさんって在学中合格ですか？",
+    "answer": "既卒1年合格です。",
+    "asked_at": 1785157620,
+    "answered_at": 1785158221,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "YlVqhauJN4OHrwdPJLXv",
+    "question": "出会っていつごろから将来を見据えていましたか？\n今こうなっていることを予想できていましたか？？",
+    "answer": "いや、1ミリも予想できてなかったです笑",
+    "asked_at": 1785157377,
+    "answered_at": 1785158240,
+    "liked": false,
+    "reply_to_question_id": "Y7pNLaOFFQLfYp8CnVEa"
+  },
+  {
+    "id": "qiWHPkD6oBO2pX6ZRMdj",
+    "question": "中国地方と予想。岡山広島あたりは飯も美味いしな。",
+    "answer": "瀬戸内海寄りめっちゃいいよな。",
+    "asked_at": 1785157168,
+    "answered_at": 1785158130,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "MPfCNFcoADeFIH29aRX4",
+    "question": "ヒロチマとか悪くないよね、市内だけはまあまあ栄えてるから、廿日市も市内に行きやすくてぐっど",
+    "answer": "広島最高だよな。",
+    "asked_at": 1785157155,
+    "answered_at": 1785158153,
+    "liked": false,
+    "reply_to_question_id": "T7AF5UaxetiAzinxhIVX"
+  },
+  {
+    "id": "lGywMDF6wEUMfnGW0rmA",
+    "question": "クラリネット最近習い始めたけど楽しいよ",
+    "answer": "オシャレな趣味！俺はトランペットとかやりたい。",
+    "asked_at": 1785156553,
+    "answered_at": 1785158188,
+    "liked": false,
+    "reply_to_question_id": "au9pEDCQ532qRZUP4dAH"
+  },
+  {
+    "id": "zf4HjNItm1omaMYjLES5",
+    "question": "その３つは競争激しいからなあ\n不動産鑑定士が穴場でオススメよん",
+    "answer": "不動産鑑定士も結構むずいよな。",
+    "asked_at": 1785156453,
+    "answered_at": 1785158210,
+    "liked": false,
+    "reply_to_question_id": "bzU80oWDm3zyiy0jOghU"
+  },
+  {
+    "id": "Mdoh44eKkkYifIGAbsdQ",
+    "question": "ありがとうございます！\n私もそのタイプなんですけど、彼は切り替えが出来ないタイプらしく、自分の価値観を押し付けて不満をぶつけそうになってしまったので反省します。",
+    "answer": "いい彼女さん！！！",
+    "asked_at": 1785155910,
+    "answered_at": 1785158112,
+    "liked": false,
+    "reply_to_question_id": "sEaXTuNTjbqCeFQcpFsM"
+  },
+  {
+    "id": "sEaXTuNTjbqCeFQcpFsM",
+    "question": "訳アリさんはめちゃくちゃ忙しい時（早朝から深夜まで働いて休日も仕事くらい）でも恋人と連絡取れる余裕ってありますか？落ち着くまでこちらからは連絡せずそっとしておいたほうが良いでしょうか？",
+    "answer": "マジで深夜まで残業して死ぬほど忙しい時でも、俺は連絡はするタイプだな。大体うんこする時に片手間で返信してる。忙しい時でも恋人と連絡取りたいかどうかは人によるし、俺なら事前に本人に確認する。忙しい時どんな感じで対応したらいいかどうかを。",
+    "asked_at": 1785154946,
+    "answered_at": 1785155270,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "TIWMBqTitTQAyumHnYLP",
+    "question": "それが無意識にできてるかどうかが格だよ格",
+    "answer": "意図せずワイの格が上がってしまったな。",
+    "asked_at": 1785154793,
+    "answered_at": 1785155119,
+    "liked": false,
+    "reply_to_question_id": "lpz4PJPGFsk8x530RRHh"
+  },
+  {
+    "id": "lpz4PJPGFsk8x530RRHh",
+    "question": "女呼びしてる時点でこいつは土俵にすら立てない",
+    "answer": "たしかに。（俺女性呼びしててよかったあ、、、）",
+    "asked_at": 1785154575,
+    "answered_at": 1785154644,
+    "liked": false,
+    "reply_to_question_id": "rxe9kNv7I5GtrKBJzW3f"
+  },
+  {
+    "id": "mIMQHdF5XeBYx2ofstpl",
+    "question": "昔、大阪から新潟まで夜行急行きたぐに、をよく利用していてな、その時によく通ったんだ。北陸線は昔は特急銀座だった。俺は富山の車窓が本当に好きだったんだ。",
+    "answer": "わかる。黒部、入善、朝日あたりは立山が良く見えて圧倒されるよな。",
+    "asked_at": 1785154343,
+    "answered_at": 1785154486,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "Y5d3Tg4vk1Jx5sQ1xx3f",
+    "question": "エナジードリンク飲みすぎるとハゲるから気を付けてください。あとは高ストレスの環境は良くないので、ほどほどに働きましょ！",
+    "answer": "エナドリめっちゃ飲んでるわ！反省します。",
+    "asked_at": 1785153990,
+    "answered_at": 1785158081,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "qmOim6AoGjvDgSBbXWvn",
+    "question": "某法人のシニアスタッフです。監査法人を辞める理由は100個くらい思いつくけど、残る理由が3個くらい（そこそこの給料、ローン組みやすい、社会的なステータス）しか思いつきません。私もそろそろ転職ですかね…",
+    "answer": "俺もシニアで辞めたから気持ちはわかるよ。転職先はマジで慎重に選んでね。俺はちょっと失敗しちゃったから。",
+    "asked_at": 1785153872,
+    "answered_at": 1785158056,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "b277SN4WUjtU4qKEJqac",
+    "question": "リビングのソファどこで買ったやつか知りたいです。",
+    "answer": "ニトリです。",
+    "asked_at": 1785153357,
+    "answered_at": 1785158263,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "BGIYnblfcHBlGhx73wmz",
+    "question": "カーテンの隙間の景色からすると、マンションではないな？お相手と二世帯住宅の可能性あり。あと、山が見えるな。富山の山沿い、黒部とか入善あたりか？",
+    "answer": "黒部、入善がわかるのか。とても富山通ですね。",
+    "asked_at": 1785152419,
+    "answered_at": 1785152654,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "J6TqANUP5LsuRpEmosaJ",
+    "question": "自分の能力が低くて、繁忙期でもないのにそこそこ残業してしまう……\n四半期だからそれなりに割り当てはあるんだけど、この先やっていけるのかとても心配です(J1)",
+    "answer": "大丈夫。自分の頭でちゃんと考えながらやってるなら、実力は付いてくるよ。この業界は最初仕事ができないけど後から加速度的に伸びるスロースターターもいるからな。",
+    "asked_at": 1785152231,
+    "answered_at": 1785157101,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "UpscBrP7HG7OVbYc69kM",
+    "question": "この質問箱使わせてください(ペコリ)\n\nbig4が2月入社で、それ以外は1月入社がおおいんですよね、確か",
+    "answer": "既卒は2月入社で、在学してる人は3月入社だよな。ごめん、Big4以外はわからん。",
+    "asked_at": 1785151621,
+    "answered_at": 1785157007,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "kc2DkDSvdT9RAy1F3d2k",
+    "question": "cpaの合同説明会行くべきですか？中小は就活しないし、そもそも行きたい法人事業部が一択に絞れている状況です。",
+    "answer": "時間あるなら行った方がいいと思うぞ。何かしらの学びがあるはず。",
+    "asked_at": 1785151424,
+    "answered_at": 1785156945,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "T7AF5UaxetiAzinxhIVX",
+    "question": "何地方かだけ教えてくれや！ホウエン地方と予想！",
+    "answer": "ホウエンって、九州？いい線ですね。",
+    "asked_at": 1785150575,
+    "answered_at": 1785154593,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "Gs1ry7cj8ljreDcZzuJd",
+    "question": "訳々質問箱面白くて勉強の息抜きにゃー🐈\nツイ廃だからちゃんとアプリ消してるニャー🐈\nブラウザくそ使いづらいnyaー🐈",
+    "answer": "勉強の邪魔してたらごめんな笑",
+    "asked_at": 1785150376,
+    "answered_at": 1785150688,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "5TDnDx8l7VoH3hZIHoGu",
+    "question": "訳アリさんが定義するモラ妻の条件はなんですか？",
+    "answer": "全ての事柄を自分都合で考える人じゃないかな。",
+    "asked_at": 1785149724,
+    "answered_at": 1785156915,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "tlxEEqOtNZEX9x6SqU4B",
+    "question": "同棲してて、最終的な決定権はどちらにありますか？",
+    "answer": "彼女です。万以上超える買い物は稟議通さなきゃいけない。",
+    "asked_at": 1785149314,
+    "answered_at": 1785158294,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "asouB9YCFfzaj39fOEny",
+    "question": "訳アリと訳カノならどっちが強いん",
+    "answer": "圧倒的に訳カノ。",
+    "asked_at": 1785148904,
+    "answered_at": 1785156894,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "Y7pNLaOFFQLfYp8CnVEa",
+    "question": "訳アリが今の彼女を選んだのは自分の条件に合ったから？それともたまたま？",
+    "answer": "めっちゃたまたま。最初は向こうからのアプローチがあって、俺も意識し始めた結果だな。条件とかは何も考えてなかった。",
+    "asked_at": 1785148837,
+    "answered_at": 1785156884,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "fctLSNckN5HJWiFisB6A",
+    "question": "訳親は彼女のこと好意的に見てる？",
+    "answer": "彼女が北海道に来て挨拶したけど、俺の家族と上手いことやってた。俺んち泊まった翌日に、俺は昼の11時まで爆睡してたんだが、彼女は早起きして俺の家族と朝食取ってた。俺の知らない間に仲良くなってて安心したよ。",
+    "asked_at": 1785148243,
+    "answered_at": 1785168168,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "H8SH0QxX2621y3bmniSB",
+    "question": "田舎ってどのくらいの田舎でしょうか。私も将来的に東京から田舎へ行きたいのですが、車があれば10分である程度の生活は完結できるくらいでしょうか？\nあと、首都圏ですか、、？答えられなかったら大丈夫です！",
+    "answer": "首都圏じゃないです！車あれば10分で大体のものは揃う。あと今はAmazonもあるし、地方でも不便はしないです。",
+    "asked_at": 1785147657,
+    "answered_at": 1785154511,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "WhbfdQweSEPGExnTkXih",
+    "question": "隣の一軒家ワイの家や！！！マジで驚いた！",
+    "answer": "ご近所付き合いしましょう。",
+    "asked_at": 1785146687,
+    "answered_at": 1785146732,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "epgEP8ISlq1RfJ2PwCM0",
+    "question": "おれはピアノまたやりたい。てか大人のコンクール本気で目指したい。あと歌",
+    "answer": "めっちゃいい趣味だと思うぞ。",
+    "asked_at": 1785146129,
+    "answered_at": 1785154198,
+    "liked": false,
+    "reply_to_question_id": "au9pEDCQ532qRZUP4dAH"
+  },
+  {
+    "id": "rxe9kNv7I5GtrKBJzW3f",
+    "question": "格上の女じゃないと付き合えない。病気です。",
+    "answer": "いくらでもいるでしょ、格上の女性。ただ、格上の女性から好きになってもらえるかは別。",
+    "asked_at": 1785145935,
+    "answered_at": 1785154176,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "GzTiT53DHzjWCIWSUq0i",
+    "question": "テレビ何インチですか？",
+    "answer": "65インチ。この距離だと目が痛いぐらいデカい。",
+    "asked_at": 1785145645,
+    "answered_at": 1785145668,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "giCasGE03xakJTyacw4w",
+    "question": "訳ありさんどこの都道府県に引っ越されたんですか？家賃が魅力的なので就活の参考にしたいです。",
+    "answer": "公の場では言えないので、マジで知りたかったらDMください。",
+    "asked_at": 1785145220,
+    "answered_at": 1785145363,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "4Tkgjf2VeaNyonXnIvuR",
+    "question": "これのデメリットについては\n補習所の同期と法人の同期がズレることです。",
+    "answer": "あー、たしかに。ちょっとデメリットっすね。",
+    "asked_at": 1785144584,
+    "answered_at": 1785154146,
+    "liked": false,
+    "reply_to_question_id": "0GIMaZqwMXIFMuzU5AIS"
+  },
+  {
+    "id": "ZrZkUZFtBGxqjIp3oopl",
+    "question": "休職関連で気になることがあります\n今23歳で27目で頑張ってるのですが、持病があって、まともに社会人やるには服薬が必須です。もし将来的に妊娠を望んだ時には薬をやめないといけないので、持病をコントロールできない以上休職か退職するしかないと思っています(これが資格が欲しい理由でもある)\n出産後も会計士やりたいとして、どのタイミングで休職するのがまだマシだと思いますか？\nシニアになって何年は抜けない方がいいとか、少なくともシニア上がるまでは続けてないと詰むとか、もはやジュニアのうちに全部済ませた方がマシだとかあったら教えていただきたいです\nパートナーと人生設計を考えたいのですがこれがわからないためなかなか進みません。\n\n望んですぐ妊娠するとも限らない以上期間が読めず、無事出産したとしてもすぐ育休に入ることを思うと休職は失礼なのかなと思うので退職するしかないかなとも思っています\n私はまだ1年以上先の話ですが、面接官やリクルーターに持病を正直に言うべきなのかも知りたいです(薬さえ飲んでれば全く問題はない)",
+    "answer": "妊娠希望＝休職or退職というのは確実ということですかね。入所してすぐに休職するのは悪手だとは思います。要は仕事に真摯に向き合っている姿を見せられることがないまま休職に踏み切ると、周りの目が痛いです。逆に言うと、周りから信頼される状況を作り込んでいれば、いざ体調不良を理由に休職しても、パートナーあたりが守ってくれます。できれば修了考査後ぐらいまでに周りの理解を得つつ、妊活と持病を相談したうえで休職するのが無難な気がしています。色んな考え方はあると思いますが、個人的には就活の段階で持病を告白するのは控えた方が良いかと思います。（退職前提よりも、休職寄りで回答しました）",
+    "asked_at": 1785142462,
+    "answered_at": 1785154083,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "ZhCRbdpE7Pr8e3Xnxlwh",
+    "question": "トーマツのマネージャーの方にお礼を言いたい。仮名で丸山さんとする。\n自分は、論文に落ちた時、元々心療内科にいってた背景もあってビルの屋上にいった。会計士にはなれなかったけど、それ以外は充実してた人生だったし、まあいいかなと思った。\nでも、その時、「この世界で、この肉体がなければできないことは何か？やり残してることはないか？」と考えた時、俺は筋トレで身体を作り上げることに心残りがあった。\n\n実は論文後の就活で話したリクルーターのマネージャーから「体力は重要だから筋トレでもしといたら」といわれてジムに通い始め、筋トレにハマり出していた。\n\n彼に出会ってなかったら、彼の提案がなかったら、自分は今頃この文章を書いていないと思う。丸山さん、ありがとう。",
+    "answer": "辛い中、いい体験をしたね。丸山さんに想いが届いてほしいが、鍵アカなのでちょっと難しいかも。でも、リクルーターって一人の人生を大きく変えるキッカケにもなるので、リクルーターは誇りを持ってほしいと思う。",
+    "asked_at": 1785142446,
+    "answered_at": 1785150179,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "7ZsC6luN0ualJf4EJF2m",
+    "question": "合格できなかった場合、計画が全部崩れてそのまま社会人になってしまうこと",
+    "answer": "これはたぶん合格前提の話だよな。",
+    "asked_at": 1785138367,
+    "answered_at": 1785153704,
+    "liked": false,
+    "reply_to_question_id": "0GIMaZqwMXIFMuzU5AIS"
+  },
+  {
+    "id": "0Gdve5tklOe8WeXEd7uJ",
+    "question": "会計士試験の不思議。\n論文には間違った勉強法があると講師・合格者が証言しているけど、正しい勉強法が何かがどこにも書いていない。\nなんならフワッとしている。",
+    "answer": "勉強の最適解を探ろうとすると沼にハマるので注意。会計士試験勉強の基本は、一つ一つ論点を潰して理解すること。いくら時間をかけてもいい。一つ一つを確実に抑えにいくゲームみたいなもん。だと俺は思っている。",
+    "asked_at": 1785138170,
+    "answered_at": 1785153518,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "0GIMaZqwMXIFMuzU5AIS",
+    "question": "大学生です。大学3年生の夏に論文式に合格した場合、就活を1年見送り、卒業後に就職することはできますか？その1年間は、今まで大学生活でやり残した旅行や遊びなどを思い切り楽しみたいと考えています。\nまた、このような選択をした場合、デメリットはありますか？\n",
+    "answer": "いや、この選択はいいと思うし、卒業後に就職することもできます。就活することになったら面接や面談で空白期間について聞かれるだろうけど、大学で勉強頑張ってました！（遊んでたとは言わずに）で筋通ると思う。デメリットなんかあるかな？",
+    "asked_at": 1785137024,
+    "answered_at": 1785137364,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "ml2z3gkA04ITLiycKRC6",
+    "question": "会計士試験で撤退しても簿記一級か簿財の科目合格を持っていたら、経理とかでキャリアを始めれるから何とかなるイメージ。転職は必要になるけど。\n\n会計士資格で付随するのは独占業務である監査ができること・先人達が築いた会計に詳しい専門家という信用。\nこの信用が個人が保有できるのが大きい。\n大企業勤めも信用はあるけど退職したら終わりだし。\n会計士並みに会計に詳しい人は存在するけど、資格を持ってなかったらその人の力量を容易に測れない。\n\n一番危ういのは長年短答も受からずに簿記一級も合格できない状態で撤退かな。\n\nあと、頑張れる期間ていうのは確実にあるから期限を決めればいいのよ。\n少なくとも30歳なるまでは夢を追ってたと言い訳がきくし。\n",
+    "answer": "同感です。会計士試験に本気で向き合ってたら簿記一級は取れるはずなので、撤退するときのこと考えたら簿記一級でも取っておいた方がいいと思う。",
+    "asked_at": 1785136771,
+    "answered_at": 1785137207,
+    "liked": false,
+    "reply_to_question_id": "aIsgBRlVUhtFz5dbValI"
+  },
+  {
+    "id": "pMomGpTjEZehWsap6SpQ",
+    "question": "マジで女　愛嬌とか性格よくてまともなほうがいいよ\n何のために彼女嫁とか作ってるかわからなくなる",
+    "answer": "それはたぶん本人もわかっているとは思う。それでもできないから悩んでいるんじゃないかな。",
+    "asked_at": 1785136090,
+    "answered_at": 1785136766,
+    "liked": false,
+    "reply_to_question_id": "gY6zWhg8PxESgqfvAylv"
+  },
+  {
+    "id": "IdV1xnMLv4MFtR9JONxb",
+    "question": "僕はピアノ弾いてみたい。\nピアノ弾ける人かっこいい🎵",
+    "answer": "カノン引きたい。",
+    "asked_at": 1785131758,
+    "answered_at": 1785132437,
+    "liked": false,
+    "reply_to_question_id": "au9pEDCQ532qRZUP4dAH"
+  },
+  {
+    "id": "rOMlfbLAEIRnlBQP140i",
+    "question": "地方で1,500ならだいぶ豪遊できますね。にしても2LDKで6万は地方にしても安すぎです。どんな過疎地ですか",
+    "answer": "最寄りの駅は徒歩５分、県庁所在地までは電車で10分なので意外と過疎地域でもないんよな。",
+    "asked_at": 1785130653,
+    "answered_at": 1785130755,
+    "liked": false,
+    "reply_to_question_id": "4LApujQUza1K4XalGgBH"
+  },
+  {
+    "id": "zK9gHNEaM45MMFhjqx1r",
+    "question": "その間取りで6万ってすごすぎますね！\n地方都市ですか？\n",
+    "answer": "せやねん。車の納車が1ヶ月後なので今は移動が不便すぎてます。",
+    "asked_at": 1785130245,
+    "answered_at": 1785130462,
+    "liked": false,
+    "reply_to_question_id": "4LApujQUza1K4XalGgBH"
+  },
+  {
+    "id": "au9pEDCQ532qRZUP4dAH",
+    "question": "おれは会計士試験に合格したら楽器始める♪\nチェロ弾きたい🎵べんきょ頑張る\n",
+    "answer": "ええやん♫",
+    "asked_at": 1785128488,
+    "answered_at": 1785130106,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "d7nEWBGovb6K3vCthMJt",
+    "question": "配信者の火神やね",
+    "answer": "鑑です。",
+    "asked_at": 1785128185,
+    "answered_at": 1785128307,
+    "liked": false,
+    "reply_to_question_id": "qnHukwQthw1NogpNiuy1"
+  },
+  {
+    "id": "vX2EJyHepTYIqIPOuXec",
+    "question": "バックグラウンドチェックとかでバレるのかなって思ってました。監査法人入社時にはバックグラウンドチェックありましたか？",
+    "answer": "あるにはあるんだろうけど、どのぐらいの深度でやっているかはわからんな。人事がやってると思うんだけど、人事経験がないワイは詳細はわからん、、、",
+    "asked_at": 1785125906,
+    "answered_at": 1785126904,
+    "liked": false,
+    "reply_to_question_id": "RYQA0U5B7wBGDT2Lrxqu"
+  },
+  {
+    "id": "qnHukwQthw1NogpNiuy1",
+    "question": "自分語り止まらなくてワロタ",
+    "answer": "1聞かれたら10返すから",
+    "asked_at": 1785125440,
+    "answered_at": 1785125480,
+    "liked": false,
+    "reply_to_question_id": "4LApujQUza1K4XalGgBH"
+  },
+  {
+    "id": "4LApujQUza1K4XalGgBH",
+    "question": "新居の間取りと家賃を教えてください！",
+    "answer": "2LDK、65平米。家賃は6万。二人で折半するなら一人当たりの家賃は3万。年収は世帯年収で1,500万ほど。元々俺は地方でのんびり余裕を持って過ごすことを考えていたので、それが実現できた感じです。",
+    "asked_at": 1785124840,
+    "answered_at": 1785124943,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
+    "id": "uc5MtIFHWrK226p35AK3",
+    "question": "転居して仕事はどうなるんですか？",
+    "answer": "年収は監査法人のシニアぐらいの会社になんとか拾ってもらった。",
+    "asked_at": 1785123085,
+    "answered_at": 1785123879,
+    "liked": false,
+    "reply_to_question_id": null
+  },
+  {
     "id": "7waPZS6ORGFu6eDHTpE7",
     "question": "訳アリさんは何系のコールセンターでバイトしましたか？",
     "answer": "ガスの自由化に伴って、東京ガスの契約から別の会社への契約切り替えを促す営業をしていた。これは自慢だけど、入ってすぐに契約件数トップになり、3か月間トップを維持していた。",
@@ -25,6 +646,51 @@
     "answered_at": 1785121668,
     "liked": false,
     "reply_to_question_id": "zSdCMJNaFqZwCZB3405r"
+  },
+  {
+    "id": "aIsgBRlVUhtFz5dbValI",
+    "question": "大学受験とかと違う点はそうなんだよ\n受験は失敗してもある程度のラインの大学に滑り止まったりして努力はそれなりに無駄にならなかったりする。\n会計士は撤退したらただの簿記ちょっと詳しいだけの人になる",
+    "answer": "一級ぐらい取ってたらまだ選択肢も広がるとは思うな。",
+    "asked_at": 1785105138,
+    "answered_at": 1785130138,
+    "liked": false,
+    "reply_to_question_id": "bXaCNTs3MKu4Q2Ql7yyR"
+  },
+  {
+    "id": "RpoGJPSb4gKQJuu5S2Sd",
+    "question": "休職するようなやつは大企業じゃなくて清掃とか受付とかで働いた方がいいと思うよ",
+    "answer": "辛いな。どこがでコンプ発症しそう。",
+    "asked_at": 1785103684,
+    "answered_at": 1785130177,
+    "liked": false,
+    "reply_to_question_id": "zSdCMJNaFqZwCZB3405r"
+  },
+  {
+    "id": "bzU80oWDm3zyiy0jOghU",
+    "question": "会計士試験or司法試験or医学部再受験では？",
+    "answer": "やるしかねえよ。",
+    "asked_at": 1785086856,
+    "answered_at": 1785130185,
+    "liked": false,
+    "reply_to_question_id": "XR4LmXH9dL2F01Im7THw"
+  },
+  {
+    "id": "JDgohlO0ahGdEJNumS9c",
+    "question": "フィナステリド飲んどきな。",
+    "answer": "フォナステリド、結構回答きてる。いいなら使いたい。",
+    "asked_at": 1785083399,
+    "answered_at": 1785130208,
+    "liked": false,
+    "reply_to_question_id": "pxrbEHypFyqy01utFqbU"
+  },
+  {
+    "id": "gY6zWhg8PxESgqfvAylv",
+    "question": "すまんこ\n\nモラ虐待受けてたので、男に対してどうしても構えてしまうんだよな。こっちが主導権握らせてって感じ。生存戦略やねん",
+    "answer": "すまんこ女さん、幼少期の辛い記憶はその後の人格に影響与えるよな。。。",
+    "asked_at": 1785083185,
+    "answered_at": 1785130421,
+    "liked": false,
+    "reply_to_question_id": "fByFGOfMVl9Pk8s4rUsz"
   },
   {
     "id": "YNeKbxmsnNemaFV5wixR",
